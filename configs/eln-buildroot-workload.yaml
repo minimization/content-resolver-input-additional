@@ -43,7 +43,6 @@ data:
         - apache-resource-bundles
         - apache-sshd
         - appstream
-        - apr-util-openssl
         - aqute-bnd
         - aqute-bndlib
         - argparse-manpage
@@ -762,9 +761,6 @@ data:
         - ghc-zlib-prof
         - ghostscript-core
         - giflib-devel
-        - gimp-devel
-        - gimp-devel-tools
-        - gimp-libs
         - gjs-devel
         - gl2ps
         - gl2ps-devel
@@ -1130,7 +1126,6 @@ data:
         - hsqldb-lib
         - html2ps
         - httpcomponents-project
-        - httpd-devel
         - hunspell-devel
         - hwloc-devel
         - hwloc-gui
@@ -1145,7 +1140,6 @@ data:
         - ibus-table-tv
         - icon-naming-utils
         - idm-console-framework
-        - ilmbase-devel
         - ima-evm-utils-devel
         - ImageMagick
         - ImageMagick-devel
@@ -1425,8 +1419,6 @@ data:
         - libmtp-devel
         - libmusicbrainz5-devel
         - libmwaw-devel
-        - libmypaint
-        - libmypaint-devel
         - libnauty-devel
         - libnbd-devel
         - libndp-devel
@@ -1785,7 +1777,6 @@ data:
         - munge-maven-plugin
         - mupdf
         - mutter-devel
-        - mypaint-brushes-devel
         - mysql-connector-python3
         - mythes-devel
         - nasm
@@ -1898,7 +1889,6 @@ data:
         - openblas-threads64_
         - openchange-devel
         - openexr-devel
-        - OpenEXR-devel
         - openjpeg2-devel
         - openjpeg2-tools
         - openldap-servers
@@ -2244,9 +2234,6 @@ data:
         - pygobject2-devel
         - pygobject2-doc
         - pygtk2
-        - pygtk2-codegen
-        - pygtk2-devel
-        - pygtk2-doc
         - pylint
         - pyproject-rpm-macros
         - python2-cairo
