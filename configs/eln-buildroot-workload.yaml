@@ -2597,7 +2597,6 @@ data:
         - reflections
         - replacer
         - rest-devel
-        - rhash-devel
         - R-java-devel
         - rpm-ostree-devel
         - rrdtool-devel
@@ -3731,6 +3730,9 @@ data:
         - rust-servo-fontconfig-devel
         - rust-servo-fontconfig-sys+default-devel
         - rust-servo-fontconfig-sys-devel
+        - rust-sha-1+default-devel
+        - rust-sha-1-devel
+        - rust-sha-1+std-devel
         - rust-sha2+default-devel
         - rust-sha2-devel
         - rust-sha2+std-devel
