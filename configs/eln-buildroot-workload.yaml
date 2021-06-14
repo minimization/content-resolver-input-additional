@@ -2,7 +2,7 @@
 document:  feedback-pipeline-workload
 version: 1
 data:
-    name: ELN Buildroot Workload
+    name: ELN Buildroot  Workload
     description: The packages that are not part of ELN, but needed to build it.
     maintainer: tdawson
     labels:
