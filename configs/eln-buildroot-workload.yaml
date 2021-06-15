@@ -2,7 +2,7 @@
 document:  feedback-pipeline-workload
 version: 1
 data:
-    name: ELN Buildroot  Workload
+    name: ELN Buildroot Workload
     description: The packages that are not part of ELN, but needed to build it.
     maintainer: tdawson
     labels:
@@ -12,7 +12,6 @@ data:
     repositories:
         - repository-fedora-eln
     packages:
-        - 389-ds-base-devel
         - a2ps
         - accountsservice-devel
         - adobe-mappings-cmap-devel
@@ -36,6 +35,7 @@ data:
         - antlr4-runtime
         - apache-commons-beanutils
         - apache-commons-collections-testframework
+        - apache-commons-daemon
         - apache-commons-lang
         - apache-commons-logging-javadoc
         - apache-commons-parent
@@ -66,7 +66,6 @@ data:
         - bcc-devel
         - bdftopcf
         - beakerlib
-        - bind-devel
         - binutils-aarch64-linux-gnu
         - binutils-alpha-linux-gnu
         - binutils-arc-linux-gnu
@@ -179,6 +178,7 @@ data:
         - cross-gcc-common
         - CUnit
         - CUnit-devel
+        - cyrus-sasl-md5
         - datefudge
         - dblatex
         - dbus-glib-devel
@@ -1128,7 +1128,6 @@ data:
         - ibus-table-tv
         - icc-profiles-openicc
         - icu
-        - idm-console-framework
         - ima-evm-utils-devel
         - ImageMagick
         - ImageMagick-devel
@@ -1169,9 +1168,11 @@ data:
         - javaparser
         - javapoet
         - javassist
+        - jaxb-api
         - jaxb-codemodel
         - jaxb-dtd-parser
         - jaxb-fi
+        - jaxb-impl
         - jaxb-istack-commons-runtime
         - jaxb-istack-commons-tools
         - jaxb-relaxng-datatype
@@ -1184,7 +1185,6 @@ data:
         - jbigkit-devel
         - jboss-el-2.2-api
         - jboss-jsp-2.2-api
-        - jboss-logmanager
         - jboss-modules
         - jboss-parent
         - jboss-servlet-3.0-api
@@ -1289,6 +1289,7 @@ data:
         - libdazzle-devel
         - libdbi
         - libdbi-devel
+        - libdb-utils
         - libdhash-devel
         - libdmx-devel
         - libdrm-devel
@@ -1302,7 +1303,6 @@ data:
         - libeot
         - libeot-devel
         - libepubgen-devel
-        - libesmtp-devel
         - libestr-devel
         - libetonyek-devel
         - libevdev-devel
@@ -1448,9 +1448,6 @@ data:
         - libspiro-devel
         - libsrtp-devel
         - libss-devel
-        - libsss_certmap-devel
-        - libsss_idmap-devel
-        - libsss_nss_idmap-devel
         - libstaroffice-devel
         - libstemmer-devel
         - libstoragemgmt-devel
@@ -1520,7 +1517,6 @@ data:
         - libyang-devel
         - libzip-devel
         - libzmf-devel
-        - linkchecker
         - lldpad-devel
         - lmdb
         - lmdb-devel
@@ -1673,7 +1669,6 @@ data:
         - mongo-c-driver-libs
         - motif-devel
         - mozjs78-devel
-        - mpdecimal
         - mpdecimal-devel
         - mpg123-devel
         - mtdev-devel
@@ -1750,6 +1745,8 @@ data:
         - openexr-libs
         - openjpeg2-devel
         - openjpeg2-tools
+        - openldap-clients
+        - openldap-compat
         - openldap-servers
         - openpgm
         - openpgm-devel
@@ -1768,7 +1765,6 @@ data:
         - pandoc-common
         - pangomm-devel
         - paper
-        - paranamer
         - parted-devel
         - pcaudiolib-devel
         - pcsc-lite-devel
@@ -2008,16 +2004,16 @@ data:
         - pyproject-rpm-macros
         - python2.7
         - python2-setuptools
-        - python3.10
         - python3.6
         - python3.7
         - python3.8
+        - python3.9
         - python3-aiohttp-cors
         - python3-apipkg
         - python3-appdirs
+        - python3-argparse-manpage
         - python3-asgiref
         - python3-Automat
-        - python3-backcall
         - python3-bcrypt
         - python3-beautifulsoup4
         - python3-betamax
@@ -2048,7 +2044,6 @@ data:
         - python3-distlib
         - python3-django
         - python3-docopt
-        - python3-docs
         - python3-dulwich
         - python3-elementpath
         - python3-eventlet
@@ -2056,7 +2051,6 @@ data:
         - python3-extras
         - python3-factory-boy
         - python3-faker
-        - python3-fastjsonschema
         - python3-fields
         - python3-filelock
         - python3-fixtures
@@ -2064,8 +2058,6 @@ data:
         - python3-flaky
         - python3-flask
         - python3-flexmock
-        - python3-flit
-        - python3-flit-core
         - python3-fonttools
         - python3-freezegun
         - python3-fs
@@ -2092,29 +2084,21 @@ data:
         - python3-imagesize
         - python3-incremental
         - python3-iniconfig
-        - python3-ipykernel
-        - python3-ipython
-        - python3-ipython-doc
-        - python3-ipython_genutils
-        - python3-ipython-sphinx
         - python3-jedi
-        - python3-jupyter-client
-        - python3-jupyter-core
         - python3-kerberos
         - python3-kiwisolver
         - python3-lark-parser
         - python3-ldb-devel
-        - python3-lesscpy
         - python3-libmount
         - python3-libnbd
         - python3-libpamtest
+        - python3-libsss_nss_idmap
         - python3-m2r
         - python3-mallard-ducktype
         - python3-markdown
         - python3-matplotlib
         - python3-matplotlib-data
         - python3-matplotlib-data-fonts
-        - python3-matplotlib-inline
         - python3-matplotlib-tk
         - python3-mccabe
         - python3-memcached
@@ -2125,7 +2109,6 @@ data:
         - python3-munkres
         - python3-mypy
         - python3-mypy_extensions
-        - python3-nbformat
         - python3-nose
         - python3-numexpr
         - python3-numpydoc
@@ -2143,7 +2126,6 @@ data:
         - python3-paste-deploy
         - python3-pathspec
         - python3-pdfrw
-        - python3-pickleshare
         - python3-pikepdf
         - python3-pillow
         - python3-plaster
@@ -2191,16 +2173,13 @@ data:
         - python3-redis
         - python3-regex
         - python3-reportlab
-        - python3-requests-download
         - python3-requests-kerberos
         - python3-requests-mock
         - python3-requests-toolbelt
         - python3-requests-unixsocket
-        - python3-responses
         - python3-retrying
         - python3-rfc3986
         - python3-rfc3986+idna2008
-        - python3-rjsmin
         - python3-ruamel-yaml
         - python3-ruamel-yaml-clib
         - python3-rust2rpm
@@ -2210,7 +2189,6 @@ data:
         - python3-setproctitle
         - python3-setuptools-rust
         - python3-setuptools_scm
-        - python3-setuptools_scm_git_archive
         - python3-simplejson
         - python3-sip-devel
         - python3-smartypants
@@ -2221,7 +2199,6 @@ data:
         - python3-sphinxcontrib-apidoc
         - python3-sphinxcontrib-applehelp
         - python3-sphinxcontrib-devhelp
-        - python3-sphinxcontrib-github-alt
         - python3-sphinxcontrib-htmlhelp
         - python3-sphinxcontrib-httpdomain
         - python3-sphinxcontrib-jsmath
@@ -2247,7 +2224,6 @@ data:
         - python3-talloc-devel
         - python3-tempita
         - python3-test
-        - python3-testpath
         - python3-testrepository
         - python3-testscenarios
         - python3-testtools
@@ -2256,7 +2232,6 @@ data:
         - python3-tidy
         - python3-tox-current-env
         - python3-tqdm
-        - python3-traitlets
         - python3-translationstring
         - python3-trustme
         - python3-twisted
@@ -2274,14 +2249,10 @@ data:
         - python3-whoosh
         - python3-WSGIProxy2
         - python3-xmlschema
-        - python3-xmp-toolkit
         - python3-zmq
-        - python3-zmq-tests
         - python3-zope-component
         - python3-zope-deprecation
         - python3-zope-testing
-        - python-jupyter-client-doc
-        - python-jupyter-filesystem
         - python-ldb-devel-common
         - python-sphinx-doc
         - python-typeshed
@@ -3601,7 +3572,6 @@ data:
         - rust-xml5ever-devel
         - rust-xz2+default-devel
         - rust-xz2-devel
-        - samba-dc-libs
         - samba-devel
         - samba-pidl
         - sane-backends-devel
@@ -3630,6 +3600,7 @@ data:
         - snappy-devel
         - snappy-java
         - socket_wrapper
+        - softhsm
         - sombok-devel
         - soundtouch-devel
         - source-highlight-devel
@@ -3673,6 +3644,7 @@ data:
         - tix
         - tix-devel
         - tokyocabinet-devel
+        - tomcat-servlet-4.0-api
         - tomcat-taglibs-parent
         - tomcat-taglibs-standard
         - totem-pl-parser-devel
@@ -3787,6 +3759,7 @@ data:
             - dotnet-sdk-5.0-source-built-artifacts
             - dotnet-targeting-pack-5.0
             - dotnet-templates-5.0
+            - ecj
             - eclipse-ecf-core
             - eclipse-emf-core
             - eclipse-equinox-osgi
@@ -3797,7 +3770,6 @@ data:
             - edk2-ovmf
             - efivar-devel
             - eigen3-devel
-            - esmtp
             - felix-gogo-command
             - felix-gogo-runtime
             - felix-gogo-shell
@@ -3827,6 +3799,7 @@ data:
             - jetty-util
             - jetty-util-ajax
             - jmc-core
+            - jna
             - jna-contrib
             - lcms2-devel
             - leptonica
@@ -3834,7 +3807,6 @@ data:
             - libbsd
             - libconfuse
             - libconfuse-devel
-            - libesmtp
             - libexif-devel
             - libfprint-devel
             - libftdi
@@ -4054,6 +4026,7 @@ data:
             - beust-jcommander
             - dain-snappy
             - decentxml
+            - ecj
             - eclipse-ecf-core
             - eclipse-emf-core
             - eclipse-equinox-osgi
@@ -4070,6 +4043,7 @@ data:
             - flashrom-devel
             - gperftools-libs
             - HdrHistogram
+            - hivex
             - icu4j
             - jakarta-el
             - jakarta-server-pages
@@ -4086,6 +4060,7 @@ data:
             - jetty-util
             - jetty-util-ajax
             - jmc-core
+            - jna
             - jna-contrib
             - libbsd
             - libconfuse
@@ -4184,6 +4159,7 @@ data:
             - decentxml
             - diffstat
             - dos2unix
+            - ecj
             - eclipse-ecf-core
             - eclipse-emf-core
             - eclipse-equinox-osgi
@@ -4221,6 +4197,7 @@ data:
             - jetty-util
             - jetty-util-ajax
             - jmc-core
+            - jna
             - jna-contrib
             - lcms2-devel
             - leptonica
