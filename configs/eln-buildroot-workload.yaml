@@ -2143,6 +2143,7 @@ data:
         - python3-pygments
         - python3-pygments-pytest
         - python3-pylons-sphinx-themes
+        - python3-pymongo
         - python3-pyperclip
         - python3-pyquery
         - python3-pyramid
@@ -2462,6 +2463,10 @@ data:
         - rust-assert_approx_eq-devel
         - rust-assert_matches+default-devel
         - rust-assert_matches-devel
+        - rust-async-stream+default-devel
+        - rust-async-stream-devel
+        - rust-async-stream-impl+default-devel
+        - rust-async-stream-impl-devel
         - rust-atty+default-devel
         - rust-atty-devel
         - rust-autocfg+default-devel
@@ -2527,6 +2532,8 @@ data:
         - rust-byte-unit-devel
         - rust-byte-unit+std-devel
         - rust-byte-unit+u128-devel
+        - rust-caps+default-devel
+        - rust-caps-devel
         - rust-cargo_metadata+default-devel
         - rust-cargo_metadata-devel
         - rust-cargo-platform+default-devel
@@ -2635,6 +2642,8 @@ data:
         - rust-err-derive+default-devel
         - rust-err-derive-devel
         - rust-err-derive+std-devel
+        - rust-errno+default-devel
+        - rust-errno-devel
         - rust-error-chain-devel
         - rust-expat-sys+default-devel
         - rust-expat-sys-devel
@@ -2714,6 +2723,7 @@ data:
         - rust-futures-util+bilock-devel
         - rust-futures-util+channel-devel
         - rust-futures-util+compat-devel
+        - rust-futures-util+default-devel
         - rust-futures-util-devel
         - rust-futures-util+futures_01-devel
         - rust-futures-util+io-compat-devel
@@ -2928,6 +2938,8 @@ data:
         - rust-nix0.17-devel
         - rust-nix0.18+default-devel
         - rust-nix0.18-devel
+        - rust-nix+default-devel
+        - rust-nix-devel
         - rust-num-bigint-devel
         - rust-num-bigint+std-devel
         - rust-num-complex+default-devel
@@ -3059,6 +3071,12 @@ data:
         - rust-proc-macro-nested-devel
         - rust-proptest0.10-devel
         - rust-proptest0.10+std-devel
+        - rust-proptest+break-dead-code-devel
+        - rust-proptest+default-devel
+        - rust-proptest-devel
+        - rust-proptest+fork-devel
+        - rust-proptest+std-devel
+        - rust-proptest+timeout-devel
         - rust-pulldown-cmark-devel
         - rust-pure-rust-locales+default-devel
         - rust-pure-rust-locales-devel
@@ -3080,6 +3098,8 @@ data:
         - rust-quickcheck_macros-devel
         - rust-quick-error1+default-devel
         - rust-quick-error1-devel
+        - rust-quick-error+default-devel
+        - rust-quick-error-devel
         - rust-quote0.6-devel
         - rust-quote0.6+proc-macro-devel
         - rust-quote+default-devel
@@ -3153,6 +3173,8 @@ data:
         - rust-rand_xorshift0.1-devel
         - rust-rand_xorshift0.2+default-devel
         - rust-rand_xorshift0.2-devel
+        - rust-rand_xorshift+default-devel
+        - rust-rand_xorshift-devel
         - rust-rayon-core+default-devel
         - rust-rayon-core-devel
         - rust-rayon+default-devel
@@ -3234,8 +3256,12 @@ data:
         - rust-scopeguard-devel
         - rust-seahash3+default-devel
         - rust-seahash3-devel
+        - rust-semver0.9+default-devel
+        - rust-semver0.9-devel
         - rust-semver+default-devel
         - rust-semver-devel
+        - rust-semver-parser0.7+default-devel
+        - rust-semver-parser0.7-devel
         - rust-semver-parser0.9+default-devel
         - rust-semver-parser0.9-devel
         - rust-semver-parser+default-devel
@@ -3412,7 +3438,9 @@ data:
         - rust-tokio-executor+default-devel
         - rust-tokio-executor-devel
         - rust-tokio-fs+default-devel
+        - rust-tokio+fs-devel
         - rust-tokio-fs-devel
+        - rust-tokio+full-devel
         - rust-tokio-io+default-devel
         - rust-tokio-io-devel
         - rust-tokio+io-std-devel
@@ -3427,15 +3455,23 @@ data:
         - rust-tokio-native-tls+default-devel
         - rust-tokio-native-tls-devel
         - rust-tokio+net-devel
+        - rust-tokio+process-devel
         - rust-tokio-reactor+default-devel
         - rust-tokio-reactor-devel
         - rust-tokio+rt-devel
         - rust-tokio+rt-multi-thread-devel
+        - rust-tokio+signal-devel
+        - rust-tokio-stream+default-devel
+        - rust-tokio-stream-devel
+        - rust-tokio-stream+time-devel
         - rust-tokio-sync+default-devel
         - rust-tokio+sync-devel
         - rust-tokio-sync-devel
         - rust-tokio-tcp+default-devel
         - rust-tokio-tcp-devel
+        - rust-tokio-test+default-devel
+        - rust-tokio-test-devel
+        - rust-tokio+test-util-devel
         - rust-tokio-threadpool+default-devel
         - rust-tokio-threadpool-devel
         - rust-tokio+time-devel
@@ -3950,7 +3986,6 @@ data:
             - python3-pbr
             - python3-py
             - python3-pycares
-            - python3-pymongo
             - python3-pyOpenSSL
             - python3-rsa
             - python3-s3transfer
@@ -4119,7 +4154,6 @@ data:
             - python3-javapackages
             - python3-libftdi
             - python3-py
-            - python3-pymongo
             - python3-sqlalchemy
             - python3-werkzeug
             - python3-zope-event
@@ -4294,7 +4328,6 @@ data:
             - python3-packaging
             - python3-pbr
             - python3-py
-            - python3-pymongo
             - python3-sqlalchemy
             - python3-stevedore
             - python3-werkzeug
