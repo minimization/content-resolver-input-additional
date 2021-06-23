@@ -2731,8 +2731,12 @@ data:
         - rust-dirs2-devel
         - rust-dirs+default-devel
         - rust-dirs-devel
+        - rust-dirs-next+default-devel
+        - rust-dirs-next-devel
         - rust-dirs-sys+default-devel
         - rust-dirs-sys-devel
+        - rust-dirs-sys-next+default-devel
+        - rust-dirs-sys-next-devel
         - rust-dissimilar+default-devel
         - rust-dissimilar-devel
         - rust-doc-comment+default-devel
