@@ -1412,7 +1412,6 @@ data:
             - libglib-testing-devel
             - libglusterfs-devel
             - libgnomekbd-devel
-            - libgovirt-devel
             - libgphoto2-devel
             - libgsf-devel
             - libgtop2-devel
@@ -3800,8 +3799,6 @@ data:
             - speech-tools-libs-static
             - speex-devel
             - speexdsp-devel
-            - spice-glib-devel
-            - spice-gtk3-devel
             - spirv-tools
             - spirv-tools-devel
             - startup-notification-devel
@@ -5470,7 +5467,6 @@ data:
             - libglib-testing-devel
             - libglusterfs-devel
             - libgnomekbd-devel
-            - libgovirt-devel
             - libgphoto2-devel
             - libgsf-devel
             - libgtop2-devel
@@ -7890,8 +7886,6 @@ data:
             - speech-tools-libs-static
             - speex-devel
             - speexdsp-devel
-            - spice-glib-devel
-            - spice-gtk3-devel
             - spirv-tools
             - spirv-tools-devel
             - startup-notification-devel
@@ -9565,7 +9559,6 @@ data:
             - libglib-testing-devel
             - libglusterfs-devel
             - libgnomekbd-devel
-            - libgovirt-devel
             - libgphoto2-devel
             - libgsf-devel
             - libgtop2-devel
@@ -11950,8 +11943,6 @@ data:
             - speech-tools-libs-static
             - speex-devel
             - speexdsp-devel
-            - spice-glib-devel
-            - spice-gtk3-devel
             - spice-server-devel
             - spirv-tools
             - spirv-tools-devel
