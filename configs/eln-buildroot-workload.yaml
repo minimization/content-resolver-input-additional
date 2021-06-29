@@ -2775,6 +2775,9 @@ data:
         - rust-flate2+default-devel
         - rust-flate2-devel
         - rust-flate2+rust_backend-devel
+        - rust-float-cmp+default-devel
+        - rust-float-cmp-devel
+        - rust-float-cmp+ratio-devel
         - rust-float-ord+default-devel
         - rust-float-ord-devel
         - rust-fnv+default-devel
@@ -3461,6 +3464,8 @@ data:
         - rust-sval_json+std-devel
         - rust-sval+std-devel
         - rust-sval+test-devel
+        - rust-svgtypes+default-devel
+        - rust-svgtypes-devel
         - rust-syn0.15+clone-impls-devel
         - rust-syn0.15+default-devel
         - rust-syn0.15+derive-devel
@@ -3721,6 +3726,8 @@ data:
         - rust-wyz-devel
         - rust-xml5ever+default-devel
         - rust-xml5ever-devel
+        - rust-xmlwriter+default-devel
+        - rust-xmlwriter-devel
         - rust-xz2+default-devel
         - rust-xz2-devel
         - samba-devel
