@@ -25,15 +25,20 @@ data:
         - alsa-topology-utils
         - annobin
         - annobin-plugin-clang
+        - ant
+        - ant-antlr
         - ant-contrib
         - anthy
         - anthy-devel
         - anthy-unicode-devel
+        - ant-junit
+        - ant-lib
         - antlr3-java
         - antlr3-tool
         - antlr4
         - antlr4-maven-plugin
         - antlr4-runtime
+        - antlr-tool
         - apache-commons-beanutils
         - apache-commons-compress
         - apache-commons-exec
@@ -56,6 +61,7 @@ data:
         - aspell
         - aspell-devel
         - aspell-en
+        - assertj-core
         - atkmm-devel
         - augeas-devel
         - autoconf213
@@ -67,6 +73,7 @@ data:
         - avahi-gobject-devel
         - babl-devel
         - bcc-devel
+        - bcel
         - bdftopcf
         - beakerlib
         - beust-jcommander
@@ -115,10 +122,12 @@ data:
         - Box2D-devel
         - breeze-icon-theme
         - brlapi-devel
+        - bsf
         - bsh
         - btrfs-progs-devel
         - byacc
         - byaccj
+        - byte-buddy
         - byte-buddy-agent
         - cairomm-devel
         - c-ares-devel
@@ -181,7 +190,6 @@ data:
         - dconf-devel
         - device-mapper-multipath-devel
         - diffstat
-        - disruptor
         - djvulibre-devel
         - djvulibre-libs
         - dlm-devel
@@ -1094,9 +1102,9 @@ data:
         - gtkspell3
         - gtkspell3-devel
         - gtk-vnc2-devel
-        - guava-testlib
         - guice-servlet
         - gvnc-devel
+        - hamcrest
         - haproxy
         - hardlink
         - hawtjni
@@ -1142,6 +1150,8 @@ data:
         - jakarta-commons-httpclient
         - jakarta-json-api
         - jakarta-json-impl
+        - jakarta-mail
+        - jakarta-oro
         - jakarta-servlet
         - jakarta-ws-rs
         - jansi1
@@ -1152,11 +1162,9 @@ data:
         - java-1.8.0-openjdk-devel
         - java-1.8.0-openjdk-headless
         - javacc
-        - javacc-maven-plugin
         - java_cup
         - javapackages-generators
         - javapackages-local
-        - javaparser
         - javassist
         - jaxb-codemodel
         - jaxb-dtd-parser
@@ -1172,7 +1180,7 @@ data:
         - jbig2dec-devel
         - jbigkit-devel
         - jboss-parent
-        - jctools
+        - jdepend
         - jdependency
         - jdom
         - jdom2
@@ -1183,6 +1191,7 @@ data:
         - jna
         - jna-contrib
         - jq-devel
+        - jsch
         - js-coffee-script
         - js-jquery
         - jsoncpp
@@ -1190,6 +1199,9 @@ data:
         - js-uglify
         - js-underscore
         - Judy-devel
+        - junit
+        - junit5
+        - jzlib
         - kde-filesystem
         - kde-settings
         - kf5-attica
@@ -1423,7 +1435,6 @@ data:
         - liblouis-devel
         - liblqr-1
         - liblqr-1-devel
-        - libmad-devel
         - libmarkdown
         - libmarkdown-devel
         - libmatchbox-devel
@@ -1792,6 +1803,7 @@ data:
         - nss_wrapper
         - ntfs-3g-devel
         - numactl-devel
+        - objectweb-asm
         - objenesis
         - ocaml
         - ocaml-calendar
@@ -1849,6 +1861,7 @@ data:
         - openslp-devel
         - opensp
         - opensp-devel
+        - opentest4j
         - opus-devel
         - orangefs-devel
         - orc-compiler
@@ -2219,7 +2232,6 @@ data:
         - python3-libpamtest
         - python3-m2r
         - python3-mallard-ducktype
-        - python3-markdown
         - python3-matplotlib
         - python3-matplotlib-data
         - python3-matplotlib-data-fonts
@@ -2400,6 +2412,7 @@ data:
         - readline-devel
         - redland-devel
         - reflections
+        - regexp
         - replacer
         - rest-devel
         - rpm-ostree-devel
@@ -3928,7 +3941,6 @@ data:
         - ttfautohint
         - ttfautohint-libs
         - twolame-devel
-        - uchardet
         - uchardet-devel
         - ucpp
         - ucpp-libs
@@ -3938,6 +3950,7 @@ data:
         - umockdev-devel
         - unbound-devel
         - unicode-emoji
+        - univocity-parsers
         - upower-devel
         - usbguard-devel
         - usbredir-devel
@@ -4007,6 +4020,7 @@ data:
         - xorg-x11-server-Xwayland-devel
         - xorg-x11-util-macros
         - xorg-x11-xtrans-devel
+        - xz-java
         - yajl-devel
         - yasm
         - yelp-devel
