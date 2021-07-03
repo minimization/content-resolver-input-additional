@@ -252,6 +252,9 @@ data:
         - fonttools
         - fonttosfnt
         - freeglut-devel
+        - freeipa-client-common
+        - freeipa-common
+        - freeipa-server-common
         - freerdp-devel
         - freetds
         - freetds-devel
@@ -1533,6 +1536,8 @@ data:
         - libspiro-devel
         - libsrtp-devel
         - libss-devel
+        - libsss_certmap-devel
+        - libsss_idmap-devel
         - libsss_nss_idmap-devel
         - libstaroffice-devel
         - libstemmer-devel
@@ -2227,6 +2232,7 @@ data:
         - python3-koji
         - python3-lazy-object-proxy
         - python3-ldb-devel
+        - python3-lesscpy
         - python3-libmount
         - python3-libnbd
         - python3-libpamtest
@@ -2297,6 +2303,7 @@ data:
         - python3-requests-toolbelt
         - python3-requests-unixsocket
         - python3-responses
+        - python3-rjsmin
         - python3-ruamel-yaml
         - python3-ruamel-yaml-clib
         - python3-rust2rpm
@@ -3732,6 +3739,7 @@ data:
         - rust-xmlwriter-devel
         - rust-xz2+default-devel
         - rust-xz2-devel
+        - samba-dc-libs
         - samba-devel
         - samba-pidl
         - sane-backends-devel
