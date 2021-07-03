@@ -252,9 +252,6 @@ data:
         - fonttools
         - fonttosfnt
         - freeglut-devel
-        - freeipa-client-common
-        - freeipa-common
-        - freeipa-server-common
         - freerdp-devel
         - freetds
         - freetds-devel
