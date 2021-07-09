@@ -2317,6 +2317,7 @@ data:
         - python3-sphinxcontrib-log-cabinet
         - python3-sphinxcontrib-trio
         - python3-sphinxcontrib-websupport
+        - python3-sphinx-copybutton
         - python3-sphinx-epytext
         - python3-sphinx-issues
         - python3-sphinx-removed-in
@@ -2741,6 +2742,8 @@ data:
         - rust-ctor-devel
         - rust-deflate+default-devel
         - rust-deflate-devel
+        - rust-diff+default-devel
+        - rust-diff-devel
         - rust-dirs2+default-devel
         - rust-dirs2-devel
         - rust-dirs+default-devel
