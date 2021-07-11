@@ -4265,6 +4265,7 @@ data:
             - compiler-rt
             - efi-filesystem
             - flute
+            - glibc-headers-s390
             - gnome-bluetooth
             - gnome-bluetooth-libs
             - gpgmepp
@@ -4371,6 +4372,7 @@ data:
             - firebird-devel
             - flashrom
             - flashrom-devel
+            - glibc-headers-x86
             - gnu-efi-compat
             - gnu-efi-devel
             - libconfuse
