@@ -8336,7 +8336,6 @@ data:
             - zeromq-devel
             - zziplib-devel
         s390x:
-        x86_64:
             - 389-ds-base-devel
             - abseil-cpp-devel
             - accountsservice-devel
@@ -8387,8 +8386,6 @@ data:
             - aspell
             - aspell-devel
             - aspell-en
-            - aspnetcore-runtime-5.0
-            - aspnetcore-targeting-pack-5.0
             - assertj-core
             - atkmm-devel
             - augeas-devel
@@ -8447,6 +8444,8 @@ data:
             - blis-serial64
             - blis-threads
             - blis-threads64
+            - bluez-obexd
+            - Box2D
             - Box2D-devel
             - breeze-icon-theme
             - brlapi-devel
@@ -8471,6 +8470,7 @@ data:
             - clamav-data
             - clamav-filesystem
             - classloader-leak-test-framework
+            - clucene-contribs-lib
             - clucene-core-devel
             - clutter-devel
             - clutter-gst3-devel
@@ -8500,6 +8500,7 @@ data:
             - compat-lua
             - compat-lua-devel
             - compat-lua-libs
+            - compiler-rt
             - console-setup
             - cppunit
             - cppunit-devel
@@ -8530,16 +8531,6 @@ data:
             - dom4j
             - dos2unix
             - dotconf-devel
-            - dotnet5.0-build-reference-packages
-            - dotnet-apphost-pack-5.0
-            - dotnet-build-reference-packages
-            - dotnet-hostfxr-5.0
-            - dotnet-runtime-5.0
-            - dotnet-sdk-3.1-source-built-artifacts
-            - dotnet-sdk-5.0
-            - dotnet-sdk-5.0-source-built-artifacts
-            - dotnet-targeting-pack-5.0
-            - dotnet-templates-5.0
             - double-conversion-devel
             - doxygen
             - doxygen2man
@@ -8548,7 +8539,7 @@ data:
             - dpkg-perl
             - e2fsprogs-devel
             - easymock
-            - efivar-devel
+            - efi-filesystem
             - eglexternalplatform-devel
             - egl-wayland-devel
             - eigen3-devel
@@ -8573,19 +8564,16 @@ data:
             - fftw-libs
             - fftw-libs-double
             - fftw-libs-long
-            - fftw-libs-quad
             - fftw-libs-single
             - file-devel
-            - firebird-devel
             - fish
             - flac-devel
-            - flashrom
-            - flashrom-devel
             - flatpak-devel
             - flexiblas-devel
             - flexiblas-netlib64
             - flexiblas-openblas-openmp64
             - flite-devel
+            - flute
             - fmt-devel
             - foma
             - fontforge
@@ -9062,7 +9050,7 @@ data:
             - gjs-devel
             - glade-devel
             - glew-devel
-            - glibc-headers-x86
+            - glibc-headers-s390
             - glibmm24-devel
             - gl-manpages
             - glm-devel
@@ -9073,10 +9061,10 @@ data:
             - gmock
             - gmock-devel
             - gnome-autoar-devel
+            - gnome-bluetooth
+            - gnome-bluetooth-libs
             - gnome-bluetooth-libs-devel
             - gnome-settings-daemon-devel
-            - gnu-efi-compat
-            - gnu-efi-devel
             - gnulib-devel
             - gnupg2-smime
             - go-filesystem
@@ -9427,6 +9415,7 @@ data:
             - gperftools-devel
             - gperftools-libs
             - gpgme-devel
+            - gpgmepp
             - gpgmepp-devel
             - gpm
             - gpm-devel
@@ -9469,6 +9458,7 @@ data:
             - hmaccalc
             - httpcomponents-project
             - httpd-devel
+            - hunspell-cs
             - hunspell-devel
             - hwloc-devel
             - hwloc-gui
@@ -9661,6 +9651,7 @@ data:
             - leveldb-devel
             - liba52-devel
             - libabigail
+            - libabw
             - libabw-devel
             - libacl-devel
             - libadwaita-qt5-devel
@@ -9675,6 +9666,7 @@ data:
             - libatomic_ops-devel
             - libatomic_ops-static
             - libattr-devel
+            - libbase
             - libbasicobjects-devel
             - libblockdev-crypto-devel
             - libblockdev-devel
@@ -9686,6 +9678,7 @@ data:
             - libblockdev-swap-devel
             - libblockdev-utils-devel
             - libbpf-static
+            - libbsd
             - libbsd-devel
             - libbson
             - libbson-devel
@@ -9698,14 +9691,14 @@ data:
             - libcbor-devel
             - libcdio-devel
             - libcdio-paranoia-devel
+            - libcdr
             - libcdr-devel
+            - libcmis
             - libcmis-devel
             - libcmocka
             - libcmocka-devel
             - libcollection-devel
             - libconfig-devel
-            - libconfuse
-            - libconfuse-devel
             - libdaemon-devel
             - libdazzle-devel
             - libdbi
@@ -9715,32 +9708,35 @@ data:
             - libdrm-devel
             - libdvdnav-devel
             - libdvdread-devel
+            - libe-book
             - libe-book-devel
             - libecap-devel
             - libeconf-devel
             - libell-devel
             - libEMF
             - libEMF-devel
+            - libeot
             - libeot-devel
+            - libepubgen
             - libepubgen-devel
             - libestr-devel
+            - libetonyek
             - libetonyek-devel
             - libevdev-devel
             - libev-devel
             - libexif-devel
             - libexttextcat-devel
             - libfastjson-devel
-            - libfbclient2-devel
             - libfdisk-devel
             - libfdt-devel
             - libfido2-devel
             - libfl-static
             - libfoma
             - libfontenc-devel
-            - libfprint-devel
+            - libfonts
+            - libformula
+            - libfreehand
             - libfreehand-devel
-            - libftdi
-            - libftdi-devel
             - libgcab1-devel
             - libgdl
             - libgdl-devel
@@ -9776,17 +9772,18 @@ data:
             - libini_config-devel
             - libiptcdata-devel
             - libiscsi-devel
-            - libjaylink
-            - libjaylink-devel
             - libjcat-devel
             - libjpeg-devel
             - libjpeg-turbo-devel
             - libkcapi-fipscheck
             - libksba-devel
+            - liblangtag
+            - liblangtag-data
             - liblangtag-devel
             - liblangtag-gobject
-            - libldac-devel
+            - liblayout
             - libldb-devel
+            - libloader
             - liblockfile-devel
             - liblognorm-devel
             - liblouis-devel
@@ -9810,9 +9807,11 @@ data:
             - libmongocrypt-devel
             - libmpeg2-devel
             - libmspack-devel
+            - libmspub
             - libmspub-devel
             - libmtp-devel
             - libmusicbrainz5-devel
+            - libmwaw
             - libmwaw-devel
             - libnbd-devel
             - libndp-devel
@@ -9828,25 +9827,31 @@ data:
             - libnma-devel
             - libnotify-devel
             - libnsl2-devel
+            - libnumbertext
             - libnumbertext-devel
             - liboath
             - liboath-devel
             - liboauth-devel
+            - libodfgen
             - libodfgen-devel
             - libogg-devel
+            - liborcus
             - liborcus-devel
             - libosinfo-devel
             - libotf-devel
             - libotr-devel
+            - libpagemaker
             - libpagemaker-devel
             - libpamtest
             - libpaper-devel
             - libpath_utils-devel
+            - libpcap-devel
             - libpciaccess-devel
             - libpeas-devel
             - libpinyin-devel
             - libpinyin-tools
             - libpipeline-devel
+            - libpmem-devel
             - libprelude
             - libprelude-devel
             - libproxy-devel
@@ -9855,15 +9860,19 @@ data:
             - libqhull_p
             - libqhull_r
             - libqmi-devel
+            - libqrcodegencpp
             - libqrcodegencpp-devel
             - libqrtr-glib-devel
+            - libqxp
             - libqxp-devel
+            - librabbitmq
             - librabbitmq-devel
             - libraqm
             - libraqm-devel
             - LibRaw-devel
             - libref_array-devel
             - librelp-devel
+            - librepository
             - librevenge-devel
             - librhsm-devel
             - librsvg2-devel
@@ -9871,6 +9880,7 @@ data:
             - libsass
             - libserf
             - libserf-devel
+            - libserializer
             - libshout-devel
             - libsigc++20-devel
             - libsigsegv-devel
@@ -9888,6 +9898,7 @@ data:
             - libsrtp-devel
             - libss-devel
             - libsss_nss_idmap-devel
+            - libstaroffice
             - libstaroffice-devel
             - libstemmer-devel
             - libstoragemgmt-devel
@@ -9900,7 +9911,9 @@ data:
             - libtidy
             - libtiff-tools
             - libtimezonemap-devel
+            - libtomcrypt
             - libtomcrypt-devel
+            - libtommath
             - libtommath-devel
             - libtpms-devel
             - libtracecmd-devel
@@ -9927,9 +9940,11 @@ data:
             - libvdpau-trace
             - libvirt-devel
             - libvirt-glib-devel
+            - libvisio
             - libvisio-devel
             - libvisual-devel
             - libvncserver-devel
+            - libvoikko
             - libvoikko-devel
             - libvorbis-devel
             - libvpx-devel
@@ -9943,8 +9958,10 @@ data:
             - libwpd-devel
             - libwpe-devel
             - libwpg-devel
+            - libwps
             - libwps-devel
             - libXaw-devel
+            - libxcrypt-compat
             - libXdmcp-devel
             - libXfont2-devel
             - libxkbcommon-x11-devel
@@ -9965,15 +9982,20 @@ data:
             - libyaml-devel
             - libyang-devel
             - libzip-devel
+            - libzmf
             - libzmf-devel
             - linkchecker
             - linuxconsoletools
             - linuxdoc-tools
+            - lldb
+            - lldb-devel
             - lldpad-devel
+            - llvm-googletest
             - lmdb
             - lmdb-devel
             - Lmod
             - lockdev-devel
+            - lpsolve
             - lpsolve-devel
             - lttng-ust-devel
             - lua-devel
@@ -10064,12 +10086,13 @@ data:
             - mesa-libgbm-devel
             - mesa-libGL-devel
             - mesa-libGLU-devel
-            - mesa-libxatracker-devel
             - meson
             - metis
             - metis-devel
             - mingw32-binutils
             - mingw32-cpp
+            - mingw32-crt
+            - mingw32-filesystem
             - mingw32-gcc
             - mingw32-gcc-c++
             - mingw32-gettext
@@ -10114,6 +10137,7 @@ data:
             - mingw-binutils-generic
             - mingw-crt
             - mingw-filesystem
+            - mingw-filesystem-base
             - mingw-gcc
             - mingw-headers
             - mingw-libffi
@@ -10143,6 +10167,7 @@ data:
             - munge-maven-plugin
             - mutter-devel
             - mysql-connector-python3
+            - mythes
             - mythes-devel
             - nasm
             - nautilus-devel
@@ -10201,6 +10226,7 @@ data:
             - openblas-openmp64_
             - openblas-serial64
             - openblas-serial64_
+            - openblas-threads
             - openblas-threads64
             - openblas-threads64_
             - openchange-devel
@@ -10237,6 +10263,8 @@ data:
             - pcaudiolib-devel
             - pcp-libs-devel
             - pcsc-lite-devel
+            - pentaho-libxml
+            - pentaho-reporting-flow-engine
             - perl-AnyEvent
             - perl-B-COW
             - perl-Canary-Stability
@@ -10252,7 +10280,6 @@ data:
             - perl-Convert-Base64
             - perl-CPAN-Changes
             - perl-Crypt-OpenSSL-Guess
-            - perl-Crypt-PasswdMD5
             - perl-Data-Dumper-Names
             - perl-Data-ICal
             - perl-Data-ICal-TimeZone
@@ -10513,8 +10540,10 @@ data:
             - python3-bottle
             - python3-breathe
             - python3-brotli
+            - python3-bson
             - python3-cached_property
             - python3-cairo-devel
+            - python3-click
             - python3-cliff
             - python3-cmd2
             - python3-colorama
@@ -10529,6 +10558,7 @@ data:
             - python3-Cython
             - python3-d2to1
             - python3-ddt
+            - python3-debtcollector
             - python3-debug
             - python3-distlib
             - python3-django
@@ -10557,8 +10587,10 @@ data:
             - python3-future
             - python3-genshi
             - python3-genty
+            - python3-gevent
             - python3-gobject-devel
             - python3-graphviz
+            - python3-greenlet
             - python3-greenlet-devel
             - python3-grpcio-tools
             - python3-h11
@@ -10582,20 +10614,24 @@ data:
             - python3-ipython-doc
             - python3-ipython_genutils
             - python3-ipython-sphinx
+            - python3-iso8601
             - python3-isort
+            - python3-itsdangerous
             - python3-javapackages
             - python3-jedi
             - python3-jupyter-client
             - python3-jupyter-core
             - python3-kerberos
+            - python3-keystoneauth1
             - python3-kiwisolver
             - python3-koji
             - python3-lazy-object-proxy
             - python3-ldb-devel
-            - python3-libftdi
             - python3-libmount
             - python3-libnbd
             - python3-libpamtest
+            - python3-lit
+            - python3-lldb
             - python3-m2r
             - python3-mallard-ducktype
             - python3-matplotlib
@@ -10609,6 +10645,7 @@ data:
             - python3-mistune
             - python3-monotonic
             - python3-mox3
+            - python3-msgpack
             - python3-munkres
             - python3-mypy
             - python3-mypy_extensions
@@ -10620,12 +10657,17 @@ data:
             - python3-openstackdocstheme
             - python3-opentelemetry-sdk
             - python3-oslo-config
+            - python3-oslo-i18n
+            - python3-oslo-serialization
             - python3-oslo-sphinx
             - python3-oslotest
+            - python3-oslo-utils
+            - python3-os-service-types
             - python3-Pallets-Sphinx-Themes
             - python3-parso
             - python3-paste
             - python3-paste-deploy
+            - python3-pbr
             - python3-pickleshare
             - python3-pikepdf
             - python3-pillow
@@ -10637,6 +10679,7 @@ data:
             - python3-process-tests
             - python3-prometheus_client
             - python3-prompt-toolkit
+            - python3-py
             - python3-pybind11
             - python3-pycodestyle
             - python3-pycotap
@@ -10713,8 +10756,10 @@ data:
             - python3-sphinx_rtd_theme
             - python3-sphinx-testing
             - python3-sphinx-theme-py3doc-enhanced
+            - python3-sqlalchemy
             - python3-sqlparse
             - python3-stestr
+            - python3-stevedore
             - python3-subunit
             - python3-sure
             - python3-talloc-devel
@@ -10743,6 +10788,7 @@ data:
             - python3-webencodings
             - python3-webob
             - python3-webtest
+            - python3-werkzeug
             - python3-wheel
             - python3-whoosh
             - python3-WSGIProxy2
@@ -10754,14 +10800,20 @@ data:
             - python3-zmq-tests
             - python3-zope-component
             - python3-zope-deprecation
+            - python3-zope-event
+            - python3-zope-interface
             - python3-zope-testing
             - python-jupyter-client-doc
             - python-jupyter-filesystem
             - python-ldb-devel-common
+            - python-oslo-i18n-lang
+            - python-oslo-utils-lang
             - python-sphinx-doc
             - python-typeshed
             - python-wheel-wheel
             - qdox
+            - qemu-system-x86
+            - qemu-system-x86-core
             - qhull-devel
             - qjson
             - qjson-devel
@@ -10809,10 +10861,13 @@ data:
             - quota-devel
             - ragel
             - rapidjson-devel
+            - raptor2
             - raptor2-devel
+            - rasqal
             - rasqal-devel
             - re2-devel
             - readline-devel
+            - redland
             - redland-devel
             - reflections
             - regexp
@@ -12125,6 +12180,7 @@ data:
             - rust-xmlwriter-devel
             - rust-xz2+default-devel
             - rust-xz2-devel
+            - sac
             - samba-devel
             - samba-pidl
             - sane-backends-devel
@@ -12151,6 +12207,7 @@ data:
             - slang-devel
             - slf4j-sources
             - snappy-devel
+            - socat
             - socket_wrapper
             - sombok-devel
             - soundtouch-devel
@@ -12161,13 +12218,13 @@ data:
             - speech-tools-libs-static
             - speex-devel
             - speexdsp-devel
-            - spice-server-devel
             - spirv-tools
             - spirv-tools-devel
             - startup-notification-devel
             - stringtemplate
             - stringtemplate4
             - string-template-maven-plugin
+            - stunnel
             - subversion
             - subversion-libs
             - subversion-perl
@@ -12351,6 +12408,7 @@ data:
             - utf8cpp-devel
             - utf8proc-devel
             - uuid-devel
+            - voikko-fi
             - voikko-tools
             - volume_key-devel
             - vte291-devel
@@ -12389,6 +12447,7 @@ data:
             - xmlrpc-c-client++
             - xmlrpc-c-devel
             - xmlsec1-devel
+            - xmlsec1-nss
             - xmlsec1-nss-devel
             - xmlsec1-openssl-devel
             - xmlstarlet
@@ -12425,3 +12484,4 @@ data:
             - zeromq
             - zeromq-devel
             - zziplib-devel
+        x86_64:
