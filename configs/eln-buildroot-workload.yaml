@@ -734,6 +734,7 @@ data:
         - gnome-settings-daemon-devel
         - gnulib-devel
         - gnupg2-smime
+        - gobject-introspection-devel
         - go-filesystem
         - golang-antlr4-runtime-devel
         - golang-bitbucket-ww-goautoneg-devel
@@ -1573,6 +1574,7 @@ data:
         - libv4l-devel
         - libva
         - libva-devel
+        - libvala
         - libvala-devel
         - libvdpau-devel
         - libvdpau-trace
@@ -2245,6 +2247,7 @@ data:
         - python3-libpamtest
         - python3-m2r
         - python3-mallard-ducktype
+        - python3-markdown
         - python3-matplotlib
         - python3-matplotlib-data
         - python3-matplotlib-data-fonts
@@ -3992,6 +3995,7 @@ data:
         - utf8cpp-devel
         - utf8proc-devel
         - uuid-devel
+        - vala
         - voikko-tools
         - volume_key-devel
         - vte291-devel
