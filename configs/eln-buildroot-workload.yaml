@@ -2223,6 +2223,7 @@ data:
         - python3-hyperframe
         - python3-hyperlink
         - python3-hypothesis
+        - python3-idle
         - python3-incremental
         - python3-iniconfig
         - python3-ipykernel
