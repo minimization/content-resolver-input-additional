@@ -2735,8 +2735,6 @@ data:
         - rust-criterion-devel
         - rust-criterion-plot+default-devel
         - rust-criterion-plot-devel
-        - rust-crossbeam-channel0.4+default-devel
-        - rust-crossbeam-channel0.4-devel
         - rust-crossbeam-channel+default-devel
         - rust-crossbeam-channel-devel
         - rust-crossbeam-channel+std-devel
@@ -3450,8 +3448,6 @@ data:
         - rust-sev+default-devel
         - rust-sev-devel
         - rust-sev+openssl-devel
-        - rust-signal-hook0.1+default-devel
-        - rust-signal-hook0.1-devel
         - rust-signal-hook+channel-devel
         - rust-signal-hook+default-devel
         - rust-signal-hook-devel
