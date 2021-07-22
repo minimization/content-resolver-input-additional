@@ -258,7 +258,6 @@ data:
         - freetds-devel
         - freetds-libs
         - freetype-demos
-        - fstrm
         - fstrm-devel
         - fsverity-utils-devel
         - fusesource-pom
