@@ -1617,6 +1617,7 @@ data:
         - libpinyin-devel
         - libpinyin-tools
         - libpipeline-devel
+        - libpq-devel
         - libprelude
         - libprelude-devel
         - libproxy-devel
@@ -2344,8 +2345,10 @@ data:
         - poppler-data-devel
         - poppler-devel
         - poppler-glib-devel
-        - postgresql-private-devel
+        - postgresql
+        - postgresql-contrib
         - postgresql-private-libs
+        - postgresql-server
         - postgresql-test-rpm-macros
         - potrace-devel
         - pps-tools-devel
@@ -2375,6 +2378,7 @@ data:
         - python3-apipkg
         - python3-argh
         - python3-argon2-cffi
+        - python3-argparse-manpage
         - python3-astroid
         - python3-astunparse
         - python3-async-generator
@@ -8190,6 +8194,7 @@ data:
             - spax
             - spice-server-devel
             - util-linux-user
+            - uuid
         ppc64le:
             - efi-filesystem
             - firebird-devel
@@ -8236,10 +8241,14 @@ data:
             - qemu-ui-gtk
             - qemu-ui-opengl
             - qemu-ui-sdl
+            - uuid
         s390x:
             - bluez-obexd
             - Box2D
             - btrfs-progs
+            - clang
+            - clang-devel
+            - clang-tools-extra
             - clucene-contribs-lib
             - compiler-rt
             - efi-filesystem
@@ -8287,7 +8296,11 @@ data:
             - libzmf
             - lldb
             - lldb-devel
+            - llvm
+            - llvm-devel
             - llvm-googletest
+            - llvm-static
+            - llvm-test
             - lpsolve
             - mingw32-crt
             - mingw32-filesystem
@@ -8304,6 +8317,7 @@ data:
             - rasqal
             - redland
             - sac
+            - uuid
             - voikko-fi
             - xmlsec1-nss
         x86_64:
