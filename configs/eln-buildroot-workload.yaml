@@ -1297,8 +1297,6 @@ data:
         - jflex
         - jitterentropy-devel
         - jline2
-        - jna
-        - jna-contrib
         - jq-devel
         - js-backbone
         - jsch
