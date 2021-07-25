@@ -2528,7 +2528,6 @@ data:
         - python3-platformdirs
         - python3-pluggy
         - python3-pretend
-        - python3-priority
         - python3-process-tests
         - python3-prometheus_client
         - python3-prompt-toolkit
