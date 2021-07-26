@@ -4037,17 +4037,17 @@ data:
         - rust-scopeguard-devel
         - rust-seahash3+default-devel
         - rust-seahash3-devel
+        - rust-semver0.11+default-devel
+        - rust-semver0.11-devel
+        - rust-semver0.11+serde-devel
         - rust-semver0.9+default-devel
         - rust-semver0.9-devel
-        - rust-semver+default-devel
-        - rust-semver-devel
         - rust-semver-parser0.7+default-devel
         - rust-semver-parser0.7-devel
         - rust-semver-parser0.9+default-devel
         - rust-semver-parser0.9-devel
         - rust-semver-parser+default-devel
         - rust-semver-parser-devel
-        - rust-semver+serde-devel
         - rust-serde_bytes+default-devel
         - rust-serde_bytes-devel
         - rust-serde_bytes+std-devel
