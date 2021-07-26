@@ -2172,7 +2172,6 @@ data:
         - perl-Module-Package-Au
         - perl-Module-Pluggable
         - perl-Module-ScanDeps
-        - perl-Module-Signature
         - perl-Moo
         - perl-Net-CalDAVTalk
         - perl-Net-CardDAVTalk
@@ -2239,7 +2238,6 @@ data:
         - perl-Test-CPAN-Meta-JSON
         - perl-Test-Deep
         - perl-Test-Differences
-        - perl-Test-Distribution
         - perl-Test-Exception
         - perl-Test-FailWarnings
         - perl-Test-Fatal
