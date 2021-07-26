@@ -1484,6 +1484,7 @@ data:
         - libdvdread-devel
         - libe-book-devel
         - libecap-devel
+        - libecb-devel
         - libeconf-devel
         - libell-devel
         - libEMF
@@ -1494,6 +1495,7 @@ data:
         - libetonyek-devel
         - libevdev-devel
         - libev-devel
+        - libev-source
         - libexif-devel
         - libexttextcat-devel
         - libfastjson-devel
@@ -1559,6 +1561,8 @@ data:
         - liblouis-devel
         - liblqr-1
         - liblqr-1-devel
+        - liblzf
+        - liblzf-devel
         - libmarkdown
         - libmarkdown-devel
         - libmatchbox-devel
@@ -2054,65 +2058,121 @@ data:
         - pcp-libs-devel
         - pcsc-lite-devel
         - pdfpc
+        - perl-Algorithm-C3
+        - perl-aliased
         - perl-AnyEvent
+        - perl-AnyEvent-AIO
+        - perl-AnyEvent-BDB
+        - perl-Any-Moose
         - perl-Archive-Any-Lite
         - perl-Array-Diff
         - perl-B-COW
+        - perl-BDB
+        - perl-Bencode
         - perl-BibTeX-Parser
         - perl-B-Keywords
+        - perl-B-Utils
         - perl-Canary-Stability
         - perl-Capture-Tiny
+        - perl-CBOR-XS
         - perl-Class-Accessor-Chained
         - perl-Class-Inner
+        - perl-Class-ISA
+        - perl-Class-Load
+        - perl-Class-Load-XS
         - perl-Class-ReturnValue
         - perl-Class-Tiny
         - perl-Class-XSAccessor
+        - perl-Clone-Choose
+        - perl-Clone-PP
         - perl-common-sense
+        - perl-Compress-LZF
+        - perl-Config-Any
         - perl-Config-AutoConf
+        - perl-Config-General
         - perl-Config-IniFiles
         - perl-Config-Tiny
+        - perl-constant-boolean
         - perl-Convert-Base64
+        - perl-Convert-Bencode
+        - perl-Convert-Bencode_XS
+        - perl-Coro
         - perl-CPAN-Changes
+        - perl-Cpanel-JSON-XS
+        - perl-Crypt-Blowfish
+        - perl-Crypt-Blowfish_PP
+        - perl-Crypt-CBC
+        - perl-Crypt-DES
+        - perl-Crypt-IDEA
         - perl-Crypt-OpenSSL-Guess
+        - perl-Crypt-PBKDF2
         - perl-Crypt-RC4
+        - perl-Crypt-Rijndael
+        - perl-CryptX
+        - perl-Cwd-Guard
         - perl-Data-Binary
+        - perl-Data-Denter
+        - perl-Data-Dump-Streamer
         - perl-Data-ICal
         - perl-Data-ICal-TimeZone
+        - perl-Data-Section-Simple
+        - perl-Data-Serializer
+        - perl-Data-Taxi
         - perl-Data-UUID
+        - perl-Data-Visitor
+        - perl-DateTime-Calendar-Mayan
         - perl-DateTime-Event-ICal
         - perl-DateTime-Event-Recurrence
         - perl-DateTime-Format-ICal
         - perl-DateTime-Format-ISO8601
+        - perl-DateTime-Format-MySQL
         - perl-DateTime-Set
+        - perl-DBM-Deep
+        - perl-Declare-Constraints-Simple
         - perl-Devel-CheckBin
+        - perl-Devel-CheckCompiler
         - perl-Devel-CheckLib
         - perl-Devel-Cycle
         - perl-Devel-EnforceEncapsulation
         - perl-Devel-Hide
+        - perl-Devel-Leak
+        - perl-Devel-OverloadInfo
+        - perl-Devel-PartialDump
+        - perl-Devel-Refcount
         - perl-Devel-Symdump
         - perl-Digest-CRC
         - perl-Digest-MD4
         - perl-Digest-Perl-MD5
         - perl-Digest-SHA1
+        - perl-Digest-SHA3
+        - perl-Dir-Self
         - perl-Encode-EUCJPASCII
         - perl-Encode-IMAPUTF7
         - perl-Env-Sanctify
+        - perl-EV
+        - perl-Event
+        - perl-Exception-Base
+        - perl-Exporter-Tidy
         - perl-Exporter-Tiny
         - perl-ExtUtils-Config
+        - perl-ExtUtils-Depends
         - perl-ExtUtils-HasCompiler
         - perl-ExtUtils-Helpers
         - perl-ExtUtils-InstallPaths
         - perl-ExtUtils-LibBuilder
         - perl-ExtUtils-MakeMaker-CPANfile
         - perl-ExtUtils-PkgConfig
+        - perl-FCGI-Client
         - perl-File-BaseDir
         - perl-File-chdir
         - perl-File-Copy-Recursive
+        - perl-File-Copy-Recursive-Reduced
         - perl-File-DesktopEntry
         - perl-File-DirList
         - perl-File-Find-Object
         - perl-File-Find-Object-Rule
         - perl-File-Find-Rule-Perl
+        - perl-FileHandle-Fmode
         - perl-File-LibMagic
         - perl-File-MimeInfo
         - perl-File-MMagic
@@ -2122,8 +2182,15 @@ data:
         - perl-File-Slurp
         - perl-Font-AFM
         - perl-Font-TTF
+        - perl-FreezeThaw
+        - perl-Function-Parameters
+        - perl-Getopt-Long-Descriptive
         - perl-Git-Wrapper
         - perl-Guard
+        - perl-Hash-FieldHash
+        - perl-Hash-Flatten
+        - perl-Hash-Merge
+        - perl-Hash-Util-FieldHash-Compat
         - perl-Hook-LexWrap
         - perl-HTML-Form
         - perl-HTML-Formatter
@@ -2132,13 +2199,17 @@ data:
         - perl-HTTP-Response-Encoding
         - perl-HTTP-Server-Simple
         - perl-Import-Into
+        - perl-IO-AIO
         - perl-IO-All
+        - perl-IO-CaptureOutput
         - perl-IO-stringy
         - perl-IO-Tty
         - perl-IPC-Run
         - perl-Jcode
         - perl-JSON-XS
         - perl-LaTeX-ToUnicode
+        - perl-Lexical-SealRequireHints
+        - perl-Lexical-Var
         - perl-libintl-perl
         - perl-libxml-perl
         - perl-Lingua-EN-Inflect
@@ -2148,12 +2219,17 @@ data:
         - perl-List-Pairwise
         - perl-Locale-Codes
         - perl-Locale-gettext
+        - perl-Locale-US
+        - perl-Log-Trace
         - perl-Mail-IMAPTalk
         - perl-Mail-JMAPTalk
+        - perl-match-simple
         - perl-Math-Int64
         - perl-MCE
         - perl-Mixin-Linewise
+        - perl-Module-Build-Deprecated
         - perl-Module-Build-Tiny
+        - perl-Module-Build-XSUtil
         - perl-Module-CPANTS-Analyse
         - perl-Module-Extract-Use
         - perl-Module-Find
@@ -2171,8 +2247,32 @@ data:
         - perl-Module-Package
         - perl-Module-Package-Au
         - perl-Module-Pluggable
+        - perl-Module-Refresh
+        - perl-Module-Runtime-Conflicts
         - perl-Module-ScanDeps
+        - perl-Module-Signature
+        - perl-Mojolicious
         - perl-Moo
+        - perl-Moose
+        - perl-MooseX-AttributeHelpers
+        - perl-MooseX-ConfigFromFile
+        - perl-MooseX-Getopt
+        - perl-MooseX-GlobRef
+        - perl-MooseX-InsideOut
+        - perl-MooseX-MarkAsMethods
+        - perl-MooseX-NonMoose
+        - perl-MooseX-Role-Parameterized
+        - perl-MooseX-Role-WithOverloading
+        - perl-MooseX-SimpleConfig
+        - perl-MooseX-StrictConstructor
+        - perl-MooseX-Types
+        - perl-MooseX-Types-Common
+        - perl-MooseX-Types-Path-Tiny
+        - perl-MooseX-Types-Stringlike
+        - perl-Mouse
+        - perl-MouseX-Foreign
+        - perl-MouseX-Types
+        - perlmulticore-devel
         - perl-Net-CalDAVTalk
         - perl-Net-CardDAVTalk
         - perl-Net-DAVTalk
@@ -2182,9 +2282,12 @@ data:
         - perl-Net-LDAP-Server
         - perl-Net-LibIDN2
         - perl-NNTPClient
+        - perl-Object-Accessor
         - perl-Object-Deadly
         - perl-OLE-Storage_Lite
+        - perl-Package-DeprecationManager
         - perl-Parallel-ForkManager
+        - perl-Params-Coerce
         - perl-Parse-DebControl
         - perl-Parse-Yapp
         - perl-Path-Class
@@ -2196,11 +2299,14 @@ data:
         - perl-PerlIO-utf8_strict
         - perl-Perl-MinimumVersion
         - perl-Perl-PrereqScanner-NotQuiteLite
+        - perl-PHP-Serialization
         - perl-Pod-Coverage
+        - perl-Pod-Coverage-Moose
         - perl-Pod-Coverage-TrustPod
         - perl-Pod-Eventual
         - perl-Pod-Markdown
         - perl-Pod-Spell
+        - perl-Pod-Spell-CommonMistakes
         - perl-PPI
         - perl-PPIx-QuoteLike
         - perl-PPIx-Regexp
@@ -2209,8 +2315,10 @@ data:
         - perl-Probe-Perl
         - perl-Readonly
         - perl-Regexp-Trie
+        - perl-Return-Type
         - perl-Scalar-Properties
         - perl-Scope-Guard
+        - perl-Scope-Upper
         - perl-Sereal
         - perl-Sereal-Decoder
         - perl-Sereal-Encoder
@@ -2223,21 +2331,31 @@ data:
         - perl-strictures
         - perl-String-CRC32
         - perl-String-Format
+        - perl-Sub-Exporter-ForMethods
+        - perl-Sub-Exporter-Lexical
+        - perl-Sub-Infix
         - perl-Sub-Info
         - perl-Sub-Name
         - perl-Sub-Quote
         - perl-Sub-Uplevel
+        - perl-SUPER
         - perl-Switch
+        - perl-Symbol-Util
         - perl-Taint-Runtime
         - perl-Task-Weaken
         - perl-Term-Size-Any
         - perl-Term-Size-Perl
         - perl-Test2-Plugin-NoWarnings
         - perl-Test2-Suite
+        - perl-Test-Assert
+        - perl-Test-Assertions
+        - perl-Test-CheckChanges
+        - perl-Test-CleanNamespaces
         - perl-Test-CPAN-Meta
         - perl-Test-CPAN-Meta-JSON
         - perl-Test-Deep
         - perl-Test-Differences
+        - perl-Test-Distribution
         - perl-Test-Exception
         - perl-Test-FailWarnings
         - perl-Test-Fatal
@@ -2252,6 +2370,8 @@ data:
         - perl-Test-Memory-Cycle
         - perl-Test-MemoryGrowth
         - perl-Test-MinimumVersion
+        - perl-Test-Moose
+        - perl-Test-Mouse
         - perl-Test-Needs
         - perl-Test-Object
         - perl-Test-Output
@@ -2259,15 +2379,20 @@ data:
         - perl-Test-Pod
         - perl-Test-Pod-Coverage
         - perl-Test-Prereq
+        - perl-Test-Refcount
         - perl-Test-Regexp
         - perl-Test-Requires
         - perl-Test-RequiresInternet
         - perl-Test-Script
+        - perl-Test-Signature
+        - perl-Test-Spelling
         - perl-Test-SubCalls
         - perl-Test-Synopsis
         - perl-Test-Taint
         - perl-Test-TrailingSpace
+        - perl-Test-Trap
         - perl-Test-Unit
+        - perl-Test-Unit-Lite
         - perl-Test-UseAllModules
         - perl-Test-utf8
         - perl-Test-Valgrind
@@ -2283,8 +2408,13 @@ data:
         - perl-Text-WrapI18N
         - perl-Tie-DataUUID
         - perl-Tie-IxHash
+        - perl-Tie-RefHash-Weak
+        - perl-Tie-ToObject
         - perl-Tk
+        - perl-Types-Path-Tiny
         - perl-Types-Serialiser
+        - perl-Type-Tie
+        - perl-Type-Tiny
         - perl-Unicode-EastAsianWidth
         - perl-Unicode-Map
         - perl-Unicode-UTF8
@@ -2292,8 +2422,10 @@ data:
         - perl-UNIVERSAL-require
         - perl-URI-cpan
         - perl-utf8-all
+        - perl-Validation-Class
         - perl-WWW-Mechanize
         - perl-XML-DOM
+        - perl-XML-Dumper
         - perl-XML-Fast
         - perl-XML-Filter-BufferText
         - perl-XML-Generator
@@ -2304,6 +2436,7 @@ data:
         - perl-XML-Twig
         - perl-XML-XPathEngine
         - perl-YAML-LibYAML
+        - perl-YAML-Syck
         - perl-YAML-Tiny
         - phonon-qt4
         - phonon-qt4-devel
@@ -4344,8 +4477,6 @@ data:
         - t1lib-devel
         - t1utils
         - taglib-devel
-        - tclx
-        - tclx-devel
         - teamd-devel
         - teckit-devel
         - tesseract
