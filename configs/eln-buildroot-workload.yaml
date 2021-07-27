@@ -26,20 +26,15 @@ data:
         - alsa-topology-utils
         - annobin
         - annobin-plugin-clang
-        - ant
-        - ant-antlr
         - ant-contrib
         - anthy
         - anthy-devel
         - anthy-unicode-devel
-        - ant-junit
-        - ant-lib
         - antlr3-java
         - antlr3-tool
         - antlr4
         - antlr4-maven-plugin
         - antlr4-runtime
-        - antlr-tool
         - apache-commons-beanutils
         - apache-commons-compress
         - apache-commons-exec
@@ -66,7 +61,6 @@ data:
         - aspell
         - aspell-devel
         - aspell-en
-        - assertj-core
         - asymptote
         - atkmm-devel
         - augeas-devel
@@ -79,7 +73,6 @@ data:
         - avahi-gobject-devel
         - babl-devel
         - bcc-devel
-        - bcel
         - bdftopcf
         - beakerlib
         - beust-jcommander
@@ -130,12 +123,10 @@ data:
         - Box2D-devel
         - breeze-icon-theme
         - brlapi-devel
-        - bsf
         - bsh
         - btrfs-progs-devel
         - byacc
         - byaccj
-        - byte-buddy
         - byte-buddy-agent
         - cairomm-devel
         - c-ares-devel
@@ -1201,7 +1192,6 @@ data:
         - gtk-vnc2-devel
         - guice-servlet
         - gvnc-devel
-        - hamcrest
         - haproxy
         - hardlink
         - hawtjni
@@ -1260,8 +1250,6 @@ data:
         - jakarta-commons-httpclient
         - jakarta-json-api
         - jakarta-json-impl
-        - jakarta-mail
-        - jakarta-oro
         - jakarta-servlet
         - jakarta-ws-rs
         - jansi1
@@ -1290,7 +1278,6 @@ data:
         - jbig2dec-devel
         - jbigkit-devel
         - jboss-parent
-        - jdepend
         - jdependency
         - jdom
         - jdom2
@@ -1300,7 +1287,6 @@ data:
         - jline2
         - jq-devel
         - js-backbone
-        - jsch
         - js-coffee-script
         - js-jquery
         - js-marked
@@ -1309,9 +1295,6 @@ data:
         - js-uglify
         - js-underscore
         - Judy-devel
-        - junit
-        - junit5
-        - jzlib
         - kde-filesystem
         - kde-settings
         - kf5-attica
@@ -1971,7 +1954,6 @@ data:
         - nss_wrapper
         - ntfs-3g-devel
         - numactl-devel
-        - objectweb-asm
         - objenesis
         - ocaml
         - ocaml-calendar
@@ -2032,7 +2014,6 @@ data:
         - openslp-devel
         - opensp
         - opensp-devel
-        - opentest4j
         - opus-devel
         - orangefs-devel
         - orc-compiler
@@ -2872,7 +2853,6 @@ data:
         - readline-devel
         - redland-devel
         - reflections
-        - regexp
         - R-ellipsis
         - replacer
         - rest-devel
@@ -8148,7 +8128,6 @@ data:
         - umockdev-devel
         - unbound-devel
         - unicode-emoji
-        - univocity-parsers
         - upower-devel
         - uriparser
         - uriparser-devel
@@ -8234,7 +8213,6 @@ data:
         - xstatic-datatables-common
         - xxhash-devel
         - xxhash-libs
-        - xz-java
         - yajl-devel
         - yasm
         - yelp-devel
