@@ -2464,6 +2464,7 @@ data:
         - python3-distlib
         - python3-docs
         - python3-docs-theme
+        - python3-docutils
         - python3-dulwich
         - python3-elementpath
         - python3-entrypoints
@@ -2508,6 +2509,7 @@ data:
         - python3-hyperlink
         - python3-hypothesis
         - python3-idle
+        - python3-imagesize
         - python3-imath
         - python3-incremental
         - python3-iniconfig
@@ -2588,6 +2590,7 @@ data:
         - python3-pycotap
         - python3-pyflakes
         - python3-pygit2
+        - python3-pygments
         - python3-pygments-pytest
         - python3-pylint
         - python3-pymongo
@@ -2635,15 +2638,23 @@ data:
         - python3-sip-devel
         - python3-smartypants
         - python3-sniffio
+        - python3-snowballstemmer
         - python3-sortedcontainers
         - python3-soupsieve
         - python3-speg
+        - python3-sphinx
         - python3-sphinxcontrib-apidoc
+        - python3-sphinxcontrib-applehelp
         - python3-sphinxcontrib-bibtex
+        - python3-sphinxcontrib-devhelp
         - python3-sphinxcontrib-github-alt
+        - python3-sphinxcontrib-htmlhelp
         - python3-sphinxcontrib-httpdomain
+        - python3-sphinxcontrib-jsmath
         - python3-sphinxcontrib-log-cabinet
+        - python3-sphinxcontrib-qthelp
         - python3-sphinxcontrib-rsvgconverter
+        - python3-sphinxcontrib-serializinghtml
         - python3-sphinxcontrib-svg2pdfconverter-common
         - python3-sphinxcontrib-trio
         - python3-sphinxcontrib-websupport
@@ -2655,6 +2666,7 @@ data:
         - python3-sphinx-removed-in
         - python3-sphinx_rtd_theme
         - python3-sphinx-testing
+        - python3-sphinx-theme-alabaster
         - python3-sphinx-theme-py3doc-enhanced
         - python3-sqlalchemy
         - python3-sure
