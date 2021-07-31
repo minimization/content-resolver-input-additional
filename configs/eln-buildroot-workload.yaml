@@ -3171,6 +3171,8 @@ data:
         - rust-arrayvec-devel
         - rust-assert_approx_eq+default-devel
         - rust-assert_approx_eq-devel
+        - rust-assert-impl+default-devel
+        - rust-assert-impl-devel
         - rust-assert_matches+default-devel
         - rust-assert_matches-devel
         - rust-async-stream+default-devel
@@ -3912,14 +3914,13 @@ data:
         - rust-seahash3-devel
         - rust-semver0.11+default-devel
         - rust-semver0.11-devel
-        - rust-semver0.9+default-devel
-        - rust-semver0.9-devel
-        - rust-semver-parser0.7+default-devel
-        - rust-semver-parser0.7-devel
+        - rust-semver+default-devel
+        - rust-semver-devel
         - rust-semver-parser0.9+default-devel
         - rust-semver-parser0.9-devel
         - rust-semver-parser+default-devel
         - rust-semver-parser-devel
+        - rust-semver+std-devel
         - rust-serde_bytes+default-devel
         - rust-serde_bytes-devel
         - rust-serde_bytes+std-devel
