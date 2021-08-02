@@ -2449,6 +2449,7 @@ data:
         - python3-cairo-devel
         - python3-certifi
         - python3-click
+        - python3-colorama
         - python3-CommonMark
         - python3-constantly
         - python3-coverage
@@ -2462,6 +2463,7 @@ data:
         - python3-defusedxml
         - python3-deprecation
         - python3-distlib
+        - python3-docopt
         - python3-docs
         - python3-docs-theme
         - python3-docutils
@@ -2579,6 +2581,7 @@ data:
         - python3-platformdirs
         - python3-pluggy
         - python3-pretend
+        - python3-priority
         - python3-process-tests
         - python3-prometheus_client
         - python3-prompt-toolkit
@@ -3210,6 +3213,7 @@ data:
         - rust-brotli-decompressor+std-devel
         - rust-brotli+default-devel
         - rust-brotli-devel
+        - rust-brotli+ffi-api-devel
         - rust-brotli+std-devel
         - rust-bstr+default-devel
         - rust-bstr-devel
