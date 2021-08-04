@@ -3610,8 +3610,8 @@ data:
         - rust-nix0.18-devel
         - rust-nix+default-devel
         - rust-nix-devel
-        - rust-num-bigint-devel
-        - rust-num-bigint+std-devel
+        - rust-num-bigint0.3-devel
+        - rust-num-bigint0.3+std-devel
         - rust-num-complex0.3+default-devel
         - rust-num-complex0.3-devel
         - rust-num-complex0.3+std-devel
@@ -3623,7 +3623,7 @@ data:
         - rust-num-iter+default-devel
         - rust-num-iter-devel
         - rust-num-iter+std-devel
-        - rust-num-rational-devel
+        - rust-num-rational0.3-devel
         - rust-num-traits0.1+default-devel
         - rust-num-traits0.1-devel
         - rust-num-traits+default-devel
