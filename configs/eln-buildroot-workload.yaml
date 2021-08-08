@@ -4038,8 +4038,6 @@ data:
         - rust-tendril-devel
         - rust-termcolor+default-devel
         - rust-termcolor-devel
-        - rust-term+default-devel
-        - rust-term-devel
         - rust-textwrap0.11+default-devel
         - rust-textwrap0.11-devel
         - rust-thiserror+default-devel
@@ -8188,6 +8186,8 @@ data:
             - qemu-system-x86-core
             - redhat-lsb-core
             - redhat-lsb-submod-security
+            - rust-term+default-devel
+            - rust-term-devel
             - spax
             - spice-server-devel
             - util-linux-user
@@ -8205,6 +8205,7 @@ data:
             - libfprint-devel
             - libftdi
             - libftdi-devel
+            - libguestfs-appliance
             - libjaylink
             - libjaylink-devel
             - libldac-devel
@@ -8238,6 +8239,8 @@ data:
             - qemu-ui-gtk
             - qemu-ui-opengl
             - qemu-ui-sdl
+            - rust-term0.6+default-devel
+            - rust-term0.6-devel
             - uuid
         s390x:
             - bluez-obexd
@@ -8271,6 +8274,8 @@ data:
             - python3-lldb
             - qemu-system-x86
             - qemu-system-x86-core
+            - rust-term+default-devel
+            - rust-term-devel
             - uuid
         x86_64:
             - aspnetcore-runtime-5.0
@@ -8307,4 +8312,6 @@ data:
             - ntfs-3g
             - perl-Crypt-PasswdMD5
             - python3-libftdi
+            - rust-term+default-devel
+            - rust-term-devel
             - spice-server-devel
