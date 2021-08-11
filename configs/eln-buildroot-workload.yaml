@@ -150,8 +150,6 @@ data:
         - clutter-gtk-devel
         - codespell
         - cogl-devel
-        - colm
-        - colm-devel
         - colord-devel
         - colord-gtk-devel
         - compat-golang-github-cespare-xxhash-2-devel
@@ -1066,6 +1064,8 @@ data:
         - golang-github-tdewolff-minify
         - golang-github-tdewolff-parse-devel
         - golang-github-tdewolff-test-devel
+        - golang-github-tklauser-numcpus-devel
+        - golang-github-tklauser-sysconf-devel
         - golang-github-tmc-grpc-websocket-proxy-devel
         - golang-github-tv42-httpunix-devel
         - golang-github-ugorji-devel
@@ -1452,6 +1452,8 @@ data:
         - libdazzle-devel
         - libdbi
         - libdbi-devel
+        - libdecor
+        - libdecor-devel
         - libdhash-devel
         - libdmx-devel
         - libdrm-devel
@@ -1480,6 +1482,7 @@ data:
         - libfoma
         - libfontenc-devel
         - libfreehand-devel
+        - libfsverity
         - libgcab1-devel
         - libgdl
         - libgdl-devel
@@ -1737,8 +1740,6 @@ data:
         - lttng-ust-devel
         - lua-devel
         - lua-filesystem
-        - luajit
-        - luajit-devel
         - lua-json
         - lua-lpeg
         - lua-lunitx
@@ -2065,14 +2066,11 @@ data:
         - perl-CPAN-Changes
         - perl-Cpanel-JSON-XS
         - perl-Crypt-Blowfish
-        - perl-Crypt-Blowfish_PP
         - perl-Crypt-CBC
-        - perl-Crypt-DES
         - perl-Crypt-IDEA
         - perl-Crypt-OpenSSL-Guess
         - perl-Crypt-PBKDF2
         - perl-Crypt-RC4
-        - perl-Crypt-Rijndael
         - perl-CryptX
         - perl-Cwd-Guard
         - perl-Data-Denter
@@ -2438,7 +2436,6 @@ data:
         - python3-betamax
         - python3-bleach
         - python3-blinker
-        - python3-bottle
         - python3-Bottleneck
         - python3-breathe
         - python3-brotli
@@ -2767,7 +2764,6 @@ data:
         - qt-x11
         - quota-devel
         - R-abind
-        - ragel
         - rapidjson-devel
         - raptor2-devel
         - R-argon2
@@ -3033,7 +3029,6 @@ data:
         - rubygem-bacon
         - rubygem-builder
         - rubygem-childprocess
-        - rubygem-chronic
         - rubygem-coderay
         - rubygem-coffee-script
         - rubygem-coffee-script-source
@@ -3051,7 +3046,6 @@ data:
         - rubygem-cucumber-wire
         - rubygem-curb
         - rubygem-dalli
-        - rubygem-delorean
         - rubygem-ejs
         - rubygem-em-http-request
         - rubygem-em-socksify
@@ -3060,10 +3054,8 @@ data:
         - rubygem-eventmachine
         - rubygem-excon
         - rubygem-execjs
-        - rubygem-faraday
         - rubygem-ffi
         - rubygem-flexmock
-        - rubygem-formatador
         - rubygem-gherkin
         - rubygem-globalid
         - rubygem-haml
@@ -3089,24 +3081,18 @@ data:
         - rubygem-minitest-around
         - rubygem-mocha
         - rubygem-multi_json
-        - rubygem-multipart-post
         - rubygem-multi_test
         - rubygem-mustache
-        - rubygem-mustermann
-        - rubygem-net-http-persistent
         - rubygem-nio4r
         - rubygem-nokogiri
-        - rubygem-open4
         - rubygem-pdf-core
         - rubygem-pdf-inspector
         - rubygem-pdf-reader
         - rubygem-prawn
         - rubygem-pry
         - rubygem-public_suffix
-        - rubygem-puma
         - rubygem-racc
         - rubygem-rack
-        - rubygem-rack-protection
         - rubygem-rack-test
         - rubygem-rails
         - rubygem-rails-dom-testing
@@ -3126,9 +3112,7 @@ data:
         - rubygem-sassc
         - rubygem-sassc-rails
         - rubygem-sass-rails
-        - rubygem-shindo
         - rubygem-shoulda-context
-        - rubygem-sinatra
         - rubygem-sprockets
         - rubygem-sprockets-rails
         - rubygem-sqlite3
@@ -8169,6 +8153,7 @@ data:
             - libfprint-devel
             - libftdi
             - libftdi-devel
+            - libguestfs-appliance
             - libjaylink
             - libjaylink-devel
             - libldac-devel
@@ -8247,10 +8232,10 @@ data:
             - clang-tools-extra
             - compiler-rt
             - efi-filesystem
-            - glibc-headers-s390
             - gnome-bluetooth
             - gnome-bluetooth-libs
             - libbsd
+            - libguestfs-appliance
             - libpcap-devel
             - libpmem-devel
             - libtomcrypt
@@ -8291,7 +8276,6 @@ data:
             - firebird-devel
             - flashrom
             - flashrom-devel
-            - glibc-headers-x86
             - gnu-efi-compat
             - gnu-efi-devel
             - libconfuse
@@ -8300,6 +8284,7 @@ data:
             - libfprint-devel
             - libftdi
             - libftdi-devel
+            - libguestfs-appliance
             - libjaylink
             - libjaylink-devel
             - libldac-devel
