@@ -26,7 +26,6 @@ data:
         - alsa-topology-utils
         - annobin
         - annobin-plugin-clang
-        - ant-contrib
         - anthy
         - anthy-devel
         - anthy-unicode-devel
@@ -41,7 +40,6 @@ data:
         - apache-commons-jxpath
         - apache-commons-logging-javadoc
         - apache-commons-parent
-        - apache-ivy
         - apache-parent
         - apache-resource-bundles
         - apiguardian
@@ -72,6 +70,9 @@ data:
         - avahi-gobject
         - avahi-gobject-devel
         - babl-devel
+        - batik
+        - batik-css
+        - batik-util
         - bcc-devel
         - bdftopcf
         - beakerlib
@@ -105,6 +106,7 @@ data:
         - binutils-x86_64-linux-gnu
         - binutils-xtensa-linux-gnu
         - bison-devel
+        - bitstream-vera-sans-fonts
         - blas
         - blas64
         - blas64_
@@ -119,6 +121,9 @@ data:
         - blis-threads64
         - blosc
         - blosc-devel
+        - bouncycastle
+        - bouncycastle-mail
+        - bouncycastle-pkix
         - Box2D-devel
         - breeze-icon-theme
         - brlapi-devel
@@ -166,6 +171,7 @@ data:
         - compat-golang-github-nats-io-server-2-devel
         - compat-golang-github-russross-blackfriday-2-devel
         - compat-golang-github-tdewolff-parse-2-devel
+        - compat-golang-gopkg-inconshreveable-log15-2-devel
         - compat-golang-k8s-klog-2-devel
         - compat-golang-mvdan-xurls-2-devel
         - compat-golang-sigs-k8s-structured-merge-diff-4-devel
@@ -249,12 +255,14 @@ data:
         - fmt-devel
         - foma
         - fontawesome-fonts-web
+        - fontbox
         - fontforge
         - fontforge-devel
         - fontforge-doc
         - fonts-rpm-macros
         - fonttools
         - fonttosfnt
+        - fop
         - freeglut-devel
         - freerdp-devel
         - freetds
@@ -631,8 +639,6 @@ data:
         - ghc-scientific
         - ghc-scientific-devel
         - ghc-scientific-prof
-        - ghc-semigroups
-        - ghc-semigroups-devel
         - ghc-setenv
         - ghc-setenv-devel
         - ghc-setenv-prof
@@ -816,18 +822,16 @@ data:
         - golang-github-alecthomas-units-devel
         - golang-github-andybalholm-cascadia-devel
         - golang-github-antihax-optional-devel
-        - golang-github-apache-thrift-devel
         - golang-github-armon-circbuf-devel
         - golang-github-armon-metrics-devel
         - golang-github-armon-radix-devel
-        - golang-github-aryann-difflib-devel
         - golang-github-asaskevich-govalidator-devel
-        - golang-github-aws-lambda-devel
         - golang-github-aws-sdk-2-devel
         - golang-github-aws-sdk-2-devel-0.24
         - golang-github-aws-sdk-devel
         - golang-github-aws-smithy-devel
         - golang-github-azure-autorest-devel
+        - golang-github-benbjohnson-clock-devel
         - golang-github-beorn7-perks-devel
         - golang-github-bgentry-speakeasy-devel
         - golang-github-bketelsen-crypt-devel
@@ -838,7 +842,6 @@ data:
         - golang-github-burntsushi-toml-test
         - golang-github-cactus-statsd-client-devel
         - golang-github-casbin-2-devel
-        - golang-github-casbin-devel
         - golang-github-cenkalti-backoff-devel
         - golang-github-census-instrumentation-opencensus-proto-devel
         - golang-github-census-instrumentation-opencensus-proto-devel-0.2
@@ -898,7 +901,6 @@ data:
         - golang-github-google-querystring-devel
         - golang-github-google-uuid-devel
         - golang-github-gophercloud-devel
-        - golang-github-gorilla-mux-devel
         - golang-github-gorilla-schema-devel
         - golang-github-gorilla-websocket-devel
         - golang-github-graph-gophers-graphql-devel
@@ -932,6 +934,7 @@ data:
         - golang-github-iancoleman-strcase-devel
         - golang-github-ianlancetaylor-demangle-devel
         - golang-github-imdario-mergo-devel
+        - golang-github-inconshreveable-log15-devel
         - golang-github-inconshreveable-vhost-devel
         - golang-github-influxdata-influxdb1-client-devel
         - golang-github-jbenet-context-devel
@@ -940,13 +943,11 @@ data:
         - golang-github-jmespath-devel
         - golang-github-jonboulle-clockwork-devel
         - golang-github-josharian-intern-devel
-        - golang-github-jpillora-backoff-devel
         - golang-github-json-iterator-devel
         - golang-github-jtolds-gls-devel
         - golang-github-julienschmidt-httprouter-devel
         - golang-github-k0kubun-ansi-devel
         - golang-github-kevinburke-ssh-config-devel
-        - golang-github-kisielk-gotool-devel
         - golang-github-kit-devel
         - golang-github-klauspost-compress-devel
         - golang-github-knetic-govaluate-devel
@@ -954,8 +955,6 @@ data:
         - golang-github-kr-pretty-devel
         - golang-github-kr-pty-devel
         - golang-github-kr-text-devel
-        - golang-github-lightstep-tracer-common-devel
-        - golang-github-lightstep-tracer-devel
         - golang-github-logfmt-devel
         - golang-github-logr-devel
         - golang-github-lyft-protoc-gen-star-devel
@@ -981,7 +980,6 @@ data:
         - golang-github-mock-devel
         - golang-github-modern-concurrent-devel
         - golang-github-modern-reflect2-devel
-        - golang-github-mwitkow-conntrack-devel
         - golang-github-mxk-flowrate-devel
         - golang-github-nats-io-devel
         - golang-github-nats-io-jwt-devel
@@ -997,13 +995,9 @@ data:
         - golang-github-openapi-jsonreference-devel
         - golang-github-openapi-spec-devel
         - golang-github-openapi-swag-devel
-        - golang-github-opentracing-basictracer-devel
-        - golang-github-opentracing-contrib-observer-devel
         - golang-github-opentracing-devel
-        - golang-github-openzipkin-contrib-zipkin-opentracing-devel
         - golang-github-openzipkin-zipkin-devel
         - golang-github-op-logging-devel
-        - golang-github-pborman-uuid-devel
         - golang-github-pelletier-buffruneio-devel
         - golang-github-pelletier-toml-devel
         - golang-github-performancecopilot-speed-devel
@@ -1017,7 +1011,6 @@ data:
         - golang-github-prometheus-client-devel
         - golang-github-prometheus-client-model-devel
         - golang-github-prometheus-common-devel
-        - golang-github-prometheus-common-promlog-devel
         - golang-github-prometheus-procfs-devel
         - golang-github-protobuf-devel
         - golang-github-puerkitobio-goquery-devel
@@ -1028,13 +1021,14 @@ data:
         - golang-github-rogpeppe-charset-devel
         - golang-github-rogpeppe-fastuuid-devel
         - golang-github-rogpeppe-internal-devel
+        - golang-github-rs-xid-devel
+        - golang-github-rs-zerolog-devel
         - golang-github-ryanuber-columnize-devel
         - golang-github-samuel-zookeeper-devel
         - golang-github-sanity-io-litter-devel
         - golang-github-schollz-progressbar-3-devel
         - golang-github-sean-seed-devel
         - golang-github-sergi-diff-devel
-        - golang-github-shirou-gopsutil-devel
         - golang-github-shopify-sarama-devel
         - golang-github-shopspring-decimal-devel
         - golang-github-shurcool-githubv4-devel
@@ -1064,14 +1058,10 @@ data:
         - golang-github-tdewolff-minify
         - golang-github-tdewolff-parse-devel
         - golang-github-tdewolff-test-devel
-        - golang-github-tklauser-numcpus-devel
-        - golang-github-tklauser-sysconf-devel
         - golang-github-tmc-grpc-websocket-proxy-devel
         - golang-github-tv42-httpunix-devel
         - golang-github-ugorji-devel
-        - golang-github-urfave-cli-2-devel
         - golang-github-urfave-cli-devel
-        - golang-github-urfave-negroni-devel
         - golang-github-vividcortex-gohistogram-devel
         - golang-github-xanzy-ssh-agent-devel
         - golang-github-xdg-scram-devel
@@ -1123,13 +1113,13 @@ data:
         - golang-mvdan-gofumpt-devel
         - golang-mvdan-xurls-devel
         - golang-opencensus-devel
+        - golang-opentelemetry-proto-devel
         - golang-rsc-binaryregexp-devel
         - golang-sigs-k8s-aws-iam-authenticator-devel
         - golang-sigs-k8s-structured-merge-diff-devel
         - golang-sigs-k8s-yaml-devel
-        - golang-sourcegraph-appdash-data-devel
-        - golang-sourcegraph-appdash-devel
         - golang-uber-atomic-devel
+        - golang-uber-goleak-devel
         - golang-uber-multierr-devel
         - golang-uber-zap-devel
         - golang-x-crypto-devel
@@ -1149,6 +1139,7 @@ data:
         - google-benchmark
         - google-benchmark-devel
         - google-gson
+        - google-noto-emoji-fonts
         - google-noto-sans-fonts
         - google-roboto-fonts
         - go-rpm-macros
@@ -1218,6 +1209,7 @@ data:
         - ibus-table-latin
         - ibus-table-translit
         - ibus-table-tv
+        - icc-profiles-openicc
         - icu
         - icu4j
         - ima-evm-utils-devel
@@ -1410,6 +1402,8 @@ data:
         - libappstream-glib-devel
         - libarchive-devel
         - libargon2-devel
+        - libart_lgpl
+        - libart_lgpl-devel
         - libassuan-devel
         - libasyncns-devel
         - libatasmart-devel
@@ -1450,6 +1444,7 @@ data:
         - libconfig-devel
         - libdaemon-devel
         - libdazzle-devel
+        - libdb-devel-static
         - libdbi
         - libdbi-devel
         - libdecor
@@ -2027,6 +2022,7 @@ data:
         - pangomm-devel
         - paper
         - parted-devel
+        - patchelf
         - patchutils
         - pcaudiolib-devel
         - pcp-libs-devel
@@ -2446,6 +2442,7 @@ data:
         - python3-cairo-devel
         - python3-certifi
         - python3-click
+        - python3-cmarkgfm
         - python3-colorama
         - python3-CommonMark
         - python3-constantly
@@ -2569,6 +2566,7 @@ data:
         - python3-pandocfilters
         - python3-parso
         - python3-pbr
+        - python3-pdfrw
         - python3-pebble
         - python3-pep517
         - python3-pickleshare
@@ -2618,9 +2616,11 @@ data:
         - python3-random2
         - python3-raven
         - python3-raven+flask
+        - python3-readme-renderer
         - python3-readthedocs-sphinx-ext
         - python3-recommonmark
         - python3-redis
+        - python3-reportlab
         - python3-requests-download
         - python3-requests-toolbelt
         - python3-requests-unixsocket
@@ -2710,6 +2710,7 @@ data:
         - python3-zope-event
         - python3-zope-interface
         - python3-zope-testing
+        - python3-zopfli
         - python-jupyter-client-doc
         - python-jupyter-filesystem
         - python-ldb-devel-common
@@ -2990,6 +2991,7 @@ data:
         - R-sp
         - R-sp-devel
         - R-spelling
+        - rst2pdf
         - R-stringi
         - R-stringr
         - R-styler
@@ -8085,6 +8087,7 @@ data:
         - xerces-c
         - xerces-c-devel
         - xfsprogs-devel
+        - xmlgraphics-commons
         - xmlrpc-c-c++
         - xmlrpc-c-client++
         - xmlrpc-c-devel
@@ -8095,6 +8098,7 @@ data:
         - xmlstreambuffer
         - xmlto
         - xmltoman
+        - xmlunit
         - xmlunit-assertj
         - xmlunit-core
         - xmlunit-legacy
@@ -8123,6 +8127,8 @@ data:
         - zchunk-devel
         - zeromq
         - zeromq-devel
+        - zopfli
+        - zopfli-devel
         - zziplib-devel
     arch_packages:
         aarch64:
