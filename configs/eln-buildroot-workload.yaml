@@ -272,6 +272,7 @@ data:
         - freexl
         - freexl-devel
         - fstrm-devel
+        - fsverity-utils
         - fsverity-utils-devel
         - fusesource-pom
         - fwupd-devel
@@ -1477,7 +1478,6 @@ data:
         - libfoma
         - libfontenc-devel
         - libfreehand-devel
-        - libfsverity
         - libgcab1-devel
         - libgdl
         - libgdl-devel
@@ -1729,17 +1729,12 @@ data:
         - lldpad-devel
         - lmdb
         - lmdb-devel
-        - Lmod
         - lockdev-devel
         - lpsolve-devel
         - lttng-ust-devel
         - lua-devel
-        - lua-filesystem
-        - lua-json
-        - lua-lpeg
         - lua-lunitx
         - luarocks
-        - lua-term
         - lynx
         - lzo-devel
         - lzo-minilzo
@@ -8159,7 +8154,6 @@ data:
             - libfprint-devel
             - libftdi
             - libftdi-devel
-            - libguestfs-appliance
             - libjaylink
             - libjaylink-devel
             - libldac-devel
@@ -8241,7 +8235,6 @@ data:
             - gnome-bluetooth
             - gnome-bluetooth-libs
             - libbsd
-            - libguestfs-appliance
             - libpcap-devel
             - libpmem-devel
             - libtomcrypt
@@ -8290,7 +8283,6 @@ data:
             - libfprint-devel
             - libftdi
             - libftdi-devel
-            - libguestfs-appliance
             - libjaylink
             - libjaylink-devel
             - libldac-devel
