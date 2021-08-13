@@ -276,8 +276,6 @@ data:
         - gdk-pixbuf2-xlib-devel
         - gdm-devel
         - gdm-pam-extensions-devel
-        - gedit
-        - gedit-devel
         - gegl04-devel
         - geoclue2-devel
         - gettext-common-devel
