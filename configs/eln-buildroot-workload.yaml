@@ -1695,7 +1695,6 @@ data:
         - libXxf86vm-devel
         - libyaml-devel
         - libyang-devel
-        - libytnef
         - libzip-devel
         - libzmf-devel
         - linkchecker
@@ -8013,21 +8012,33 @@ data:
             - qemu-ui-sdl
             - uuid
         s390x:
+            - anthy-unicode
             - bluez-obexd
             - btrfs-progs
             - clang
             - clang-devel
             - clang-tools-extra
+            - cldr-emoji-annotation
+            - cldr-emoji-annotation-dtd
             - compiler-rt
             - efi-filesystem
             - gnome-bluetooth
             - gnome-bluetooth-libs
+            - ibus-table
+            - ibus-table-chinese
+            - ibus-table-chinese-cangjie
+            - ibus-table-chinese-stroke5
+            - ibus-table-chinese-wubi-jidian
             - libbsd
+            - libhangul
             - libpcap-devel
+            - libpinyin
+            - libpinyin-data
             - libpmem-devel
             - libtomcrypt
             - libtommath
             - libxcrypt-compat
+            - libzhuyin
             - lldb
             - lldb-devel
             - llvm
@@ -8039,10 +8050,12 @@ data:
             - mingw32-filesystem
             - mingw-filesystem-base
             - ntfs-3g
+            - python3-enchant
             - python3-lit
             - python3-lldb
             - qemu-system-x86
             - qemu-system-x86-core
+            - unicode-ucd
             - uuid
         x86_64:
             - aspnetcore-runtime-5.0
