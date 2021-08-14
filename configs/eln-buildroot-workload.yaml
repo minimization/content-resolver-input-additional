@@ -1695,6 +1695,7 @@ data:
         - libXxf86vm-devel
         - libyaml-devel
         - libyang-devel
+        - libytnef
         - libzip-devel
         - libzmf-devel
         - linkchecker
