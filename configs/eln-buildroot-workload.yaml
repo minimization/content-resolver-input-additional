@@ -1568,7 +1568,6 @@ data:
         - libpath_utils-devel
         - libpciaccess-devel
         - libpeas-devel
-        - libphonenumber
         - libpinyin-devel
         - libpinyin-tools
         - libpipeline-devel
