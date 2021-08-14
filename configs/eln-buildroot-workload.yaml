@@ -834,6 +834,7 @@ data:
         - golang-github-briandowns-spinner-devel
         - golang-github-burntsushi-toml-devel
         - golang-github-burntsushi-toml-test
+        - golang-github-burntsushi-xgb-devel
         - golang-github-cactus-statsd-client-devel
         - golang-github-casbin-2-devel
         - golang-github-cenkalti-backoff-devel
@@ -884,6 +885,7 @@ data:
         - golang-github-gogo-protobuf-devel
         - golang-github-gomodule-redigo-devel
         - golang-github-googleapis-gax-devel
+        - golang-github-googleapis-gnostic-devel
         - golang-github-googleapis-gnostic-devel-0.4
         - golang-github-google-btree-devel
         - golang-github-google-cel-devel
@@ -1123,6 +1125,9 @@ data:
         - golang-uber-multierr-devel
         - golang-uber-zap-devel
         - golang-x-crypto-devel
+        - golang-x-exp-devel
+        - golang-x-image-devel
+        - golang-x-mobile-devel
         - golang-x-mod-devel
         - golang-x-net-devel
         - golang-x-net-http-devel
@@ -1563,6 +1568,7 @@ data:
         - libpath_utils-devel
         - libpciaccess-devel
         - libpeas-devel
+        - libphonenumber
         - libpinyin-devel
         - libpinyin-tools
         - libpipeline-devel
