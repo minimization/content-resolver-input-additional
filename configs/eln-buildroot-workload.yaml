@@ -15914,6 +15914,7 @@ data:
             - zopfli-devel
             - zziplib-devel
         s390x:
+        x86_64:
             - 389-ds-base-devel
             - abseil-cpp-devel
             - accountsservice-devel
@@ -15930,7 +15931,6 @@ data:
             - annobin-plugin-clang
             - anthy
             - anthy-devel
-            - anthy-unicode
             - anthy-unicode-devel
             - antlr3-java
             - antlr3-tool
@@ -15958,6 +15958,8 @@ data:
             - aspell
             - aspell-devel
             - aspell-en
+            - aspnetcore-runtime-5.0
+            - aspnetcore-targeting-pack-5.0
             - asymptote
             - atkmm-devel
             - augeas-devel
@@ -16018,7 +16020,6 @@ data:
             - blis-serial64
             - blis-threads
             - blis-threads64
-            - bluez-obexd
             - bouncycastle
             - bouncycastle-mail
             - bouncycastle-pkix
@@ -16044,12 +16045,7 @@ data:
             - cjose-devel
             - clamav-data
             - clamav-filesystem
-            - clang
-            - clang-devel
-            - clang-tools-extra
             - classloader-leak-test-framework
-            - cldr-emoji-annotation
-            - cldr-emoji-annotation-dtd
             - clucene-core-devel
             - clutter-devel
             - clutter-gst3-devel
@@ -16081,7 +16077,6 @@ data:
             - compat-lua-libs
             - compface
             - compface-devel
-            - compiler-rt
             - console-setup
             - corosynclib-devel
             - cppunit
@@ -16113,6 +16108,16 @@ data:
             - dom4j
             - dos2unix
             - dotconf-devel
+            - dotnet5.0-build-reference-packages
+            - dotnet-apphost-pack-5.0
+            - dotnet-build-reference-packages
+            - dotnet-hostfxr-5.0
+            - dotnet-runtime-5.0
+            - dotnet-sdk-3.1-source-built-artifacts
+            - dotnet-sdk-5.0
+            - dotnet-sdk-5.0-source-built-artifacts
+            - dotnet-targeting-pack-5.0
+            - dotnet-templates-5.0
             - double-conversion-devel
             - doxygen
             - doxygen2man
@@ -16121,7 +16126,7 @@ data:
             - dpkg-perl
             - e2fsprogs-devel
             - easymock
-            - efi-filesystem
+            - efivar-devel
             - eglexternalplatform-devel
             - egl-wayland-devel
             - eigen3-devel
@@ -16146,10 +16151,14 @@ data:
             - fftw-libs
             - fftw-libs-double
             - fftw-libs-long
+            - fftw-libs-quad
             - fftw-libs-single
             - file-devel
+            - firebird-devel
             - fish
             - flac-devel
+            - flashrom
+            - flashrom-devel
             - flatpak-devel
             - flexiblas-devel
             - flexiblas-netlib64
@@ -16706,10 +16715,10 @@ data:
             - gmock
             - gmock-devel
             - gnome-autoar-devel
-            - gnome-bluetooth
-            - gnome-bluetooth-libs
             - gnome-bluetooth-libs-devel
             - gnome-settings-daemon-devel
+            - gnu-efi-compat
+            - gnu-efi-devel
             - gnulib-devel
             - gnupg2-smime
             - gobject-introspection-devel
@@ -17113,11 +17122,6 @@ data:
             - hyphen-devel
             - iasl
             - ibus-devel
-            - ibus-table
-            - ibus-table-chinese
-            - ibus-table-chinese-cangjie
-            - ibus-table-chinese-stroke5
-            - ibus-table-chinese-wubi-jidian
             - ibus-table-code
             - ibus-table-devel
             - ibus-table-latin
@@ -17328,7 +17332,6 @@ data:
             - libblockdev-swap-devel
             - libblockdev-utils-devel
             - libbpf-static
-            - libbsd
             - libbsd-devel
             - libbson
             - libbson-devel
@@ -17347,6 +17350,8 @@ data:
             - libcmocka-devel
             - libcollection-devel
             - libconfig-devel
+            - libconfuse
+            - libconfuse-devel
             - libdaemon-devel
             - libdazzle-devel
             - libdb-devel-static
@@ -17375,13 +17380,17 @@ data:
             - libexif-devel
             - libexttextcat-devel
             - libfastjson-devel
+            - libfbclient2-devel
             - libfdisk-devel
             - libfdt-devel
             - libfido2-devel
             - libfl-static
             - libfoma
             - libfontenc-devel
+            - libfprint-devel
             - libfreehand-devel
+            - libftdi
+            - libftdi-devel
             - libgcab1-devel
             - libgdl
             - libgdl-devel
@@ -17406,7 +17415,6 @@ data:
             - libgusb-devel
             - libgxps-devel
             - libhandy-devel
-            - libhangul
             - libhangul-devel
             - libICE-devel
             - libIDL
@@ -17419,6 +17427,8 @@ data:
             - libiptcdata-devel
             - libiscsi-devel
             - libixion
+            - libjaylink
+            - libjaylink-devel
             - libjcat-devel
             - libjpeg-devel
             - libjpeg-turbo-devel
@@ -17427,6 +17437,7 @@ data:
             - libksba-devel
             - liblangtag-devel
             - liblangtag-gobject
+            - libldac-devel
             - libldb-devel
             - liblockfile-devel
             - liblognorm-devel
@@ -17487,15 +17498,11 @@ data:
             - libpamtest
             - libpaper-devel
             - libpath_utils-devel
-            - libpcap-devel
             - libpciaccess-devel
             - libpeas-devel
-            - libpinyin
-            - libpinyin-data
             - libpinyin-devel
             - libpinyin-tools
             - libpipeline-devel
-            - libpmem-devel
             - libpq-devel
             - libprelude
             - libprelude-devel
@@ -17553,9 +17560,7 @@ data:
             - libtidy
             - libtiff-tools
             - libtimezonemap-devel
-            - libtomcrypt
             - libtomcrypt-devel
-            - libtommath
             - libtommath-devel
             - libtool-ltdl-devel
             - libtpms-devel
@@ -17602,7 +17607,6 @@ data:
             - libwpg-devel
             - libwps-devel
             - libXaw-devel
-            - libxcrypt-compat
             - libXdmcp-devel
             - libXfont2-devel
             - libxkbcommon-x11-devel
@@ -17623,20 +17627,12 @@ data:
             - libXxf86vm-devel
             - libyaml-devel
             - libyang-devel
-            - libzhuyin
             - libzip-devel
             - libzmf-devel
             - linkchecker
             - linuxconsoletools
             - linuxdoc-tools
-            - lldb
-            - lldb-devel
             - lldpad-devel
-            - llvm
-            - llvm-devel
-            - llvm-googletest
-            - llvm-static
-            - llvm-test
             - lmdb
             - lmdb-devel
             - lockdev-devel
@@ -17745,13 +17741,12 @@ data:
             - mesa-libGLU-devel
             - mesa-libOSMesa
             - mesa-libOSMesa-devel
+            - mesa-libxatracker-devel
             - meson
             - metis
             - metis-devel
             - mingw32-binutils
             - mingw32-cpp
-            - mingw32-crt
-            - mingw32-filesystem
             - mingw32-gcc
             - mingw32-gcc-c++
             - mingw32-gettext
@@ -17796,7 +17791,6 @@ data:
             - mingw-binutils-generic
             - mingw-crt
             - mingw-filesystem
-            - mingw-filesystem-base
             - mingw-gcc
             - mingw-headers
             - mingw-libffi
@@ -17966,6 +17960,7 @@ data:
             - perl-Crypt-CBC
             - perl-Crypt-IDEA
             - perl-Crypt-OpenSSL-Guess
+            - perl-Crypt-PasswdMD5
             - perl-Crypt-PBKDF2
             - perl-Crypt-RC4
             - perl-CryptX
@@ -18361,7 +18356,6 @@ data:
             - python3-docutils
             - python3-dulwich
             - python3-elementpath
-            - python3-enchant
             - python3-entrypoints
             - python3-execnet
             - python3-extras
@@ -18429,11 +18423,10 @@ data:
             - python3-latexcodec
             - python3-lazy-object-proxy
             - python3-ldb-devel
+            - python3-libftdi
             - python3-libmount
             - python3-libnbd
             - python3-libpamtest
-            - python3-lit
-            - python3-lldb
             - python3-m2r
             - python3-mallard-ducktype
             - python3-markdown
@@ -18616,8 +18609,6 @@ data:
             - python-wheel-wheel
             - pythran
             - qdox
-            - qemu-system-x86
-            - qemu-system-x86-core
             - qhull-devel
             - qjson
             - qjson-devel
@@ -20053,6 +20044,7 @@ data:
             - speech-tools-libs-static
             - speex-devel
             - speexdsp-devel
+            - spice-server-devel
             - spirv-tools
             - spirv-tools-devel
             - startup-notification-devel
@@ -23768,14 +23760,12 @@ data:
             - umockdev-devel
             - unbound-devel
             - unicode-emoji
-            - unicode-ucd
             - upower-devel
             - usbguard-devel
             - usbredir-devel
             - userspace-rcu-devel
             - utf8cpp-devel
             - utf8proc-devel
-            - uuid
             - uuid-devel
             - vala
             - voikko-tools
@@ -23860,4 +23850,3 @@ data:
             - zopfli
             - zopfli-devel
             - zziplib-devel
-        x86_64:
