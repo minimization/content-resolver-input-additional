@@ -138,6 +138,8 @@ data:
         - cjose-devel
         - clamav-data
         - clamav-filesystem
+        - clang12-libs
+        - clang12-resource-filesystem
         - classloader-leak-test-framework
         - clucene-core-devel
         - clutter-devel
@@ -1707,6 +1709,9 @@ data:
         - linuxconsoletools
         - linuxdoc-tools
         - lldpad-devel
+        - llvm12
+        - llvm12-devel
+        - llvm12-static
         - lmdb-devel
         - lockdev-devel
         - lpsolve-devel
