@@ -145,6 +145,8 @@ data:
         - clutter-gtk-devel
         - codespell
         - cogl-devel
+        - colm
+        - colm-devel
         - colord-devel
         - colord-gtk-devel
         - compat-golang-github-aphistic-golf-devel
@@ -154,7 +156,6 @@ data:
         - compat-golang-github-codahale-hdrhistogram-devel
         - compat-golang-github-coreos-etcd-devel
         - compat-golang-github-cpuguy83-md2man-2-devel
-        - compat-golang-github-docopt-devel
         - compat-golang-github-godbus-dbus-5-devel
         - compat-golang-github-google-martian-3-devel
         - compat-golang-github-google-v35-devel
@@ -162,9 +163,7 @@ data:
         - compat-golang-github-nats-io-server-2-devel
         - compat-golang-github-russross-blackfriday-2-devel
         - compat-golang-gopkg-inconshreveable-log15-2-devel
-        - compat-golang-k8s-klog-2-devel
         - compat-golang-mvdan-xurls-2-devel
-        - compat-golang-sigs-k8s-structured-merge-diff-4-devel
         - compat-lua
         - compat-lua-devel
         - compat-lua-libs
@@ -800,11 +799,9 @@ data:
         - gobject-introspection-devel
         - go-filesystem
         - golang-antlr4-runtime-devel
-        - golang-bitbucket-ww-goautoneg-devel
         - golang-cloud-google-compute-devel
         - golang-cloud-google-devel
         - golang-code-cloudfoundry-bytefmt-devel
-        - golang-contrib-opencensus-exporter-ocagent-devel
         - golang-etcd-bbolt-devel
         - golang-etcd-devel
         - golang-github-acobaugh-osrelease-devel
@@ -818,27 +815,21 @@ data:
         - golang-github-armon-circbuf-devel
         - golang-github-armon-metrics-devel
         - golang-github-armon-radix-devel
-        - golang-github-asaskevich-govalidator-devel
         - golang-github-aws-sdk-2-devel
         - golang-github-aws-sdk-devel
         - golang-github-aws-smithy-devel
         - golang-github-aybabtme-rgbterm-devel
-        - golang-github-azure-autorest-devel
         - golang-github-benbjohnson-clock-devel
         - golang-github-beorn7-perks-devel
         - golang-github-bgentry-speakeasy-devel
         - golang-github-bketelsen-crypt-devel
-        - golang-github-blang-semver-devel
-        - golang-github-bradfitz-gomemcache-devel
         - golang-github-briandowns-spinner-devel
         - golang-github-burntsushi-toml-devel
         - golang-github-burntsushi-toml-test
-        - golang-github-burntsushi-xgb-devel
         - golang-github-cactus-statsd-client-devel
         - golang-github-casbin-2-devel
         - golang-github-cenkalti-backoff-devel
         - golang-github-census-instrumentation-opencensus-proto-devel
-        - golang-github-census-instrumentation-opencensus-proto-devel-0.2
         - golang-github-cespare-xxhash-devel
         - golang-github-chzyer-test-devel
         - golang-github-circonus-labs-apiclient-devel
@@ -856,23 +847,16 @@ data:
         - golang-github-datadog-devel
         - golang-github-davecgh-spew-devel
         - golang-github-dgrijalva-jwt-devel
-        - golang-github-dimchansky-utfbom-devel
-        - golang-github-docker-spdystream-devel
         - golang-github-docker-units-devel
-        - golang-github-docopt-devel
         - golang-github-dustin-humanize-devel
         - golang-github-eapache-queue-devel
         - golang-github-eapache-resiliency-devel
         - golang-github-eapache-xerial-snappy-devel
         - golang-github-edsrzf-mmap-devel
-        - golang-github-elazarl-goproxy-devel
-        - golang-github-emicklei-restful-devel
         - golang-github-emirpasic-gods-devel
         - golang-github-envoyproxy-control-plane-devel
         - golang-github-envoyproxy-protoc-gen-validate-devel
-        - golang-github-evanphx-json-patch-devel
         - golang-github-fatih-color-devel
-        - golang-github-form3tech-oss-jwt-devel
         - golang-github-fortytw2-leaktest-devel
         - golang-github-franela-goblin-devel
         - golang-github-franela-goreq-devel
@@ -880,27 +864,19 @@ data:
         - golang-github-ghodss-yaml-devel
         - golang-github-glog-devel
         - golang-github-godbus-dbus-devel
-        - golang-github-gofrs-flock-devel
         - golang-github-gogo-protobuf-devel
-        - golang-github-gomodule-redigo-devel
         - golang-github-googleapis-gax-devel
-        - golang-github-googleapis-gnostic-devel
-        - golang-github-googleapis-gnostic-devel-0.4
         - golang-github-google-btree-devel
         - golang-github-google-cel-devel
         - golang-github-google-cel-spec-devel
         - golang-github-google-cmp-devel
         - golang-github-google-devel
-        - golang-github-google-gofuzz-devel
         - golang-github-google-martian-devel
         - golang-github-google-pprof-devel
         - golang-github-google-querystring-devel
         - golang-github-google-uuid-devel
-        - golang-github-gophercloud-devel
-        - golang-github-gorilla-schema-devel
         - golang-github-gorilla-websocket-devel
         - golang-github-graph-gophers-graphql-devel
-        - golang-github-gregjones-httpcache-devel
         - golang-github-groupcache-devel
         - golang-github-grpc-ecosystem-gateway-devel
         - golang-github-grpc-ecosystem-middleware-devel
@@ -931,14 +907,12 @@ data:
         - golang-github-ianlancetaylor-demangle-devel
         - golang-github-imdario-mergo-devel
         - golang-github-inconshreveable-log15-devel
-        - golang-github-inconshreveable-vhost-devel
         - golang-github-influxdata-influxdb1-client-devel
         - golang-github-jbenet-context-devel
         - golang-github-jcmturner-gofork-devel
         - golang-github-jessevdk-flags-devel
         - golang-github-jmespath-devel
         - golang-github-jonboulle-clockwork-devel
-        - golang-github-josharian-intern-devel
         - golang-github-jpillora-backoff-devel
         - golang-github-json-iterator-devel
         - golang-github-jtolds-gls-devel
@@ -954,10 +928,8 @@ data:
         - golang-github-kr-pty-devel
         - golang-github-kr-text-devel
         - golang-github-logfmt-devel
-        - golang-github-logr-devel
         - golang-github-lyft-protoc-gen-star-devel
         - golang-github-magiconair-properties-devel
-        - golang-github-mailru-easyjson-devel
         - golang-github-masterminds-goutils-devel
         - golang-github-masterminds-semver-devel
         - golang-github-masterminds-sprig-devel
@@ -973,33 +945,23 @@ data:
         - golang-github-mitchellh-mapstructure-devel
         - golang-github-mitchellh-reflectwalk-devel
         - golang-github-mitchellh-wordwrap-devel
-        - golang-github-mjibson-appstats-devel
         - golang-github-mock-devel
         - golang-github-modern-concurrent-devel
         - golang-github-modern-reflect2-devel
         - golang-github-mwitkow-conntrack-devel
-        - golang-github-mxk-flowrate-devel
         - golang-github-nats-io-devel
         - golang-github-nats-io-jwt-devel
         - golang-github-nats-io-nkeys-devel
         - golang-github-nats-io-nuid-devel
         - golang-github-nats-io-server-devel
-        - golang-github-nxadm-tail-devel
-        - golang-github-nytimes-gziphandler-devel
         - golang-github-olekukonko-tablewriter-devel
-        - golang-github-onsi-ginkgo-devel
         - golang-github-onsi-gomega-devel
-        - golang-github-openapi-jsonpointer-devel
-        - golang-github-openapi-jsonreference-devel
-        - golang-github-openapi-spec-devel
-        - golang-github-openapi-swag-devel
         - golang-github-opentracing-devel
         - golang-github-openzipkin-zipkin-devel
         - golang-github-op-logging-devel
         - golang-github-pelletier-buffruneio-devel
         - golang-github-pelletier-toml-devel
         - golang-github-performancecopilot-speed-devel
-        - golang-github-peterbourgon-diskv-devel
         - golang-github-pierrec-cmdflag-devel
         - golang-github-pierrec-lz4-devel
         - golang-github-pkg-errors-devel
@@ -1012,11 +974,8 @@ data:
         - golang-github-prometheus-procfs-devel
         - golang-github-protobuf-devel
         - golang-github-puerkitobio-goquery-devel
-        - golang-github-puerkitobio-purell-devel
-        - golang-github-puerkitobio-urlesc-devel
         - golang-github-rcrowley-metrics-devel
         - golang-github-rivo-uniseg-devel
-        - golang-github-rogpeppe-charset-devel
         - golang-github-rogpeppe-fastuuid-devel
         - golang-github-rogpeppe-internal-devel
         - golang-github-rs-xid-devel
@@ -1053,7 +1012,6 @@ data:
         - golang-github-stretchr-objx-devel
         - golang-github-stretchr-testify-devel
         - golang-github-subosito-gotenv-devel
-        - golang-github-syndtr-goleveldb-devel
         - golang-github-tj-assert-devel
         - golang-github-tj-buffer-devel
         - golang-github-tj-elastic-devel
@@ -1083,7 +1041,6 @@ data:
         - golang-gopkg-cheggaaa-pb-1-devel
         - golang-gopkg-errgo-2-devel
         - golang-gopkg-gcfg-1-devel
-        - golang-gopkg-inf-0-devel
         - golang-gopkg-ini-1-devel
         - golang-gopkg-jcmturner-aescts-1-devel
         - golang-gopkg-jcmturner-dnsutils-1-devel
@@ -1096,39 +1053,22 @@ data:
         - golang-gopkg-src-d-billy-4-devel
         - golang-gopkg-src-d-git-4-devel
         - golang-gopkg-src-d-git-fixtures-3-devel
-        - golang-gopkg-tomb-1-devel
-        - golang-gopkg-vmihailenco-msgpack-2-devel
         - golang-gopkg-warnings-0-devel
         - golang-gopkg-yaml-1-devel
         - golang-gopkg-yaml-2-devel
         - golang-gopkg-yaml-3-devel
-        - golang-hein-version-devel
         - golang-honnef-tools-devel
-        - golang-k8s-api-devel
-        - golang-k8s-apimachinery-devel
-        - golang-k8s-client-devel
-        - golang-k8s-component-base-devel
-        - golang-k8s-gengo-devel
-        - golang-k8s-klog-devel
-        - golang-k8s-kube-openapi-devel
-        - golang-k8s-sample-controller-devel
-        - golang-k8s-utils-devel
         - golang-mvdan-gofumpt-devel
         - golang-mvdan-xurls-devel
         - golang-opencensus-devel
         - golang-opentelemetry-proto-devel
         - golang-rsc-binaryregexp-devel
-        - golang-sigs-k8s-aws-iam-authenticator-devel
-        - golang-sigs-k8s-structured-merge-diff-devel
         - golang-sigs-k8s-yaml-devel
         - golang-uber-atomic-devel
         - golang-uber-goleak-devel
         - golang-uber-multierr-devel
         - golang-uber-zap-devel
         - golang-x-crypto-devel
-        - golang-x-exp-devel
-        - golang-x-image-devel
-        - golang-x-mobile-devel
         - golang-x-mod-devel
         - golang-x-net-devel
         - golang-x-net-http-devel
@@ -2610,6 +2550,7 @@ data:
         - python3-pytest-cov
         - python3-pytest-expect
         - python3-pytest-forked
+        - python3-pytest-grpc
         - python3-pytest-httpbin
         - python3-pytest-mock
         - python3-pytest-randomly
@@ -2789,6 +2730,7 @@ data:
         - qtwebkit-devel
         - qt-x11
         - quota-devel
+        - ragel
         - rapidjson-devel
         - raptor2-devel
         - R-askpass
@@ -2905,6 +2847,7 @@ data:
         - rubygem-bacon
         - rubygem-builder
         - rubygem-childprocess
+        - rubygem-chronic
         - rubygem-coderay
         - rubygem-coffee-script
         - rubygem-coffee-script-source
@@ -2922,6 +2865,7 @@ data:
         - rubygem-cucumber-wire
         - rubygem-curb
         - rubygem-dalli
+        - rubygem-delorean
         - rubygem-ejs
         - rubygem-em-http-request
         - rubygem-em-socksify
@@ -2930,8 +2874,10 @@ data:
         - rubygem-eventmachine
         - rubygem-excon
         - rubygem-execjs
+        - rubygem-faraday
         - rubygem-ffi
         - rubygem-flexmock
+        - rubygem-formatador
         - rubygem-gherkin
         - rubygem-globalid
         - rubygem-haml
@@ -2957,18 +2903,24 @@ data:
         - rubygem-minitest-around
         - rubygem-mocha
         - rubygem-multi_json
+        - rubygem-multipart-post
         - rubygem-multi_test
         - rubygem-mustache
+        - rubygem-mustermann
+        - rubygem-net-http-persistent
         - rubygem-nio4r
         - rubygem-nokogiri
+        - rubygem-open4
         - rubygem-pdf-core
         - rubygem-pdf-inspector
         - rubygem-pdf-reader
         - rubygem-prawn
         - rubygem-pry
         - rubygem-public_suffix
+        - rubygem-puma
         - rubygem-racc
         - rubygem-rack
+        - rubygem-rack-protection
         - rubygem-rack-test
         - rubygem-rails
         - rubygem-rails-dom-testing
@@ -2988,7 +2940,9 @@ data:
         - rubygem-sassc
         - rubygem-sassc-rails
         - rubygem-sass-rails
+        - rubygem-shindo
         - rubygem-shoulda-context
+        - rubygem-sinatra
         - rubygem-sprockets
         - rubygem-sprockets-rails
         - rubygem-sqlite3
