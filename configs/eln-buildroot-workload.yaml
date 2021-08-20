@@ -138,8 +138,6 @@ data:
         - cjose-devel
         - clamav-data
         - clamav-filesystem
-        - clang12-libs
-        - clang12-resource-filesystem
         - classloader-leak-test-framework
         - clucene-core-devel
         - clutter-devel
@@ -8091,6 +8089,8 @@ data:
             - btrfs-progs
             - clang
             - clang-devel
+            - clang-libs
+            - clang-resource-filesystem
             - clang-tools-extra
             - cldr-emoji-annotation
             - cldr-emoji-annotation-dtd
@@ -8118,7 +8118,6 @@ data:
             - llvm
             - llvm-devel
             - llvm-googletest
-            - llvm-libs
             - llvm-static
             - llvm-test
             - mingw32-crt
