@@ -73,6 +73,7 @@ data:
         - bdftopcf
         - beakerlib
         - beust-jcommander
+        - bind-devel
         - binutils-aarch64-linux-gnu
         - binutils-alpha-linux-gnu
         - binutils-arc-linux-gnu
@@ -1623,8 +1624,6 @@ data:
         - libspiro-devel
         - libsrtp-devel
         - libss-devel
-        - libsss_certmap-devel
-        - libsss_idmap-devel
         - libsss_nss_idmap-devel
         - libstaroffice-devel
         - libstemmer-devel
@@ -2523,11 +2522,9 @@ data:
         - python3-latexcodec
         - python3-lazy-object-proxy
         - python3-ldb-devel
-        - python3-lesscpy
         - python3-libmount
         - python3-libnbd
         - python3-libpamtest
-        - python3-libsss_nss_idmap
         - python3-lockfile
         - python3-m2r
         - python3-mallard-ducktype
@@ -2641,7 +2638,6 @@ data:
         - python3-responses
         - python3-rfc3986
         - python3-rfc3986+idna2008
-        - python3-rjsmin
         - python3-rst-linker
         - python3-ruamel-yaml
         - python3-ruamel-yaml-clib
@@ -4153,7 +4149,6 @@ data:
         - R-xtable
         - R-yaml
         - R-zoo
-        - samba-dc-libs
         - samba-devel
         - samba-pidl
         - sane-backends-devel
