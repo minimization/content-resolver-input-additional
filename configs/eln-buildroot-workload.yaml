@@ -45,6 +45,10 @@ data:
         - aqute-bnd
         - aqute-bndlib
         - args4j
+        - armadillo
+        - armadillo-devel
+        - arpack
+        - arpack-devel
         - asciidoc
         - asio-devel
         - aspell
@@ -54,7 +58,6 @@ data:
         - atkmm-devel
         - augeas-devel
         - autoconf213
-        - automoc
         - autotrace
         - avahi-devel
         - avahi-glib-devel
@@ -110,6 +113,8 @@ data:
         - blis-serial64
         - blis-threads
         - blis-threads64
+        - blosc
+        - blosc-devel
         - bouncycastle
         - bouncycastle-mail
         - bouncycastle-pkix
@@ -124,7 +129,11 @@ data:
         - cairomm-devel
         - c-ares-devel
         - catch-devel
+        - cctz
+        - cctz-devel
         - cdparanoia-devel
+        - cfitsio
+        - cfitsio-devel
         - cglib
         - chan
         - chan-devel
@@ -147,6 +156,7 @@ data:
         - colord-gtk-devel
         - compat-golang-github-cpuguy83-md2man-2-devel
         - compat-golang-github-russross-blackfriday-2-devel
+        - compat-golang-github-tdewolff-parse-2-devel
         - compat-golang-mvdan-xurls-2-devel
         - compat-lua
         - compat-lua-devel
@@ -243,6 +253,8 @@ data:
         - freetds-devel
         - freetds-libs
         - freetype-demos
+        - freexl
+        - freexl-devel
         - fstrm-devel
         - fsverity-utils
         - fsverity-utils-devel
@@ -254,6 +266,8 @@ data:
         - gc-devel
         - GConf2
         - GConf2-devel
+        - gdal-devel
+        - gdal-libs
         - gd-devel
         - gdk-pixbuf2-xlib
         - gdk-pixbuf2-xlib-devel
@@ -262,6 +276,8 @@ data:
         - gedit-devel
         - gegl04-devel
         - geoclue2-devel
+        - geos
+        - geos-devel
         - gettext-common-devel
         - gettext-devel
         - gfbgraph-devel
@@ -777,6 +793,8 @@ data:
         - glslc
         - glusterfs-api-devel
         - glusterfs-devel
+        - glyphicons-halflings-fonts
+        - glyphography-newscycle-fonts
         - gmock
         - gmock-devel
         - gnome-autoar-devel
@@ -794,6 +812,7 @@ data:
         - golang-github-cpuguy83-md2man-devel
         - golang-github-davecgh-spew-devel
         - golang-github-docker-units-devel
+        - golang-github-dustin-humanize-devel
         - golang-github-fatih-color-devel
         - golang-github-fsnotify-devel
         - golang-github-godbus-dbus-devel
@@ -803,6 +822,7 @@ data:
         - golang-github-jtolds-gls-devel
         - golang-github-kr-fs-devel
         - golang-github-magiconair-properties-devel
+        - golang-github-matryer-try-devel
         - golang-github-mattn-colorable-devel
         - golang-github-mattn-isatty-devel
         - golang-github-mitchellh-homedir-devel
@@ -826,6 +846,9 @@ data:
         - golang-github-stretchr-objx-devel
         - golang-github-stretchr-testify-devel
         - golang-github-subosito-gotenv-devel
+        - golang-github-tdewolff-minify
+        - golang-github-tdewolff-parse-devel
+        - golang-github-tdewolff-test-devel
         - golang-github-urfave-cli-devel
         - golang-github-yuin-goldmark-devel
         - golang-gopkg-errgo-2-devel
@@ -853,6 +876,7 @@ data:
         - google-gson
         - google-noto-emoji-fonts
         - google-noto-sans-fonts
+        - google-roboto-fonts
         - go-rpm-macros
         - gperf
         - gperftools-devel
@@ -890,6 +914,15 @@ data:
         - hardlink
         - hawtjni
         - hawtjni-runtime
+        - hdf5
+        - hdf5-devel
+        - hdf5-mpich
+        - hdf5-mpich-devel
+        - hdf5-openmpi
+        - hdf5-openmpi-devel
+        - hdf-devel
+        - hdf-libs
+        - hdf-static
         - HdrHistogram_c
         - HdrHistogram_c-devel
         - help2man
@@ -918,11 +951,15 @@ data:
         - icu
         - ima-evm-utils-devel
         - ImageMagick
+        - ImageMagick-c++
+        - ImageMagick-c++-devel
+        - ImageMagick-devel
         - ImageMagick-libs
         - imake
         - imaptest
         - imath
         - imath-devel
+        - impallari-raleway-fonts
         - intltool
         - iptables-devel
         - iptables-legacy-devel
@@ -1084,6 +1121,8 @@ data:
         - ldns-devel
         - lensfun
         - lensfun-devel
+        - leptonica
+        - leptonica-devel
         - leveldb
         - leveldb-devel
         - liba52-devel
@@ -1091,6 +1130,8 @@ data:
         - libabw-devel
         - libacl-devel
         - libadwaita-qt5-devel
+        - libaec
+        - libaec-devel
         - libao-devel
         - libappstream-glib-devel
         - libarchive-devel
@@ -1104,6 +1145,8 @@ data:
         - libatomic_ops-devel
         - libatomic_ops-static
         - libattr-devel
+        - libb2
+        - libb2-devel
         - libbasicobjects-devel
         - libblockdev-crypto-devel
         - libblockdev-devel
@@ -1173,6 +1216,8 @@ data:
         - libgdl
         - libgdl-devel
         - libgee-devel
+        - libgeotiff
+        - libgeotiff-devel
         - libgexiv2-devel
         - libgfapi-devel
         - libgfrpc-devel
@@ -1186,6 +1231,8 @@ data:
         - libgnomekbd-devel
         - libgphoto2-devel
         - libgsf-devel
+        - libgta
+        - libgta-devel
         - libgtop2-devel
         - libgudev-devel
         - libguestfs-devel
@@ -1211,6 +1258,8 @@ data:
         - libjpeg-devel
         - libjpeg-turbo-devel
         - libkcapi-fipscheck
+        - libkml
+        - libkml-devel
         - libknet1-devel
         - libksba-devel
         - liblangtag-devel
@@ -1292,7 +1341,6 @@ data:
         - libqhull_p
         - libqhull_r
         - libqmi-devel
-        - libqrcodegencpp-devel
         - libqrtr-glib-devel
         - libqxp-devel
         - librabbitmq
@@ -1306,6 +1354,10 @@ data:
         - librhsm-devel
         - libRmath
         - librsvg2-devel
+        - librttopo
+        - librttopo-devel
+        - librx
+        - librx-devel
         - libsamplerate-devel
         - libsass
         - libserf
@@ -1321,6 +1373,8 @@ data:
         - libsndfile-devel
         - libsodium
         - libsodium-devel
+        - libspatialite
+        - libspatialite-devel
         - libspectre-devel
         - libspiro
         - libspiro-devel
@@ -1566,6 +1620,8 @@ data:
         - mingw-pkg-config
         - mingw-w64-tools
         - mingw-zlib
+        - minizip
+        - minizip-devel
         - mlocate
         - mm-common
         - mobile-broadband-provider-info-devel
@@ -1591,6 +1647,8 @@ data:
         - nautilus-devel
         - ncompress
         - neon-devel
+        - netcdf
+        - netcdf-devel
         - newt-devel
         - neXtaw
         - neXtaw-devel
@@ -1637,6 +1695,8 @@ data:
         - ocaml-runtime
         - ocaml-xml-light
         - ocaml-xml-light-devel
+        - ogdi
+        - ogdi-devel
         - oldstandard-sfd-fonts
         - oniguruma-devel
         - openal-soft-devel
@@ -2011,8 +2071,6 @@ data:
         - perl-YAML-LibYAML
         - perl-YAML-Syck
         - perl-YAML-Tiny
-        - phonon-qt4
-        - phonon-qt4-devel
         - phonon-qt5
         - phonon-qt5-devel
         - physfs
@@ -2054,6 +2112,8 @@ data:
         - pps-tools-devel
         - procps
         - procps-ng-devel
+        - proj
+        - proj-devel
         - protobuf-c-compiler
         - protobuf-c-devel
         - protobuf-devel
@@ -2092,6 +2152,7 @@ data:
         - python3-betamax
         - python3-bleach
         - python3-blinker
+        - python3-Bottleneck
         - python3-breathe
         - python3-brotli
         - python3-bson
@@ -2240,6 +2301,8 @@ data:
         - python3-nest_asyncio
         - python3-nose
         - python3-notebook
+        - python3-numexpr
+        - python3-numpydoc
         - python3-oauth2client
         - python3-olefile
         - python3-opencensus-proto
@@ -2248,6 +2311,7 @@ data:
         - python3-opentracing
         - python3-outcome
         - python3-Pallets-Sphinx-Themes
+        - python3-pandas
         - python3-pandocfilters
         - python3-parso
         - python3-pastel
@@ -2287,9 +2351,6 @@ data:
         - python3-pylint
         - python3-pymongo
         - python3-pyOpenSSL
-        - python3-PyQt4
-        - python3-PyQt4-devel
-        - python3-pyqt4-sip
         - python3-pytest
         - python3-pytest-aiohttp
         - python3-pytest-asyncio
@@ -2337,7 +2398,6 @@ data:
         - python3-setuptools_scm
         - python3-setuptools_scm_git_archive
         - python3-shellingham
-        - python3-sip-devel
         - python3-smartypants
         - python3-sniffio
         - python3-snowballstemmer
@@ -2374,6 +2434,7 @@ data:
         - python3-sqlalchemy
         - python3-sqlparse
         - python3-sure
+        - python3-tables
         - python3-talloc-devel
         - python3-tempora
         - python3-terminado
@@ -2457,47 +2518,73 @@ data:
         - qt5-qtxmlpatterns-devel
         - qt-common
         - qt-devel
-        - qt-mobility
-        - qt-mobility-bearer
-        - qt-mobility-common
-        - qt-mobility-connectivity
-        - qt-mobility-devel
-        - qt-mobility-feedback
-        - qt-mobility-gallery
-        - qt-mobility-location
-        - qt-mobility-multimediakit
-        - qt-mobility-pim
-        - qt-mobility-publishsubscribe
-        - qt-mobility-sensors
-        - qt-mobility-serviceframework
-        - qt-mobility-systeminfo
         - qt-settings
-        - qtwebkit
-        - qtwebkit-devel
         - qt-x11
         - quota-devel
+        - R-abind
         - ragel
         - rapidjson-devel
         - raptor2-devel
+        - R-argon2
+        - R-ascii
+        - R-AsioHeaders-devel
         - R-askpass
         - rasqal-devel
+        - R-assertthat
+        - R-AUC
+        - R-backports
         - R-base64enc
+        - R-bench
+        - R-BH-devel
+        - R-biglm
+        - R-Biobase
+        - R-BiocGenerics
+        - R-bit
+        - R-bit64
         - R-bitops
+        - R-blob
+        - R-brew
         - R-brio
+        - R-broom
+        - R-cachem
         - R-Cairo
         - R-callr
+        - R-car
         - R-cli
+        - R-cliapp
+        - R-clipr
+        - R-clisymbols
+        - R-coda
+        - R-colorspace
         - R-commonmark
+        - R-conflicted
         - R-core
         - R-core-devel
+        - R-covr
         - R-cpp11
+        - R-cpp11-devel
         - R-crayon
+        - R-credentials
+        - R-crosstalk
         - R-curl
+        - R-cyclocomp
+        - R-data.table
+        - R-DBI
+        - R-DBItest
+        - R-dbplyr
+        - R-debugme
         - R-desc
         - R-devel
+        - R-devtools
+        - R-dichromat
         - R-diffobj
         - R-digest
+        - R-digest-devel
         - R-disposables
+        - R-downlit
+        - R-dplyr
+        - R-DT
+        - R-DynDoc
         - re2-devel
         - readline-devel
         - redhat-display-fonts
@@ -2509,11 +2596,33 @@ data:
         - rest-devel
         - R-evaluate
         - R-fansi
+        - R-farver
         - R-fastmap
+        - R-filelock
+        - R-foghorn
+        - R-forcats
+        - R-fs
+        - R-future
+        - R-gapminder
+        - R-gargle
+        - R-gdata
+        - R-generics
+        - R-gert
+        - R-getPass
+        - R-ggplot2
+        - R-ggplot2movies
         - R-gh
+        - R-git2r
         - R-gitcreds
+        - R-globals
         - R-glue
+        - R-gmailr
+        - R-gtable
+        - R-gtools
+        - R-here
+        - R-hexbin
         - R-highr
+        - R-hms
         - R-htmltools
         - R-htmlwidgets
         - R-httpuv
@@ -2521,60 +2630,147 @@ data:
         - R-hunspell
         - R-ini
         - R-inline
+        - R-IRdisplay
+        - R-isoband
         - R-java-devel
+        - R-jpeg
         - R-jsonlite
         - R-knitr
+        - R-labeling
         - R-later
         - R-later-devel
+        - R-lazyeval
         - R-lifecycle
+        - R-lintr
+        - R-listenv
+        - R-lmodel2
+        - R-lmtest
+        - R-lobstr
+        - R-lpSolve
+        - R-lubridate
+        - R-magick
         - R-magrittr
+        - R-mapproj
+        - R-maps
         - R-markdown
+        - R-memoise
+        - R-microbenchmark
         - R-mime
         - R-mockery
+        - R-mockr
+        - R-multcomp
+        - R-munsell
+        - R-mvtnorm
+        - R-nycflights13
+        - R-odbc
         - R-openssl
+        - R-orcutt
+        - R-packrat
+        - R-pak
+        - R-parallelly
+        - R-parsedate
         - R-pdftools
         - R-pillar
         - R-pingr
         - R-pkgbuild
+        - R-pkgcache
         - R-pkgconfig
+        - R-pkgdown
         - R-pkgload
+        - R-plogr
+        - R-plogr-devel
+        - R-plyr
         - rpm-ostree-devel
         - R-png
         - R-praise
+        - R-prettycode
+        - R-prettydoc
         - R-prettyunits
         - R-processx
+        - R-profmem
+        - R-profvis
+        - R-progress
         - R-promises
         - R-ps
+        - R-purrr
         - R-qpdf
         - R-R6
         - R-ragg
+        - R-rappdirs
+        - R-R.cache
+        - R-rcmdcheck
+        - R-RColorBrewer
         - R-Rcpp
         - R-Rcpp-devel
         - R-RCurl
+        - R-R.devices
         - rrdtool-devel
         - rrdtool-perl
+        - R-readr
+        - R-rematch
         - R-rematch2
+        - R-remotes
+        - R-repr
+        - R-repurrrsive
+        - R-reticulate
+        - R-rex
+        - R-rgdal
+        - R-rgeos
+        - R-RhpcBLASctl
+        - R-rhub
         - R-rlang
+        - R-RMariaDB
+        - R-rmarkdown
+        - R-R.methodsS3
+        - R-RODBC
+        - R-R.oo
+        - R-roxygen2
         - R-rpm-macros
+        - R-RPostgres
+        - R-rprintf
         - R-rprojroot
+        - R-R.rsp
+        - R-rsconnect
+        - R-RSQLite
         - R-rstudioapi
+        - R-rsvg
         - R-RUnit
+        - R-R.utils
+        - R-rversions
+        - R-rvest
+        - R-sandwich
+        - R-scales
+        - R-selectr
+        - R-sessioninfo
         - rsh
         - R-shiny
+        - R-showtext
+        - R-showtextdb
         - R-sodium
         - R-sourcetools
+        - R-sp
+        - R-sp-devel
         - R-spelling
         - rst2pdf
         - R-stringi
         - R-stringr
+        - R-styler
+        - R-svglite
         - R-sys
+        - R-sysfonts
         - R-systemfonts
         - R-systemfonts-devel
+        - R-tesseract
         - R-testit
         - R-testthat
         - R-textshaping
         - R-textshaping-devel
+        - R-TH-data
         - R-tibble
+        - R-tidyr
+        - R-tidyselect
+        - R-tinytex
+        - R-tkWidgets
         - rubygem-actioncable
         - rubygem-actionmailbox
         - rubygem-actionmailer
@@ -2713,6 +2909,7 @@ data:
         - rubygem-websocket-driver
         - rubygem-websocket-extensions
         - rubygem-zeitwerk
+        - R-usethis
         - rust-adler32+default-devel
         - rust-adler32-devel
         - rust-adler32+std-devel
@@ -3834,17 +4031,28 @@ data:
         - rust-xz2+default-devel
         - rust-xz2-devel
         - R-utf8
+        - R-uuid
         - R-vctrs
+        - R-viridisLite
         - R-waldo
+        - R-webfakes
+        - R-webp
         - R-websocket
+        - R-wesanderson
+        - R-whisker
         - R-whoami
+        - R-widgetTools
         - R-withr
         - R-xfun
         - R-XML
         - R-xml2
+        - R-xmlparsedata
+        - R-xopen
         - R-xtable
         - R-yaml
+        - R-zip
         - R-zoo
+        - R-zoo-devel
         - samba-devel
         - samba-pidl
         - sane-backends-devel
@@ -3864,7 +4072,6 @@ data:
         - sg3_utils-devel
         - sharutils
         - ShellCheck
-        - sip
         - sip6
         - sisu-mojos
         - slang-devel
@@ -3901,6 +4108,10 @@ data:
         - taglib-devel
         - teamd-devel
         - teckit-devel
+        - tesseract
+        - tesseract-devel
+        - tesseract-langpack-eng
+        - tesseract-tessdata-doc
         - testng
         - texi2html
         - texinfo
@@ -7586,8 +7797,6 @@ data:
         - ttfautohint-libs
         - twolame-devel
         - uchardet-devel
-        - ucpp
-        - ucpp-libs
         - uglify-js
         - uid_wrapper
         - umockdev
@@ -7595,6 +7804,8 @@ data:
         - unbound-devel
         - unicode-emoji
         - upower-devel
+        - uriparser
+        - uriparser-devel
         - usbguard-devel
         - usbredir-devel
         - userspace-rcu-devel
@@ -7609,10 +7820,12 @@ data:
         - web-assets-devel
         - web-assets-filesystem
         - webrtc-audio-processing-devel
+        - websocketpp-devel
         - wireshark-devel
         - woff2-devel
         - wordnet
         - wpebackend-fdo-devel
+        - wqy-microhei-fonts
         - wsdl4j
         - wxBase3
         - wxBase3-devel
@@ -7640,6 +7853,8 @@ data:
         - xemacs-nox
         - xemacs-packages-base
         - xemacs-packages-extra
+        - xerces-c
+        - xerces-c-devel
         - xfsprogs-devel
         - xmlgraphics-commons
         - xmlrpc-c-c++
@@ -7668,6 +7883,7 @@ data:
         - xorg-x11-server-Xwayland-devel
         - xorg-x11-util-macros
         - xorg-x11-xtrans-devel
+        - xsel
         - xsimd-devel
         - xstatic-bootstrap-datepicker-common
         - xstatic-datatables-common
