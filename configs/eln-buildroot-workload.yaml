@@ -1181,7 +1181,6 @@ data:
         - libdb-devel-static
         - libdbi
         - libdbi-devel
-        - libdecor
         - libdecor-devel
         - libdhash-devel
         - libdmx-devel
