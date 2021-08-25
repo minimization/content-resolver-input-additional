@@ -2265,7 +2265,6 @@ data:
         - python3-keyring
         - python3-kiwisolver
         - python3-koji
-        - python3-lark-parser
         - python3-latexcodec
         - python3-lazy-object-proxy
         - python3-ldb-devel
@@ -3207,7 +3206,9 @@ data:
         - rust-h2-devel
         - rust-half+default-devel
         - rust-half-devel
+        - rust-hashbrown+default-devel
         - rust-hashbrown-devel
+        - rust-hashbrown+inline-more-devel
         - rust-hashbrown+raw-devel
         - rust-heck+default-devel
         - rust-heck-devel
@@ -3371,6 +3372,9 @@ data:
         - rust-nix-devel
         - rust-num-bigint0.3-devel
         - rust-num-bigint0.3+std-devel
+        - rust-num-bigint+default-devel
+        - rust-num-bigint-devel
+        - rust-num-bigint+std-devel
         - rust-num-complex0.3+default-devel
         - rust-num-complex0.3-devel
         - rust-num-complex0.3+std-devel
@@ -3501,10 +3505,15 @@ data:
         - rust-pulldown-cmark-devel
         - rust-pure-rust-locales+default-devel
         - rust-pure-rust-locales-devel
-        - rust-pyo3+auto-initialize-devel
+        - rust-pyo3-build-config+abi3-devel
+        - rust-pyo3-build-config+abi3-py36-devel
+        - rust-pyo3-build-config+abi3-py37-devel
+        - rust-pyo3-build-config+abi3-py38-devel
+        - rust-pyo3-build-config+abi3-py39-devel
+        - rust-pyo3-build-config+default-devel
+        - rust-pyo3-build-config-devel
         - rust-pyo3+default-devel
         - rust-pyo3-devel
-        - rust-pyo3+extension-module-devel
         - rust-pyo3-macros-backend+default-devel
         - rust-pyo3-macros-backend-devel
         - rust-pyo3-macros+default-devel
