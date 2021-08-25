@@ -1484,8 +1484,11 @@ data:
         - m17n-db-extras
         - m17n-lib-devel
         - m17n-lib-tools
+        - malcontent
+        - malcontent-control
         - malcontent-devel
         - malcontent-libs
+        - malcontent-ui-libs
         - marshalparser
         - mathjax
         - mathjax-ams-fonts
