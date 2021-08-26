@@ -33,7 +33,6 @@ data:
         - apache-commons-compress
         - apache-commons-exec
         - apache-commons-jxpath
-        - apache-commons-logging-javadoc
         - apache-commons-parent
         - apache-parent
         - apache-resource-bundles
@@ -968,12 +967,10 @@ data:
         - isns-utils-devel
         - jackson-bom
         - jackson-parent
-        - jakarta-commons-httpclient
         - jakarta-servlet
         - jansi1
         - jansi-native
         - jasper-devel
-        - java-11-openjdk-javadoc
         - java-1.8.0-openjdk
         - java-1.8.0-openjdk-devel
         - java-1.8.0-openjdk-headless
@@ -1508,6 +1505,15 @@ data:
         - maven-dependency-analyzer
         - maven-dependency-plugin
         - maven-dependency-tree
+        - maven-doxia-core
+        - maven-doxia-logging-api
+        - maven-doxia-module-apt
+        - maven-doxia-module-fml
+        - maven-doxia-module-xdoc
+        - maven-doxia-module-xhtml
+        - maven-doxia-module-xhtml5
+        - maven-doxia-sink-api
+        - maven-doxia-sitetools
         - maven-enforcer-api
         - maven-enforcer-plugin
         - maven-enforcer-rules
@@ -1515,6 +1521,8 @@ data:
         - maven-file-management
         - maven-filtering
         - maven-hawtjni-plugin
+        - maven-invoker
+        - maven-invoker-plugin
         - maven-jar-plugin
         - maven-local
         - maven-local-openjdk8
@@ -1533,7 +1541,10 @@ data:
         - maven-profile
         - maven-project
         - maven-remote-resources-plugin
+        - maven-reporting-api
+        - maven-reporting-impl
         - maven-resources-plugin
+        - maven-script-interpreter
         - maven-settings
         - maven-shade-plugin
         - maven-shared-incremental
@@ -1733,6 +1744,7 @@ data:
         - pcaudiolib-devel
         - pcp-libs-devel
         - pcsc-lite-devel
+        - pdfbox
         - pdfpc
         - perl-Algorithm-C3
         - perl-aliased
@@ -2075,10 +2087,12 @@ data:
         - plexus-components-pom
         - plexus-containers-component-metadata
         - plexus-containers-container-default
+        - plexus-i18n
         - plexus-io
         - plexus-languages
         - plexus-pom
         - plexus-resources
+        - plexus-velocity
         - plotutils-devel
         - plymouth-devel
         - pmix-devel
@@ -7845,6 +7859,7 @@ data:
         - xerces-c-devel
         - xfsprogs-devel
         - xmlgraphics-commons
+        - xml-maven-plugin
         - xmlrpc-c-c++
         - xmlrpc-c-client++
         - xmlrpc-c-devel
