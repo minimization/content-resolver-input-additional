@@ -1338,7 +1338,9 @@ data:
         - libraqm
         - libraqm-devel
         - LibRaw-devel
+        - librdkafka-devel
         - libref_array-devel
+        - librelp
         - librelp-devel
         - librevenge-devel
         - librhsm-devel
@@ -1467,6 +1469,7 @@ data:
         - lua-lunitx
         - luarocks
         - lynx
+        - lz4-devel
         - lzo-devel
         - lzo-minilzo
         - m17n-db-devel
@@ -2498,6 +2501,7 @@ data:
         - qjson-devel
         - qpdf
         - qpdf-devel
+        - qpid-proton-c
         - qpid-proton-c-devel
         - qrencode-devel
         - qrencode-libs
@@ -7939,10 +7943,12 @@ data:
             - libjaylink-devel
             - libknet1-devel
             - libldac-devel
+            - liblognorm
             - libnozzle1-devel
             - libpmem-devel
             - libqb-devel
             - librabbitmq
+            - librdkafka
             - libtool-ltdl-devel
             - libwsman1
             - libxcrypt-compat
@@ -8067,7 +8073,9 @@ data:
             - libjaylink
             - libjaylink-devel
             - libldac-devel
+            - liblognorm
             - librabbitmq
+            - librdkafka
             - libvirt-daemon-kvm
             - libxcrypt-compat
             - mingw32-crt
@@ -8136,11 +8144,13 @@ data:
             - ibus-table-chinese-wubi-jidian
             - libbsd
             - libhangul
+            - liblognorm
             - libpcap-devel
             - libpinyin
             - libpinyin-data
             - libpmem-devel
             - librabbitmq
+            - librdkafka
             - libxcrypt-compat
             - libzhuyin
             - lldb
