@@ -2138,6 +2138,7 @@ data:
         - python3.7
         - python3.8
         - python3.9
+        - python3-anyio
         - python3-apipkg
         - python3-argh
         - python3-argon2-cffi
@@ -2170,6 +2171,7 @@ data:
         - python3-cached_property
         - python3-cachy
         - python3-cairo-devel
+        - python3-charset-normalizer
         - python3-cheroot
         - python3-cherrypy
         - python3-cleo
@@ -3114,9 +3116,6 @@ data:
         - rust-flate2+default-devel
         - rust-flate2-devel
         - rust-flate2+rust_backend-devel
-        - rust-float-cmp+default-devel
-        - rust-float-cmp-devel
-        - rust-float-cmp+ratio-devel
         - rust-float-ord+default-devel
         - rust-float-ord-devel
         - rust-fnv+default-devel
@@ -3774,8 +3773,6 @@ data:
         - rust-sval_json+std-devel
         - rust-sval+std-devel
         - rust-sval+test-devel
-        - rust-svgtypes+default-devel
-        - rust-svgtypes-devel
         - rust-syn0.15+clone-impls-devel
         - rust-syn0.15+default-devel
         - rust-syn0.15+derive-devel
