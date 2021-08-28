@@ -827,6 +827,7 @@ data:
         - golang-github-mitchellh-homedir-devel
         - golang-github-mitchellh-mapstructure-devel
         - golang-github-pelletier-toml-devel
+        - golang-github-pkg-diff-devel
         - golang-github-pkg-errors-devel
         - golang-github-pkg-sftp-devel
         - golang-github-pmezard-difflib-devel
@@ -1710,7 +1711,6 @@ data:
         - openblas-threads64
         - openblas-threads64_
         - openchange-devel
-        - openexr2-libs
         - openexr-devel
         - openexr-libs
         - openjade
