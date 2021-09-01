@@ -1663,7 +1663,6 @@ data:
         - nscd
         - nss_wrapper
         - ntfs-3g-devel
-        - ntfs-3g-libs
         - numactl-devel
         - objenesis
         - ocaml
@@ -7987,6 +7986,7 @@ data:
             - mingw32-filesystem
             - mingw-filesystem-base
             - ncurses-compat-libs
+            - ntfs-3g-libs
             - openblas-threads
             - openwsman-python3
             - pacemaker
@@ -8186,6 +8186,7 @@ data:
             - mingw32-crt
             - mingw32-filesystem
             - mingw-filesystem-base
+            - ntfs-3g-libs
             - openblas-threads
             - pyproject-rpm-macros
             - python3-bson
@@ -8249,6 +8250,7 @@ data:
             - libjaylink-devel
             - libldac-devel
             - mesa-libxatracker-devel
+            - ntfs-3g-libs
             - perl-Crypt-PasswdMD5
             - python3-libftdi
             - spice-server-devel
