@@ -1850,6 +1850,7 @@ data:
         - perl-File-Remove
         - perl-File-ShareDir-Install
         - perl-File-Slurp
+        - perl-File-TreeCreate
         - perl-Font-AFM
         - perl-Font-TTF
         - perl-FreezeThaw
@@ -2302,7 +2303,7 @@ data:
         - python3-nbconvert
         - python3-nbformat
         - python3-nbsphinx
-        - python3-nest_asyncio
+        - python3-nest-asyncio
         - python3-nose
         - python3-notebook
         - python3-numexpr
@@ -2340,6 +2341,7 @@ data:
         - python3-process-tests
         - python3-prometheus_client
         - python3-prompt-toolkit
+        - python3-proto-plus
         - python3-pybind11
         - python3-pybtex
         - python3-pybtex-docutils
