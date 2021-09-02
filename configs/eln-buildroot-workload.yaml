@@ -7985,6 +7985,7 @@ data:
             - mingw32-crt
             - mingw32-filesystem
             - mingw-filesystem-base
+            - mtools
             - ncurses-compat-libs
             - ntfs-3g-libs
             - openblas-threads
@@ -8067,7 +8068,6 @@ data:
             - python3-zope-interface
             - python-oslo-i18n-lang
             - python-oslo-utils-lang
-            - qemu-system-x86
             - qemu-system-x86-core
             - redhat-lsb-core
             - redhat-lsb-submod-security
@@ -8106,6 +8106,7 @@ data:
             - mingw32-crt
             - mingw32-filesystem
             - mingw-filesystem-base
+            - mtools
             - openblas-threads
             - pyproject-rpm-macros
             - python3-bson
@@ -8137,7 +8138,6 @@ data:
             - qemu-device-usb-redirect
             - qemu-device-usb-smartcard
             - qemu-system-ppc
-            - qemu-system-x86
             - qemu-system-x86-core
             - qemu-ui-curses
             - qemu-ui-egl-headless
@@ -8186,6 +8186,7 @@ data:
             - mingw32-crt
             - mingw32-filesystem
             - mingw-filesystem-base
+            - mtools
             - ntfs-3g-libs
             - openblas-threads
             - pyproject-rpm-macros
@@ -8215,7 +8216,6 @@ data:
             - python3-zope-interface
             - python-oslo-i18n-lang
             - python-oslo-utils-lang
-            - qemu-system-x86
             - qemu-system-x86-core
             - socat
             - stunnel
