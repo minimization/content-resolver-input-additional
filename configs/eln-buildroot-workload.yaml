@@ -7978,7 +7978,6 @@ data:
             - libpmem-devel
             - libqb-devel
             - librabbitmq
-            - libssh2
             - libtool-ltdl-devel
             - libwsman1
             - libxcrypt-compat
@@ -8177,7 +8176,6 @@ data:
             - libpinyin-data
             - libpmem-devel
             - librabbitmq
-            - libssh2
             - libxcrypt-compat
             - libzhuyin
             - lldb
@@ -8253,7 +8251,6 @@ data:
             - libjaylink
             - libjaylink-devel
             - libldac-devel
-            - libssh2
             - mesa-libxatracker-devel
             - ntfs-3g-libs
             - perl-Crypt-PasswdMD5
