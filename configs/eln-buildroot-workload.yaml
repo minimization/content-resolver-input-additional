@@ -212,8 +212,8 @@ data:
         - exempi-devel
         - exiv2-devel
         - extra-cmake-modules
-        - f34-backgrounds-base
-        - f34-backgrounds-kde
+        - f35-backgrounds-base
+        - f35-backgrounds-kde
         - fasterxml-oss-parent
         - fcode-utils
         - fdk-aac-free-devel
