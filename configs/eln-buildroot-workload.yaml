@@ -225,7 +225,6 @@ data:
         - fftw-libs
         - fftw-libs-double
         - fftw-libs-long
-        - fftw-libs-single
         - file-devel
         - firebird-devel
         - fish
