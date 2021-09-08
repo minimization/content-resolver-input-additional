@@ -621,7 +621,6 @@
         - neon-devel
         - net-snmp-devel
         - newt-devel
-        - nftables-devel
         - nghttp2
         - ninja-build
         - npth-devel
