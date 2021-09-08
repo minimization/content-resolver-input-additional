@@ -3541,6 +3541,7 @@ data:
         - rust-pyo3-build-config+abi3-py39-devel
         - rust-pyo3-build-config+default-devel
         - rust-pyo3-build-config-devel
+        - rust-pyo3-build-config+resolve-config-devel
         - rust-pyo3+default-devel
         - rust-pyo3-devel
         - rust-pyo3-macros-backend+default-devel
