@@ -134,8 +134,6 @@ data:
         - cfitsio
         - cfitsio-devel
         - cglib
-        - chan
-        - chan-devel
         - check
         - check-devel
         - cheese-libs-devel
@@ -921,8 +919,6 @@ data:
         - hdf-devel
         - hdf-libs
         - hdf-static
-        - HdrHistogram_c
-        - HdrHistogram_c-devel
         - help2man
         - hidapi
         - hidapi-devel
@@ -1173,6 +1169,8 @@ data:
         - libcollection-devel
         - libconfig-devel
         - libdaemon-devel
+        - libdap
+        - libdap-devel
         - libdazzle-devel
         - libdb-devel-static
         - libdbi
@@ -1741,7 +1739,6 @@ data:
         - patchelf
         - patchutils
         - pcaudiolib-devel
-        - pcp-libs-devel
         - pcsc-lite-devel
         - pdfbox
         - pdfpc
@@ -1848,7 +1845,6 @@ data:
         - perl-File-ReadBackwards
         - perl-File-Remove
         - perl-File-ShareDir-Install
-        - perl-File-Slurp
         - perl-File-TreeCreate
         - perl-Font-AFM
         - perl-Font-TTF
@@ -2135,6 +2131,7 @@ data:
         - python3.7
         - python3.8
         - python3.9
+        - python3-ansible-lint
         - python3-anyio
         - python3-apipkg
         - python3-argh
@@ -2160,6 +2157,7 @@ data:
         - python3-blinker
         - python3-boto
         - python3-Bottleneck
+        - python3-bracex
         - python3-breathe
         - python3-brotli
         - python3-build
@@ -2185,6 +2183,7 @@ data:
         - python3-cppy
         - python3-cpuinfo
         - python3-crashtest
+        - python3-crypto
         - python3-cson
         - python3-curio
         - python3-cycler
@@ -2202,6 +2201,7 @@ data:
         - python3-dotenv
         - python3-dulwich
         - python3-elementpath
+        - python3-enrich
         - python3-entrypoints
         - python3-eventlet
         - python3-execnet
@@ -2225,6 +2225,7 @@ data:
         - python3-gast
         - python3-genshi
         - python3-genty
+        - python3-gitlab
         - python3-gobject-devel
         - python3-graphviz
         - python3-greenlet-devel
@@ -2235,6 +2236,7 @@ data:
         - python3-hamcrest
         - python3-hpack
         - python3-html5lib
+        - python3-httmock
         - python3-httpbin
         - python3-httpcore
         - python3-httpretty
@@ -2305,6 +2307,7 @@ data:
         - python3-nest-asyncio
         - python3-nose
         - python3-notebook
+        - python3-ntlm-auth
         - python3-numexpr
         - python3-numpydoc
         - python3-olefile
@@ -2318,10 +2321,13 @@ data:
         - python3-Pallets-Sphinx-Themes
         - python3-pandas
         - python3-pandocfilters
+        - python3-paramiko
         - python3-parso
+        - python3-passlib
         - python3-pastel
         - python3-path
         - python3-pathspec
+        - python3-pbkdf2
         - python3-pdfrw
         - python3-pebble
         - python3-pep517
@@ -2354,6 +2360,7 @@ data:
         - python3-pylev
         - python3-pylint
         - python3-pymongo
+        - python3-pynacl
         - python3-pyperclip
         - python3-pytest
         - python3-pytest-aiohttp
@@ -2374,6 +2381,7 @@ data:
         - python3-pytest-venv
         - python3-pytest-xdist
         - python3-pytest-xprocess
+        - python3-pyvmomi
         - python3-pyxattr
         - python3-random2
         - python3-raven
@@ -2387,11 +2395,13 @@ data:
         - python3-requests-download
         - python3-requests-kerberos
         - python3-requests-mock
+        - python3-requests_ntlm
         - python3-requests-toolbelt
         - python3-requests-unixsocket
         - python3-responses
         - python3-rfc3986
         - python3-rfc3986+idna2008
+        - python3-rich
         - python3-rst-linker
         - python3-ruamel-yaml
         - python3-ruamel-yaml-clib
@@ -2415,6 +2425,7 @@ data:
         - python3-sphinx-autodoc-typehints
         - python3-sphinxcontrib-apidoc
         - python3-sphinxcontrib-applehelp
+        - python3-sphinxcontrib-autoprogram
         - python3-sphinxcontrib-bibtex
         - python3-sphinxcontrib-devhelp
         - python3-sphinxcontrib-github-alt
@@ -2433,6 +2444,7 @@ data:
         - python3-sphinx-gallery
         - python3-sphinx-issues
         - python3-sphinx-last-updated-by-git
+        - python3-sphinx-notfound-page
         - python3-sphinx-removed-in
         - python3-sphinx_rtd_theme
         - python3-sphinx-testing
@@ -2440,11 +2452,13 @@ data:
         - python3-sphinx-theme-py3doc-enhanced
         - python3-sqlparse
         - python3-stestr
+        - python3-straight-plugin
         - python3-subunit
         - python3-sure
         - python3-tables
         - python3-talloc-devel
         - python3-tempora
+        - python3-tenacity
         - python3-terminado
         - python3-test
         - python3-testpath
@@ -2461,6 +2475,7 @@ data:
         - python3-trustme
         - python3-twisted
         - python3-typed_ast
+        - python3-typeguard
         - python3-typogrify
         - python3-u-msgpack-python
         - python3-validators
@@ -2469,10 +2484,12 @@ data:
         - python3-voluptuous
         - python3-waitress
         - python3-watchdog
+        - python3-wcmatch
         - python3-webencodings
         - python3-wheel
         - python3-whoosh
         - python3-widgetsnbextension
+        - python3-winrm
         - python3-wxpython4
         - python3-xapian
         - python3-xds-protos
@@ -2709,7 +2726,6 @@ data:
         - R-RCurl
         - R-R.devices
         - rrdtool-devel
-        - rrdtool-perl
         - R-readr
         - R-rematch
         - R-rematch2
@@ -7855,7 +7871,6 @@ data:
         - waf
         - wavpack-devel
         - web-assets-devel
-        - web-assets-filesystem
         - webrtc-audio-processing-devel
         - websocketpp-devel
         - wireshark-devel
