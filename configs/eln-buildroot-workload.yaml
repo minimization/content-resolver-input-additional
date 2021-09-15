@@ -967,9 +967,6 @@ data:
         - jansi1
         - jansi-native
         - jasper-devel
-        - java-1.8.0-openjdk
-        - java-1.8.0-openjdk-devel
-        - java-1.8.0-openjdk-headless
         - javacc
         - java_cup
         - javapackages-generators
@@ -1637,7 +1634,6 @@ data:
         - mpdecimal-devel
         - mpg123-devel
         - mtdev-devel
-        - mtx
         - multilib-rpm-config
         - munge-devel
         - munge-maven-plugin
@@ -2062,6 +2058,7 @@ data:
         - perl-XML-RegExp
         - perl-XML-SAX-Writer
         - perl-XML-SemanticDiff
+        - perl-XML-Simple
         - perl-XML-Spice
         - perl-XML-Twig
         - perl-XML-XPathEngine
@@ -2762,7 +2759,6 @@ data:
         - R-scales
         - R-selectr
         - R-sessioninfo
-        - rsh
         - R-shiny
         - R-showtext
         - R-showtextdb
@@ -8184,6 +8180,9 @@ data:
             - ibus-table-chinese-cangjie
             - ibus-table-chinese-stroke5
             - ibus-table-chinese-wubi-jidian
+            - java-1.8.0-openjdk
+            - java-1.8.0-openjdk-devel
+            - java-1.8.0-openjdk-headless
             - libbsd
             - libhangul
             - libpcap-devel
