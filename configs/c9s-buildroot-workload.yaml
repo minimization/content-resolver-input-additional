@@ -29,7 +29,6 @@ data:
         - apache-resource-bundles
         - apiguardian
         - appstream-devel
-        - apr-util-openssl
         - aqute-bnd
         - aqute-bndlib
         - asio-devel
@@ -39,7 +38,6 @@ data:
         - atkmm-devel
         - augeas
         - augeas-devel
-        - autoconf-archive
         - autotrace
         - avahi-devel
         - avahi-glib-devel
@@ -159,14 +157,12 @@ data:
         - giflib-devel
         - gjs-devel
         - glade-devel
-        - glib2-doc
         - glibmm24-devel
         - gl-manpages
         - glm-devel
         - glslang-devel
         - glslc
         - gnome-autoar-devel
-        - gnome-common
         - gnome-settings-daemon-devel
         - gnupg2-smime
         - gobject-introspection-devel
@@ -202,7 +198,6 @@ data:
         - hidapi
         - hidapi-devel
         - httpcomponents-project
-        - httpd-devel
         - hunspell-devel
         - hwloc-devel
         - hwloc-gui
@@ -219,12 +214,8 @@ data:
         - iptables-devel
         - iscsi-initiator-utils-devel
         - isns-utils-devel
-        - itstool
         - jakarta-servlet
         - jasper-devel
-        - java-1.8.0-openjdk
-        - java-1.8.0-openjdk-devel
-        - java-1.8.0-openjdk-headless
         - java_cup
         - javapackages-generators
         - javapackages-local
@@ -283,7 +274,6 @@ data:
         - libblockdev-swap-devel
         - libblockdev-utils-devel
         - libbpf-static
-        - libburn-devel
         - libbytesize-devel
         - libcanberra-devel
         - libcanberra-gtk2
@@ -342,7 +332,6 @@ data:
         - libijs-devel
         - libini_config-devel
         - libiptcdata-devel
-        - libisofs-devel
         - libjcat-devel
         - libjpeg-devel
         - libjpeg-turbo-devel
@@ -389,6 +378,7 @@ data:
         - libotf-devel
         - libotr-devel
         - libpagemaker-devel
+        - libpamtest
         - libpaper-devel
         - libpath_utils-devel
         - libpciaccess-devel
@@ -489,7 +479,6 @@ data:
         - libXxf86vm-devel
         - libyaml-devel
         - libyang-devel
-        - libzip
         - libzip-devel
         - libzmf-devel
         - linuxconsoletools
@@ -506,7 +495,6 @@ data:
         - m17n-db-extras
         - m17n-lib-devel
         - m17n-lib-tools
-        - mallard-rng
         - maven-antrun-plugin
         - maven-archiver
         - maven-artifact-transfer
@@ -785,10 +773,6 @@ data:
         - perl-XML-RegExp
         - perl-YAML-LibYAML
         - perl-YAML-Tiny
-        - php
-        - php-cli
-        - php-common
-        - php-devel
         - pipewire-devel
         - pkgconfig
         - pki-jackson-bom
@@ -857,6 +841,7 @@ data:
         - python3-lesscpy
         - python3-libmount
         - python3-libnbd
+        - python3-libpamtest
         - python3-mako
         - python3-mallard-ducktype
         - python3-markdown
@@ -1052,7 +1037,6 @@ data:
         - yajl-devel
         - yasm
         - yelp-devel
-        - yelp-tools
         - yelp-xsl-devel
         - zchunk-devel
         - zziplib-devel
@@ -1072,6 +1056,7 @@ data:
             - gnome-bluetooth-libs-devel
             - gnu-efi-compat
             - gnu-efi-devel
+            - libfprint-devel
             - libknet1-devel
             - libldac-devel
             - libnozzle1-devel
@@ -1099,6 +1084,7 @@ data:
             - fence-agents-common
             - gnome-bluetooth-libs-devel
             - libfdt
+            - libfprint-devel
             - libknet1-devel
             - libldac-devel
             - libnozzle1-devel
@@ -1132,6 +1118,9 @@ data:
             - corosynclib-devel
             - efi-filesystem
             - fence-agents-common
+            - java-1.8.0-openjdk
+            - java-1.8.0-openjdk-devel
+            - java-1.8.0-openjdk-headless
             - libedit-devel
             - libfdt
             - libknet1-devel
@@ -1174,6 +1163,7 @@ data:
             - gnu-efi-compat
             - gnu-efi-devel
             - libfdt
+            - libfprint-devel
             - libldac-devel
             - mesa-libxatracker-devel
             - opencsd
