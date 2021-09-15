@@ -70,8 +70,6 @@ data:
         - c-ares-devel
         - centos-bookmarks
         - cglib
-        - chan
-        - chan-devel
         - check
         - check-devel
         - cheese-libs-devel
@@ -201,8 +199,6 @@ data:
         - guice-servlet
         - gvnc-devel
         - hardlink
-        - HdrHistogram_c
-        - HdrHistogram_c-devel
         - hidapi
         - hidapi-devel
         - httpcomponents-project
@@ -265,6 +261,7 @@ data:
         - libabigail
         - libabw-devel
         - libacl-devel
+        - libadwaita-qt5-devel
         - libao-devel
         - libappstream-glib-devel
         - libarchive-devel
@@ -344,7 +341,6 @@ data:
         - libieee1284-devel
         - libijs-devel
         - libini_config-devel
-        - libinput-devel
         - libiptcdata-devel
         - libisofs-devel
         - libjcat-devel
@@ -363,7 +359,6 @@ data:
         - libmediaart-devel
         - libmemcached-awesome-devel
         - libmicrohttpd-devel
-        - libmng
         - libmng-devel
         - libmnl-devel
         - libmodulemd-devel
@@ -555,7 +550,6 @@ data:
         - maven-verifier-plugin
         - mdds-devel
         - mecab-devel
-        - mesa-libEGL-devel
         - mesa-libgbm-devel
         - mesa-libGL-devel
         - mesa-libGLU-devel
@@ -633,7 +627,6 @@ data:
         - nbdkit-server
         - ncompress
         - neon-devel
-        - net-snmp-devel
         - newt-devel
         - nghttp2
         - ninja-build
@@ -682,8 +675,6 @@ data:
         - parted-devel
         - patchutils
         - pcaudiolib-devel
-        - pciutils-devel
-        - pcp-libs-devel
         - pcsc-lite-devel
         - perl-B-COW
         - perl-Capture-Tiny
@@ -715,7 +706,6 @@ data:
         - perl-File-Remove
         - perl-File-ShareDir
         - perl-File-ShareDir-Install
-        - perl-File-Slurp
         - perl-File-Slurper
         - perl-Font-TTF
         - perl-HTTP-Daemon
@@ -792,11 +782,7 @@ data:
         - perl-Unicode-LineBreak
         - perl-Unicode-UTF8
         - perl-XML-DOM
-        - perl-XML-LibXML
-        - perl-XML-NamespaceSupport
         - perl-XML-RegExp
-        - perl-XML-SAX
-        - perl-XML-SAX-Base
         - perl-YAML-LibYAML
         - perl-YAML-Tiny
         - php
@@ -871,7 +857,6 @@ data:
         - python3-lesscpy
         - python3-libmount
         - python3-libnbd
-        - python3-libvirt
         - python3-mako
         - python3-mallard-ducktype
         - python3-markdown
@@ -916,30 +901,18 @@ data:
         - qhull-devel
         - qpdf
         - qpdf-devel
-        - qt5-designer
-        - qt5-doctools
-        - qt5-linguist
-        - qt5-qtbase-devel
         - qt5-qtbase-private-devel
-        - qt5-qtbase-static
         - qt5-qtconnectivity-devel
-        - qt5-qtdeclarative-devel
-        - qt5-qtdeclarative-static
         - qt5-qtlocation-devel
         - qt5-qtmultimedia-devel
         - qt5-qtsensors-devel
         - qt5-qtserialport-devel
         - qt5-qtsvg-devel
-        - qt5-qttools
-        - qt5-qttools-devel
-        - qt5-qttools-libs-designercomponents
-        - qt5-qtwayland
         - qt5-qtwayland-devel
         - qt5-qtwebchannel-devel
         - qt5-qtwebsockets-devel
         - qt5-qtx11extras-devel
         - qt5-qtxmlpatterns-devel
-        - qt5-rpm-macros
         - quota-devel
         - rapidjson-devel
         - raptor2-devel
@@ -1036,10 +1009,8 @@ data:
         - voikko-tools
         - volume_key-devel
         - vte291-devel
-        - vulkan-loader-devel
         - wavpack-devel
         - web-assets-devel
-        - web-assets-filesystem
         - webrtc-audio-processing-devel
         - wireshark-devel
         - woff2-devel
@@ -1110,7 +1081,6 @@ data:
             - libxslt-devel
             - mesa-libxatracker
             - mesa-libxatracker-devel
-            - net-snmp-utils
             - openwsman-python3
             - pacemaker
             - pacemaker-cli
@@ -1133,13 +1103,14 @@ data:
             - libldac-devel
             - libnozzle1-devel
             - libqb-devel
+            - librtas-devel
+            - libservicelog-devel
             - libtool-ltdl-devel
             - libtpms
             - libvirt-glib
             - libwsman1
             - libxslt-devel
             - lttng-ust
-            - net-snmp-utils
             - opencsd
             - opencsd-devel
             - openwsman-python3
@@ -1178,7 +1149,6 @@ data:
             - llvm-static
             - llvm-test
             - lttng-ust
-            - net-snmp-utils
             - opencsd
             - opencsd-devel
             - openwsman-python3
