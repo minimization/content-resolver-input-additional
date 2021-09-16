@@ -2758,7 +2758,6 @@ data:
         - python3-cppy
         - python3-cpuinfo
         - python3-crashtest
-        - python3-crypto
         - python3-cson
         - python3-curio
         - python3-cycler
@@ -2800,7 +2799,6 @@ data:
         - python3-gast
         - python3-genshi
         - python3-genty
-        - python3-gitlab
         - python3-gobject-devel
         - python3-graphviz
         - python3-greenlet-devel
@@ -2811,7 +2809,6 @@ data:
         - python3-hamcrest
         - python3-hpack
         - python3-html5lib
-        - python3-httmock
         - python3-httpbin
         - python3-httpcore
         - python3-httpretty
@@ -2882,7 +2879,6 @@ data:
         - python3-nest-asyncio
         - python3-nose
         - python3-notebook
-        - python3-ntlm-auth
         - python3-numexpr
         - python3-numpydoc
         - python3-olefile
@@ -2896,13 +2892,10 @@ data:
         - python3-Pallets-Sphinx-Themes
         - python3-pandas
         - python3-pandocfilters
-        - python3-paramiko
         - python3-parso
-        - python3-passlib
         - python3-pastel
         - python3-path
         - python3-pathspec
-        - python3-pbkdf2
         - python3-pdfrw
         - python3-pebble
         - python3-pep517
@@ -2935,7 +2928,6 @@ data:
         - python3-pylev
         - python3-pylint
         - python3-pymongo
-        - python3-pynacl
         - python3-pyperclip
         - python3-pytest
         - python3-pytest-aiohttp
@@ -2970,7 +2962,6 @@ data:
         - python3-requests-download
         - python3-requests-kerberos
         - python3-requests-mock
-        - python3-requests_ntlm
         - python3-requests-toolbelt
         - python3-requests-unixsocket
         - python3-responses
@@ -3000,7 +2991,6 @@ data:
         - python3-sphinx-autodoc-typehints
         - python3-sphinxcontrib-apidoc
         - python3-sphinxcontrib-applehelp
-        - python3-sphinxcontrib-autoprogram
         - python3-sphinxcontrib-bibtex
         - python3-sphinxcontrib-devhelp
         - python3-sphinxcontrib-github-alt
@@ -3064,7 +3054,6 @@ data:
         - python3-wheel
         - python3-whoosh
         - python3-widgetsnbextension
-        - python3-winrm
         - python3-wxpython4
         - python3-xapian
         - python3-xds-protos
