@@ -1079,24 +1079,43 @@ data:
             - booth
             - booth-core
             - booth-site
+            - corosync
+            - corosynclib
             - corosynclib-devel
+            - daxctl-devel
+            - device-mapper-devel
+            - device-mapper-event-devel
+            - device-mapper-multipath
+            - device-mapper-multipath-libs
+            - dlm-lib
             - efi-filesystem
             - fence-agents-common
             - gnome-bluetooth-libs-devel
+            - kpartx
+            - libblockdev-lvm
             - libfdt
             - libfprint-devel
+            - libknet1
+            - libknet1-crypto-nss-plugin
             - libknet1-devel
             - libldac-devel
+            - libnozzle1
             - libnozzle1-devel
             - libqb-devel
             - librtas-devel
             - libservicelog-devel
+            - libstoragemgmt
             - libtool-ltdl-devel
             - libtpms
+            - liburing
+            - liburing-devel
             - libvirt-glib
             - libwsman1
             - libxslt-devel
             - lttng-ust
+            - lvm2-devel
+            - ndctl-devel
+            - ndctl-libs
             - opencsd
             - opencsd-devel
             - openwsman-python3
@@ -1106,7 +1125,10 @@ data:
             - pacemaker-libs
             - pacemaker-libs-devel
             - pacemaker-schemas
+            - python3-libstoragemgmt
+            - sanlock-lib
             - sbd
+            - userspace-rcu
         s390x:
             - booth
             - booth-core
@@ -1151,6 +1173,10 @@ data:
             - python3-lldb
             - sbd
         x86_64:
+            - daxctl-devel
+            - device-mapper-devel
+            - device-mapper-event-devel
+            - dlm-lib
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
             - efivar-devel
@@ -1162,10 +1188,18 @@ data:
             - gnome-bluetooth-libs-devel
             - gnu-efi-compat
             - gnu-efi-devel
+            - libblockdev-lvm
             - libfdt
             - libfprint-devel
             - libldac-devel
+            - libstoragemgmt
+            - liburing
+            - liburing-devel
+            - lvm2-devel
             - mesa-libxatracker-devel
+            - ndctl-devel
             - opencsd
             - opencsd-devel
             - perl-Crypt-PasswdMD5
+            - python3-libstoragemgmt
+            - sanlock-lib
