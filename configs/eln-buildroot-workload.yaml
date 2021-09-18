@@ -896,6 +896,7 @@ data:
         - golang-github-circonus-labs-apiclient-devel
         - golang-github-circonus-labs-circonusllhist-devel
         - golang-github-circonus-labs-gometrics-devel
+        - golang-github-clbanning-mxj-devel
         - golang-github-clbanning-x2j-devel
         - golang-github-cloudflare-backoff-devel
         - golang-github-cloudflare-cfssl-devel
@@ -3219,6 +3220,7 @@ data:
         - R-IRdisplay
         - R-isoband
         - R-java-devel
+        - R-jose
         - R-jpeg
         - R-jsonlite
         - R-knitr
