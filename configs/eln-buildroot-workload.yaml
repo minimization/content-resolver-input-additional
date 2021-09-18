@@ -2294,6 +2294,7 @@ data:
         - openslp-devel
         - opensp
         - opensp-devel
+        - openssl1.1
         - opus-devel
         - orangefs-devel
         - orc-compiler
