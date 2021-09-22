@@ -1865,6 +1865,7 @@ data:
         - libmspack-devel
         - libmspub-devel
         - libmtp-devel
+        - libmusicbrainz5
         - libmusicbrainz5-devel
         - libmwaw-devel
         - libnbd-devel
