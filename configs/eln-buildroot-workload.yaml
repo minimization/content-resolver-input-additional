@@ -4681,7 +4681,6 @@ data:
         - sblim-sfcc-devel
         - scotch
         - scotch-devel
-        - screen
         - sdl12-compat-devel
         - SDL2-devel
         - SDL2-static
