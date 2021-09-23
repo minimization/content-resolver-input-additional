@@ -25,7 +25,6 @@ data:
         - alsa-topology
         - alsa-topology-utils
         - annobin
-        - annobin-plugin-clang
         - anthy
         - anthy-devel
         - anthy-unicode-devel
