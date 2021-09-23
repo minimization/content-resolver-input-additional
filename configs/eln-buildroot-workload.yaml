@@ -2427,7 +2427,6 @@ data:
         - python-opentracing-doc
         - python-pymongo-doc
         - python-sphinx-doc
-        - python-typeshed
         - python-wheel-wheel
         - python-wrapt-doc
         - pythran
