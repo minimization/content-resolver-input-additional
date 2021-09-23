@@ -14,11 +14,12 @@ data:
     packages:
         - 389-ds-base-devel
         - accountsservice-devel
-        - acpica-tools
         - adobe-mappings-cmap-devel
         - adobe-mappings-pdf-devel
         - adwaita-icon-theme-devel
         - alsa-lib-devel
+        - alsa-topology
+        - alsa-topology-utils
         - anthy-unicode-devel
         - apache-commons-beanutils
         - apache-commons-collections
@@ -31,6 +32,7 @@ data:
         - appstream-devel
         - aqute-bnd
         - aqute-bndlib
+        - argparse-manpage
         - asio-devel
         - aspell
         - aspell-devel
@@ -43,7 +45,6 @@ data:
         - avahi-glib-devel
         - avahi-gobject
         - avahi-gobject-devel
-        - babl-devel
         - bcc-devel
         - bdftopcf
         - beakerlib
@@ -67,8 +68,6 @@ data:
         - cairomm-devel
         - c-ares-devel
         - centos-bookmarks
-        - centos-gpg-keys
-        - centos-stream-repos
         - cglib
         - check
         - check-devel
@@ -97,12 +96,10 @@ data:
         - dbus-python-devel
         - dconf-devel
         - device-mapper-multipath-devel
-        - diffstat
         - dlm-devel
         - docbook2X
         - docbook5-style-xsl
         - docbook-utils-pdf
-        - dos2unix
         - dotconf-devel
         - double-conversion-devel
         - doxygen2man
@@ -110,7 +107,6 @@ data:
         - easymock
         - eglexternalplatform-devel
         - egl-wayland-devel
-        - eigen3-devel
         - elinks
         - espeak-ng-devel
         - evince-devel
@@ -127,7 +123,6 @@ data:
         - fftw-libs-double
         - fftw-libs-long
         - file-devel
-        - flac-devel
         - flatpak-devel
         - flexiblas-devel
         - flexiblas-netlib64
@@ -142,6 +137,7 @@ data:
         - fonttosfnt
         - freeglut-devel
         - freerdp-devel
+        - freetype-demos
         - fstrm-devel
         - fusesource-pom
         - fwupd-devel
@@ -172,11 +168,8 @@ data:
         - golang-github-cpuguy83-md2man
         - gom-devel
         - go-rpm-macros
-        - gperf
         - gpgme-devel
         - gpgmepp-devel
-        - gpm
-        - gpm-devel
         - graphene-devel
         - grilo-devel
         - gsl-devel
@@ -212,12 +205,12 @@ data:
         - ibus-table-tv
         - icu
         - ima-evm-utils-devel
+        - imaptest
         - intltool
         - iptables-devel
         - iscsi-initiator-utils-devel
         - isns-utils-devel
         - jakarta-servlet
-        - jasper-devel
         - java_cup
         - javapackages-generators
         - javapackages-local
@@ -248,7 +241,6 @@ data:
         - lapack-devel
         - lapack-static
         - lasso-devel
-        - lcms2-devel
         - ldns-devel
         - liba52-devel
         - libabigail
@@ -308,7 +300,6 @@ data:
         - libetonyek-devel
         - libevdev-devel
         - libev-devel
-        - libexif-devel
         - libexttextcat-devel
         - libfastjson-devel
         - libfdisk-devel
@@ -321,7 +312,6 @@ data:
         - libgee-devel
         - libgexiv2-devel
         - libgnomekbd-devel
-        - libgphoto2-devel
         - libgsf-devel
         - libgtop2-devel
         - libgudev-devel
@@ -329,14 +319,12 @@ data:
         - libgxps-devel
         - libhandy-devel
         - libhangul-devel
-        - libICE-devel
         - libieee1284-devel
         - libijs-devel
         - libini_config-devel
         - libiptcdata-devel
         - libjcat-devel
         - libjpeg-devel
-        - libjpeg-turbo-devel
         - libkcapi-fipscheck
         - libksba-devel
         - liblangtag-devel
@@ -374,7 +362,6 @@ data:
         - libnsl2-devel
         - libnumbertext-devel
         - libodfgen-devel
-        - libogg-devel
         - liborcus-devel
         - libosinfo-devel
         - libotf-devel
@@ -401,6 +388,7 @@ data:
         - librelp-devel
         - librevenge-devel
         - librsvg2-devel
+        - libsamplerate-devel
         - libserf-devel
         - libshout-devel
         - libsigc++20-devel
@@ -408,9 +396,6 @@ data:
         - libslirp-devel
         - libsmartcols-devel
         - libsmbclient-devel
-        - libSM-devel
-        - libsmi-devel
-        - libsndfile-devel
         - libspectre-devel
         - libspiro
         - libspiro-devel
@@ -441,8 +426,6 @@ data:
         - libuser-devel
         - libutempter-devel
         - libv4l-devel
-        - libva
-        - libva-devel
         - libvala
         - libvala-devel
         - libvdpau-devel
@@ -452,7 +435,6 @@ data:
         - libvisio-devel
         - libvisual-devel
         - libvoikko-devel
-        - libvorbis-devel
         - libvpx-devel
         - libwacom-devel
         - libwbclient-devel
@@ -462,6 +444,7 @@ data:
         - libwpe-devel
         - libwpg-devel
         - libwps-devel
+        - libwsman-devel
         - libXaw-devel
         - libXdmcp-devel
         - libXfont2-devel
@@ -469,21 +452,17 @@ data:
         - libxkbfile-devel
         - libxklavier-devel
         - libxmlb-devel
-        - libXmu-devel
         - libXp-devel
-        - libXpm-devel
         - libXres-devel
         - libXScrnSaver
         - libXScrnSaver-devel
         - libxshmfence-devel
-        - libXt-devel
         - libXv-devel
         - libXxf86vm-devel
         - libyaml-devel
         - libyang-devel
         - libzip-devel
         - libzmf-devel
-        - linuxconsoletools
         - lldpad-devel
         - lmdb
         - lmdb-devel
@@ -595,7 +574,6 @@ data:
         - mingw-pkg-config
         - mingw-w64-tools
         - mingw-zlib
-        - mlocate
         - mm-common
         - mobile-broadband-provider-info-devel
         - mockito
@@ -650,7 +628,7 @@ data:
         - openjpeg2-tools
         - openldap-servers
         - openslp-devel
-        - opus-devel
+        - openwsman-client
         - orc-compiler
         - orc-devel
         - osgi-annotation
@@ -663,41 +641,88 @@ data:
         - pangomm-devel
         - paper
         - parted-devel
-        - patchutils
         - pcaudiolib-devel
         - pcsc-lite-devel
+        - perl-AnyEvent
         - perl-B-COW
+        - perl-B-Hooks-EndOfScope
+        - perl-Canary-Stability
         - perl-Capture-Tiny
+        - perl-Class-Accessor
+        - perl-Class-Accessor-Chained
+        - perl-Class-Data-Inheritable
+        - perl-Class-Inner
         - perl-Class-Inspector
         - perl-Class-Method-Modifiers
+        - perl-Class-ReturnValue
+        - perl-Class-Singleton
+        - perl-Class-Tiny
         - perl-Class-XSAccessor
         - perl-Clone
+        - perl-common-sense
         - perl-Config-AutoConf
+        - perl-Config-IniFiles
+        - perl-Convert-Base64
         - perl-CPAN-Changes
         - perl-Crypt-OpenSSL-Guess
+        - perl-Data-ICal
+        - perl-Data-ICal-TimeZone
         - perl-Data-UUID
+        - perl-Date-ISO8601
+        - perl-DateTime
+        - perl-DateTime-Event-ICal
+        - perl-DateTime-Event-Recurrence
+        - perl-DateTime-Format-Builder
+        - perl-DateTime-Format-ICal
+        - perl-DateTime-Format-ISO8601
+        - perl-DateTime-Format-Strptime
+        - perl-DateTime-Locale
+        - perl-DateTime-Set
+        - perl-DateTime-TimeZone
+        - perl-DateTime-TimeZone-SystemV
+        - perl-DateTime-TimeZone-Tzfile
+        - perl-Devel-CallChecker
+        - perl-Devel-Caller
+        - perl-Devel-CheckBin
         - perl-Devel-CheckLib
         - perl-Devel-GlobalDestruction
+        - perl-Devel-Hide
+        - perl-Devel-LexAlias
         - perl-Devel-StackTrace
         - perl-Devel-Symdump
         - perl-Digest-CRC
         - perl-Digest-SHA1
+        - perl-Dist-CheckConflicts
+        - perl-DynaLoader-Functions
         - perl-Encode-EUCJPASCII
+        - perl-Encode-IMAPUTF7
+        - perl-Eval-Closure
+        - perl-Exception-Class
         - perl-Exporter-Tiny
         - perl-ExtUtils-Config
         - perl-ExtUtils-Helpers
         - perl-ExtUtils-InstallPaths
         - perl-ExtUtils-PkgConfig
         - perl-File-BaseDir
+        - perl-File-chdir
         - perl-File-Copy-Recursive
         - perl-File-DesktopEntry
+        - perl-File-Find-Object
+        - perl-File-Find-Object-Rule
+        - perl-File-Find-Rule
+        - perl-File-LibMagic
         - perl-File-MimeInfo
+        - perl-File-MMagic
         - perl-File-ReadBackwards
         - perl-File-Remove
         - perl-File-ShareDir
         - perl-File-ShareDir-Install
         - perl-File-Slurper
+        - perl-Font-AFM
         - perl-Font-TTF
+        - perl-Guard
+        - perl-HTML-Formatter
+        - perl-HTML-Tree
         - perl-HTTP-Daemon
         - perl-Import-Into
         - perl-IO-All
@@ -706,12 +731,20 @@ data:
         - perl-IO-Tty
         - perl-IPC-Run
         - perl-IPC-Run3
+        - perl-JSON-XS
         - perl-libxml-perl
         - perl-List-MoreUtils
         - perl-List-MoreUtils-XS
+        - perl-List-Pairwise
+        - perl-Locale-Codes
         - perl-Locale-gettext
+        - perl-Mail-IMAPTalk
+        - perl-Mail-JMAPTalk
+        - perl-Math-Int64
         - perl-MIME-Charset
+        - perl-MIME-Types
         - perl-Module-Build-Tiny
+        - perl-Module-Implementation
         - perl-Module-Install
         - perl-Module-Install-AuthorRequires
         - perl-Module-Install-AuthorTests
@@ -729,25 +762,53 @@ data:
         - perl-Module-Runtime
         - perl-Module-ScanDeps
         - perl-Moo
+        - perl-namespace-autoclean
+        - perl-namespace-clean
+        - perl-Net-CalDAVTalk
+        - perl-Net-CardDAVTalk
+        - perl-Net-DAVTalk
         - perl-Net-DNS-Resolver-Mock
         - perl-Net-DNS-Resolver-Programmable
         - perl-Net-DNS-SEC
+        - perl-Net-LDAP-Server
         - perl-Net-LibIDN2
+        - perl-NNTPClient
+        - perl-Number-Compare
         - perl-Object-Deadly
+        - perl-Package-Stash
+        - perl-Package-Stash-XS
+        - perl-PadWalker
+        - perl-Parallel-ForkManager
+        - perl-Params-Classify
+        - perl-Params-Validate
+        - perl-Params-ValidationCompiler
         - perl-Parse-Yapp
         - perl-Path-Class
         - perl-Path-Tiny
+        - perl-Perl-Destruct-Level
         - perl-PerlIO-utf8_strict
         - perl-Pod-Coverage
         - perl-Pod-Markdown
         - perl-Readonly
+        - perl-Ref-Util
+        - perl-Ref-Util-XS
         - perl-Role-Tiny
+        - perl-Scope-Guard
+        - perl-Set-Infinite
+        - perl-Specio
         - perl-strictures
+        - perl-String-CRC32
         - perl-Sub-Exporter-Progressive
+        - perl-Sub-Identify
+        - perl-Sub-Info
+        - perl-Sub-Name
         - perl-Sub-Quote
         - perl-Sub-Uplevel
         - perl-Switch
         - perl-Taint-Runtime
+        - perl-Task-Weaken
+        - perl-Test2-Plugin-NoWarnings
+        - perl-Test2-Suite
         - perl-Test-CPAN-Meta
         - perl-Test-CPAN-Meta-JSON
         - perl-Test-Deep
@@ -756,23 +817,49 @@ data:
         - perl-Test-FailWarnings
         - perl-Test-Fatal
         - perl-Test-File
+        - perl-Test-File-ShareDir
         - perl-Test-InDistDir
         - perl-Test-Inter
+        - perl-Test-LongString
         - perl-Test-Needs
+        - perl-Test-Output
         - perl-Test-Pod
         - perl-Test-Pod-Coverage
         - perl-Test-Requires
         - perl-Test-RequiresInternet
+        - perl-Test-Taint
+        - perl-Test-TrailingSpace
+        - perl-Test-Unit
         - perl-Test-utf8
         - perl-Test-Warn
         - perl-Test-Warnings
+        - perl-Test-Without-Module
+        - perl-Test-XML
         - perl-Text-CharWidth
+        - perl-Text-LevenshteinXS
+        - perl-Text-VCardFast
+        - perl-Text-vFile-asData
         - perl-Text-WrapI18N
+        - perltidy
+        - perl-Tie-DataUUID
         - perl-Tie-IxHash
+        - perl-Types-Serialiser
         - perl-Unicode-LineBreak
         - perl-Unicode-UTF8
+        - perl-UNIVERSAL-require
+        - perl-utf8-all
+        - perl-Variable-Magic
         - perl-XML-DOM
+        - perl-XML-Fast
+        - perl-XML-Filter-BufferText
+        - perl-XML-Generator
         - perl-XML-RegExp
+        - perl-XML-SAX-Writer
+        - perl-XML-SemanticDiff
+        - perl-XML-Spice
+        - perl-XML-Twig
+        - perl-XML-XPathEngine
+        - perl-XString
         - perl-YAML-LibYAML
         - perl-YAML-Tiny
         - pipewire-devel
@@ -844,7 +931,6 @@ data:
         - python3-libmount
         - python3-libnbd
         - python3-libpamtest
-        - python3-mako
         - python3-mallard-ducktype
         - python3-markdown
         - python3-munkres
@@ -929,8 +1015,8 @@ data:
         - sanlock-devel
         - satyr-devel
         - sbc-devel
-        - sblim-sfcc
-        - sblim-sfcc-devel
+        - sblim-indication_helper-devel
+        - sblim-sfcCommon-devel
         - SDL2-devel
         - SDL-devel
         - sg3_utils-devel
@@ -957,7 +1043,6 @@ data:
         - startup-notification-devel
         - stunnel
         - suitesparse-devel
-        - symlinks
         - syslinux-perl
         - sysprof-devel
         - taglib-devel
@@ -974,7 +1059,6 @@ data:
         - totem-pl-parser-devel
         - tracker-devel
         - transfig
-        - tree
         - ttembed
         - ttfautohint
         - ttfautohint-libs
@@ -989,12 +1073,9 @@ data:
         - userspace-rcu-devel
         - utf8proc-devel
         - util-linux-user
-        - uuid
-        - uuid-devel
         - vala
         - velocity
         - voikko-tools
-        - volume_key-devel
         - vte291-devel
         - wavpack-devel
         - web-assets-devel
@@ -1003,7 +1084,7 @@ data:
         - woff2-devel
         - wordnet
         - wpebackend-fdo-devel
-        - Xaw3d-devel
+        - xapian-core-devel
         - xbean
         - xcb-proto
         - xcb-util-devel
@@ -1035,7 +1116,6 @@ data:
         - xorg-x11-server-Xwayland-devel
         - xorg-x11-util-macros
         - xorg-x11-xtrans-devel
-        - xz-lzma-compat
         - yajl-devel
         - yasm
         - yelp-devel
@@ -1064,11 +1144,11 @@ data:
             - libnozzle1-devel
             - libqb-devel
             - libtool-ltdl-devel
-            - libwsman1
             - libxslt-devel
             - mesa-libxatracker
             - mesa-libxatracker-devel
             - openwsman-python3
+            - owasp-java-encoder
             - pacemaker
             - pacemaker-cli
             - pacemaker-cluster-libs
@@ -1078,59 +1158,80 @@ data:
             - resource-agents
             - sbd
         ppc64le:
+            - babl-devel
             - booth
             - booth-core
             - booth-site
-            - corosync
-            - corosynclib
+            - cim-schema
             - corosynclib-devel
-            - daxctl-devel
-            - device-mapper-devel
-            - device-mapper-event-devel
-            - device-mapper-multipath
-            - device-mapper-multipath-libs
-            - dlm-lib
+            - diffstat
+            - dos2unix
             - efi-filesystem
+            - eigen3-devel
             - fence-agents-common
+            - flac-devel
             - gnome-bluetooth-libs-devel
-            - kpartx
-            - libblockdev-lvm
+            - gpm
+            - gpm-devel
+            - imath
+            - imath-devel
+            - jasper-devel
+            - lcms2-devel
+            - leptonica
+            - leptonica-devel
+            - libexif-devel
             - libfdt
             - libfprint-devel
-            - libknet1
-            - libknet1-crypto-nss-plugin
+            - libgphoto2-devel
+            - libICE-devel
+            - libjpeg-turbo-devel
             - libknet1-devel
             - libldac-devel
-            - libnozzle1
             - libnozzle1-devel
+            - libogg-devel
             - libqb-devel
-            - librtas-devel
-            - libservicelog-devel
-            - libstoragemgmt
+            - libSM-devel
+            - libsmi-devel
+            - libsndfile-devel
             - libtool-ltdl-devel
             - libtpms
-            - liburing
-            - liburing-devel
+            - libva
+            - libva-devel
             - libvirt-glib
+            - libvorbis-devel
             - libwsman1
+            - libXmu-devel
+            - libXpm-devel
             - libxslt-devel
+            - libXt-devel
+            - linuxconsoletools
             - lttng-ust
-            - lvm2-devel
-            - ndctl-devel
-            - ndctl-libs
             - opencsd
             - opencsd-devel
             - openwsman-python3
+            - openwsman-server
+            - opus-devel
+            - owasp-java-encoder
             - pacemaker
             - pacemaker-cli
             - pacemaker-cluster-libs
             - pacemaker-libs
             - pacemaker-libs-devel
             - pacemaker-schemas
-            - python3-libstoragemgmt
-            - sanlock-lib
+            - patchutils
+            - python3-createrepo_c
+            - python3-imath
+            - python3-libmodulemd
             - sbd
-            - userspace-rcu
+            - sblim-indication_helper
+            - sblim-sfcc
+            - sblim-sfcc-devel
+            - sblim-sfcCommon
+            - symlinks
+            - uuid
+            - uuid-devel
+            - volume_key-devel
+            - Xaw3d-devel
         s390x:
             - booth
             - booth-core
@@ -1152,7 +1253,6 @@ data:
             - libpcap-devel
             - libqb-devel
             - libtool-ltdl-devel
-            - libwsman1
             - libxslt-devel
             - lldb
             - lldb-devel
@@ -1165,6 +1265,7 @@ data:
             - opencsd
             - opencsd-devel
             - openwsman-python3
+            - owasp-java-encoder
             - pacemaker
             - pacemaker-cli
             - pacemaker-cluster-libs
@@ -1175,10 +1276,6 @@ data:
             - python3-lldb
             - sbd
         x86_64:
-            - daxctl-devel
-            - device-mapper-devel
-            - device-mapper-event-devel
-            - dlm-lib
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
             - efivar-devel
@@ -1190,18 +1287,10 @@ data:
             - gnome-bluetooth-libs-devel
             - gnu-efi-compat
             - gnu-efi-devel
-            - libblockdev-lvm
             - libfdt
             - libfprint-devel
             - libldac-devel
-            - libstoragemgmt
-            - liburing
-            - liburing-devel
-            - lvm2-devel
             - mesa-libxatracker-devel
-            - ndctl-devel
             - opencsd
             - opencsd-devel
             - perl-Crypt-PasswdMD5
-            - python3-libstoragemgmt
-            - sanlock-lib
