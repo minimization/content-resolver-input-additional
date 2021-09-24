@@ -910,9 +910,7 @@ data:
         - jaxb-istack-commons-runtime
         - jaxb-istack-commons-tools
         - jaxb-relaxng-datatype
-        - jaxb-runtime
         - jaxb-stax-ex
-        - jaxb-txw2
         - jaxb-xsom
         - jaxen
         - jbig2dec-devel
