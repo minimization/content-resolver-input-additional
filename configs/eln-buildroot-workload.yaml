@@ -42,6 +42,7 @@ data:
         - apr-util-openssl
         - aqute-bnd
         - aqute-bndlib
+        - argparse-manpage
         - args4j
         - armadillo
         - armadillo-devel
@@ -61,7 +62,6 @@ data:
         - avahi-glib-devel
         - avahi-gobject
         - avahi-gobject-devel
-        - babl-devel
         - batik
         - batik-css
         - batik-util
@@ -176,7 +176,6 @@ data:
         - dbus-python-devel
         - dconf-devel
         - device-mapper-multipath-devel
-        - diffstat
         - djvulibre-devel
         - djvulibre-libs
         - dlm-devel
@@ -187,7 +186,6 @@ data:
         - docbook-utils
         - docbook-utils-pdf
         - dom4j
-        - dos2unix
         - dotconf-devel
         - double-conversion-devel
         - doxygen
@@ -199,7 +197,6 @@ data:
         - easymock
         - eglexternalplatform-devel
         - egl-wayland-devel
-        - eigen3-devel
         - elinks
         - espeak-ng-devel
         - evince-devel
@@ -224,7 +221,6 @@ data:
         - file-devel
         - firebird-devel
         - fish
-        - flac-devel
         - flatpak-devel
         - flexiblas-devel
         - flexiblas-netlib64
@@ -817,13 +813,10 @@ data:
         - google-noto-sans-fonts
         - google-roboto-fonts
         - go-rpm-macros
-        - gperf
         - gperftools-devel
         - gperftools-libs
         - gpgme-devel
         - gpgmepp-devel
-        - gpm
-        - gpm-devel
         - graphene-devel
         - grilo-devel
         - groff
@@ -893,8 +886,6 @@ data:
         - ImageMagick-libs
         - imake
         - imaptest
-        - imath
-        - imath-devel
         - impallari-raleway-fonts
         - intltool
         - iptables-devel
@@ -908,7 +899,6 @@ data:
         - jakarta-servlet
         - jansi1
         - jansi-native
-        - jasper-devel
         - javacc
         - java_cup
         - javapackages-generators
@@ -1048,12 +1038,9 @@ data:
         - lasso-devel
         - latex2html
         - latexmk
-        - lcms2-devel
         - ldns-devel
         - lensfun
         - lensfun-devel
-        - leptonica
-        - leptonica-devel
         - leveldb
         - leveldb-devel
         - liba52-devel
@@ -1133,7 +1120,6 @@ data:
         - libetonyek-devel
         - libevdev-devel
         - libev-devel
-        - libexif-devel
         - libexttextcat-devel
         - libfastjson-devel
         - libfbclient2-devel
@@ -1161,7 +1147,6 @@ data:
         - libglib-testing-devel
         - libglusterfs-devel
         - libgnomekbd-devel
-        - libgphoto2-devel
         - libgsf-devel
         - libgta
         - libgta-devel
@@ -1173,7 +1158,6 @@ data:
         - libgxps-devel
         - libhandy-devel
         - libhangul-devel
-        - libICE-devel
         - libIDL
         - libIDL-devel
         - libieee1284-devel
@@ -1188,7 +1172,6 @@ data:
         - libixion
         - libjcat-devel
         - libjpeg-devel
-        - libjpeg-turbo-devel
         - libkcapi-fipscheck
         - libkml
         - libkml-devel
@@ -1244,7 +1227,6 @@ data:
         - liboath
         - liboath-devel
         - libodfgen-devel
-        - libogg-devel
         - liborcus-devel
         - liborcus-model
         - libosinfo-devel
@@ -1272,7 +1254,6 @@ data:
         - libqmi-devel
         - libqrtr-glib-devel
         - libqxp-devel
-        - librabbitmq-devel
         - libraqm
         - libraqm-devel
         - LibRaw-devel
@@ -1296,9 +1277,6 @@ data:
         - libslirp-devel
         - libsmartcols-devel
         - libsmbclient-devel
-        - libSM-devel
-        - libsmi-devel
-        - libsndfile-devel
         - libsodium
         - libsodium-devel
         - libspatialite
@@ -1343,8 +1321,6 @@ data:
         - libuser-devel
         - libutempter-devel
         - libv4l-devel
-        - libva
-        - libva-devel
         - libvala
         - libvala-devel
         - libvdpau-devel
@@ -1355,7 +1331,6 @@ data:
         - libvisual-devel
         - libvncserver-devel
         - libvoikko-devel
-        - libvorbis-devel
         - libvpx-devel
         - libwacom-devel
         - libwbclient-devel
@@ -1368,6 +1343,7 @@ data:
         - libwpe-devel
         - libwpg-devel
         - libwps-devel
+        - libwsman-devel
         - libXaw-devel
         - libXdmcp-devel
         - libXfont2-devel
@@ -1375,15 +1351,12 @@ data:
         - libxkbfile-devel
         - libxklavier-devel
         - libxmlb-devel
-        - libXmu-devel
         - libXp-devel
-        - libXpm-devel
         - libXpresent-devel
         - libXres-devel
         - libXScrnSaver
         - libXScrnSaver-devel
         - libxshmfence-devel
-        - libXt-devel
         - libXv-devel
         - libXxf86vm-devel
         - libyaml-devel
@@ -1391,7 +1364,6 @@ data:
         - libzip-devel
         - libzmf-devel
         - linkchecker
-        - linuxconsoletools
         - linuxdoc-tools
         - lldpad-devel
         - llvm12
@@ -1404,7 +1376,6 @@ data:
         - lua-devel
         - lua-lunitx
         - luarocks
-        - lynx
         - lzo-devel
         - lzo-minilzo
         - m17n-db-devel
@@ -1562,7 +1533,6 @@ data:
         - mingw-zlib
         - minizip
         - minizip-devel
-        - mlocate
         - mm-common
         - mobile-broadband-provider-info-devel
         - mockito
@@ -1647,8 +1617,6 @@ data:
         - openblas-threads64
         - openblas-threads64_
         - openchange-devel
-        - openexr-devel
-        - openexr-libs
         - openjade
         - openjpeg2-devel
         - openjpeg2-tools
@@ -1659,7 +1627,7 @@ data:
         - openslp-devel
         - opensp
         - opensp-devel
-        - opus-devel
+        - openwsman-client
         - orangefs-devel
         - orc-compiler
         - orc-devel
@@ -1676,7 +1644,6 @@ data:
         - paper
         - parted-devel
         - patchelf
-        - patchutils
         - pcaudiolib-devel
         - pcsc-lite-devel
         - pdfbox
@@ -2180,7 +2147,6 @@ data:
         - python3-hypothesis
         - python3-idle
         - python3-imagesize
-        - python3-imath
         - python3-importlib-metadata
         - python3-incremental
         - python3-iniconfig
@@ -2207,7 +2173,6 @@ data:
         - python3-kerberos
         - python3-keyring
         - python3-kiwisolver
-        - python3-koji
         - python3-latexcodec
         - python3-lazy-object-proxy
         - python3-ldb-devel
@@ -4033,8 +3998,8 @@ data:
         - sanlock-devel
         - satyr-devel
         - sbc-devel
-        - sblim-sfcc
-        - sblim-sfcc-devel
+        - sblim-indication_helper-devel
+        - sblim-sfcCommon-devel
         - scotch
         - scotch-devel
         - sdl12-compat-devel
@@ -4069,7 +4034,6 @@ data:
         - suitesparse-devel
         - SuperLU
         - SuperLU-devel
-        - symlinks
         - syslinux-perl
         - sysprof-devel
         - t1lib
@@ -4078,10 +4042,6 @@ data:
         - taglib-devel
         - teamd-devel
         - teckit-devel
-        - tesseract
-        - tesseract-devel
-        - tesseract-langpack-eng
-        - tesseract-tessdata-doc
         - testng
         - texi2html
         - texinfo
@@ -7760,7 +7720,6 @@ data:
         - tre
         - tre-common
         - tre-devel
-        - tree
         - trousers-devel
         - ttembed
         - ttfautohint
@@ -7780,10 +7739,8 @@ data:
         - usbredir-devel
         - userspace-rcu-devel
         - utf8proc-devel
-        - uuid-devel
         - vala
         - voikko-tools
-        - volume_key-devel
         - vte291-devel
         - waf
         - wavpack-devel
@@ -7807,7 +7764,6 @@ data:
         - wyhash-devel
         - xapian-bindings
         - xapian-core-devel
-        - Xaw3d-devel
         - xbean
         - xcb-proto
         - xcb-util-devel
@@ -7909,9 +7865,7 @@ data:
             - libnozzle1-devel
             - libpmem-devel
             - libqb-devel
-            - librabbitmq
             - libtool-ltdl-devel
-            - libwsman1
             - libxcrypt-compat
             - libxslt-devel
             - mesa-libxatracker
@@ -8019,37 +7973,75 @@ data:
             - spice-server-devel
             - stunnel
             - util-linux-user
-            - uuid
         ppc64le:
+            - babl-devel
+            - cim-schema
+            - diffstat
+            - dos2unix
             - efi-filesystem
+            - eigen3-devel
+            - flac-devel
             - flashrom
             - flashrom-devel
+            - gpm
+            - gpm-devel
+            - imath
+            - imath-devel
+            - jasper-devel
+            - lcms2-devel
+            - leptonica
+            - leptonica-devel
             - libbsd
             - libcacard
             - libconfuse
             - libconfuse-devel
+            - libexif-devel
             - libfprint-devel
             - libftdi
             - libftdi-devel
+            - libgphoto2-devel
+            - libICE-devel
             - libjaylink
             - libjaylink-devel
+            - libjpeg-turbo-devel
             - libldac-devel
+            - libogg-devel
             - librabbitmq
+            - librabbitmq-devel
+            - libSM-devel
+            - libsmi-devel
+            - libsndfile-devel
+            - libva
+            - libva-devel
             - libvirt-daemon-kvm
+            - libvorbis-devel
             - libxcrypt-compat
+            - libXmu-devel
+            - libXpm-devel
+            - libXt-devel
+            - linuxconsoletools
             - mingw32-crt
             - mingw32-filesystem
             - mingw-filesystem-base
             - mtools
             - openblas-threads
+            - openexr-devel
+            - openexr-libs
+            - openwsman-server
+            - opus-devel
+            - patchutils
             - pyproject-rpm-macros
             - python3-bson
             - python3-click
+            - python3-createrepo_c
             - python3-docutils
             - python3-gevent
             - python3-greenlet
+            - python3-imath
             - python3-itsdangerous
+            - python3-koji
             - python3-libftdi
+            - python3-libmodulemd
             - python3-py
             - python3-sqlalchemy
             - python3-werkzeug
@@ -8078,9 +8070,21 @@ data:
             - qemu-ui-gtk
             - qemu-ui-opengl
             - qemu-ui-sdl
+            - sblim-indication_helper
+            - sblim-sfcc
+            - sblim-sfcc-devel
+            - sblim-sfcCommon
             - socat
             - stunnel
+            - symlinks
+            - tesseract
+            - tesseract-devel
+            - tesseract-langpack-eng
+            - tesseract-tessdata-doc
             - uuid
+            - uuid-devel
+            - volume_key-devel
+            - Xaw3d-devel
         s390x:
             - anthy-unicode
             - bluez-obexd
@@ -8110,7 +8114,6 @@ data:
             - libpinyin
             - libpinyin-data
             - libpmem-devel
-            - librabbitmq
             - libxcrypt-compat
             - libzhuyin
             - lldb
@@ -8157,7 +8160,6 @@ data:
             - socat
             - stunnel
             - unicode-ucd
-            - uuid
         x86_64:
             - aspnetcore-runtime-5.0
             - aspnetcore-targeting-pack-5.0
