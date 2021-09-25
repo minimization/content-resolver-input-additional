@@ -13,6 +13,7 @@ data:
         - repository-c9s
     packages:
         - 389-ds-base-devel
+        - 389-ds-base-libs
         - accountsservice-devel
         - adobe-mappings-cmap-devel
         - adobe-mappings-pdf-devel
@@ -48,7 +49,6 @@ data:
         - bdftopcf
         - beakerlib
         - beust-jcommander
-        - bind-devel
         - blas
         - blas64_
         - blas-devel
@@ -89,6 +89,7 @@ data:
         - criu-devel
         - CUnit
         - CUnit-devel
+        - cyrus-sasl-md5
         - datefudge
         - dblatex
         - dbus-glib-devel
@@ -112,7 +113,6 @@ data:
         - execstack
         - exempi-devel
         - exiv2-devel
-        - fasterxml-oss-parent
         - fdk-aac-free-devel
         - felix-parent
         - felix-utils
@@ -213,17 +213,8 @@ data:
         - java_cup
         - javapackages-generators
         - javapackages-local
-        - jaxb-codemodel
-        - jaxb-dtd-parser
-        - jaxb-fi
-        - jaxb-istack-commons-runtime
-        - jaxb-istack-commons-tools
-        - jaxb-relaxng-datatype
-        - jaxb-stax-ex
-        - jaxb-xsom
         - jbig2dec-devel
         - jbigkit-devel
-        - jboss-parent
         - jdependency
         - jdom
         - jdom2
@@ -280,6 +271,7 @@ data:
         - libdaemon-devel
         - libdazzle-devel
         - libdb-devel-static
+        - libdb-utils
         - libdhash-devel
         - libdmx-devel
         - libdrm-devel
@@ -356,7 +348,6 @@ data:
         - libnl3-devel
         - libnma-devel
         - libnotify-devel
-        - libnsl2-devel
         - libnumbertext-devel
         - libodfgen-devel
         - liborcus-devel
@@ -623,6 +614,8 @@ data:
         - openchange-devel
         - openjpeg2-devel
         - openjpeg2-tools
+        - openldap-clients
+        - openldap-compat
         - openldap-servers
         - openslp-devel
         - openwsman-client
@@ -861,9 +854,6 @@ data:
         - perl-YAML-Tiny
         - pipewire-devel
         - pkgconfig
-        - pki-jackson-bom
-        - pki-jackson-parent
-        - pki-resteasy
         - plexus-archiver
         - plexus-build-api
         - plexus-compiler
@@ -928,6 +918,7 @@ data:
         - python3-libmount
         - python3-libnbd
         - python3-libpamtest
+        - python3-libsss_nss_idmap
         - python3-mallard-ducktype
         - python3-markdown
         - python3-munkres
@@ -1027,6 +1018,7 @@ data:
         - snappy-devel
         - socat
         - socket_wrapper
+        - softhsm
         - sombok
         - sombok-devel
         - soundtouch-devel
@@ -1097,7 +1089,6 @@ data:
         - xmlsec1-devel
         - xmlsec1-nss-devel
         - xmlsec1-openssl-devel
-        - xmlstreambuffer
         - xmlto
         - xmlunit-assertj
         - xmlunit-core
