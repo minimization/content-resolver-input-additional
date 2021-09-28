@@ -190,6 +190,7 @@ data:
         - double-conversion-devel
         - doxygen
         - doxygen2man
+        - doxygen-latex
         - dpkg
         - dpkg-dev
         - dpkg-perl
@@ -2332,6 +2333,7 @@ data:
         - python3-sphinx-gallery
         - python3-sphinx-issues
         - python3-sphinx-last-updated-by-git
+        - python3-sphinx-latex
         - python3-sphinx-removed-in
         - python3-sphinx_rtd_theme
         - python3-sphinx-testing
