@@ -2284,6 +2284,7 @@ data:
         - python3-recommonmark
         - python3-redis
         - python3-reportlab
+        - python3-repoze-sphinx-autointerface
         - python3-requests-download
         - python3-requests-kerberos
         - python3-requests-mock
