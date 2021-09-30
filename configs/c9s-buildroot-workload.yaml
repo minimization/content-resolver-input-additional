@@ -67,8 +67,6 @@ data:
         - cairomm-devel
         - c-ares-devel
         - centos-bookmarks
-        - centos-gpg-keys
-        - centos-stream-repos
         - cglib
         - check
         - check-devel
