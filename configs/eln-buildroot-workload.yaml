@@ -822,7 +822,6 @@ data:
         - grilo-devel
         - groff
         - grpc-devel
-        - grpc-doc
         - grpc-plugins
         - gsl-devel
         - gsm-devel
@@ -2811,7 +2810,7 @@ data:
         - rust-adler32-devel
         - rust-adler32+std-devel
         - rust-adler-devel
-        - rust-ahash0.4-devel
+        - rust-ahash-devel
         - rust-aho-corasick+default-devel
         - rust-aho-corasick-devel
         - rust-aho-corasick+std-devel
@@ -2832,6 +2831,10 @@ data:
         - rust-argparse+default-devel
         - rust-argparse-devel
         - rust-arrayvec-devel
+        - rust-asn1_derive+default-devel
+        - rust-asn1+derive-devel
+        - rust-asn1_derive-devel
+        - rust-asn1-devel
         - rust-assert_approx_eq+default-devel
         - rust-assert_approx_eq-devel
         - rust-assert-impl+default-devel
@@ -2916,6 +2919,7 @@ data:
         - rust-cfg-if0.1-devel
         - rust-cfg-if+default-devel
         - rust-cfg-if-devel
+        - rust-chrono+alloc-devel
         - rust-chrono+clock-devel
         - rust-chrono+default-devel
         - rust-chrono-devel
@@ -2935,10 +2939,6 @@ data:
         - rust-color_quant-devel
         - rust-console_error_panic_hook+default-devel
         - rust-console_error_panic_hook-devel
-        - rust-const-random+default-devel
-        - rust-const-random-devel
-        - rust-const-random-macro+default-devel
-        - rust-const-random-macro-devel
         - rust-cpio+default-devel
         - rust-cpio-devel
         - rust-crc32fast+default-devel
@@ -2975,9 +2975,6 @@ data:
         - rust-crossbeam-utils+default-devel
         - rust-crossbeam-utils-devel
         - rust-crossbeam-utils+std-devel
-        - rust-crunchy+default-devel
-        - rust-crunchy-devel
-        - rust-crunchy+limit_128-devel
         - rust-csv-core+default-devel
         - rust-csv-core-devel
         - rust-csv+default-devel
@@ -3289,6 +3286,8 @@ data:
         - rust-nix0.18-devel
         - rust-nix+default-devel
         - rust-nix-devel
+        - rust-no-panic+default-devel
+        - rust-no-panic-devel
         - rust-normalize-line-endings+default-devel
         - rust-normalize-line-endings-devel
         - rust-num-bigint0.3-devel
@@ -3319,6 +3318,7 @@ data:
         - rust-once_cell-devel
         - rust-once_cell+race-devel
         - rust-once_cell+std-devel
+        - rust-once_cell+unstable-devel
         - rust-oorandom+default-devel
         - rust-oorandom-devel
         - rust-openat+default-devel
@@ -3344,6 +3344,8 @@ data:
         - rust-pathfinder_geometry-devel
         - rust-pathfinder_simd+default-devel
         - rust-pathfinder_simd-devel
+        - rust-pem+default-devel
+        - rust-pem-devel
         - rust-percent-encoding1+default-devel
         - rust-percent-encoding1-devel
         - rust-percent-encoding+default-devel
@@ -3444,6 +3446,7 @@ data:
         - rust-pyo3-build-config+resolve-config-devel
         - rust-pyo3+default-devel
         - rust-pyo3-devel
+        - rust-pyo3+extension-module-devel
         - rust-pyo3-macros-backend+default-devel
         - rust-pyo3-macros-backend-devel
         - rust-pyo3-macros+default-devel
@@ -3590,9 +3593,6 @@ data:
         - rust-reqwest+__tls-devel
         - rust-rle-decode-fast+default-devel
         - rust-rle-decode-fast-devel
-        - rust-rustc-hash+default-devel
-        - rust-rustc-hash-devel
-        - rust-rustc-hash+std-devel
         - rust-rustc-serialize+default-devel
         - rust-rustc-serialize-devel
         - rust-rustc-test+default-devel
@@ -3616,6 +3616,8 @@ data:
         - rust-scopeguard-devel
         - rust-seahash3+default-devel
         - rust-seahash3-devel
+        - rust-seahash+default-devel
+        - rust-seahash-devel
         - rust-semver0.11+default-devel
         - rust-semver0.11-devel
         - rust-semver+default-devel
@@ -3747,9 +3749,6 @@ data:
         - rust-tiff-devel
         - rust-time0.1+default-devel
         - rust-time0.1-devel
-        - rust-tiny-keccak+default-devel
-        - rust-tiny-keccak-devel
-        - rust-tiny-keccak+sha3-devel
         - rust-tinytemplate+default-devel
         - rust-tinytemplate-devel
         - rust-tinyvec+alloc-devel
