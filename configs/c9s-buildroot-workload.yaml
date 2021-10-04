@@ -1068,6 +1068,7 @@ data:
         - vte291-devel
         - wavpack-devel
         - web-assets-devel
+        - web-assets-filesystem
         - webrtc-audio-processing-devel
         - wireshark-devel
         - woff2-devel
