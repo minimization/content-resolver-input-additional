@@ -2736,6 +2736,7 @@ data:
         - python3-constantly
         - python3-contextlib2
         - python3-coverage
+        - python3-coverage+toml
         - python3-cppy
         - python3-cpuinfo
         - python3-crashtest
