@@ -130,7 +130,6 @@ data:
         - byaccj
         - byte-buddy-agent
         - cairomm-devel
-        - capstone
         - capstone-devel
         - c-ares-devel
         - catch-devel
@@ -277,6 +276,7 @@ data:
         - fonttosfnt
         - fop
         - freeglut-devel
+        - freeipa-healthcheck-core
         - freerdp-devel
         - freetds
         - freetds-devel
@@ -1779,7 +1779,6 @@ data:
         - libgfapi-devel
         - libgfrpc-devel
         - libgfxdr-devel
-        - libgit2
         - libgit2-devel
         - libGLEW
         - libglib-testing
@@ -1856,7 +1855,6 @@ data:
         - libnetfilter_cttimeout-devel
         - libnetfilter_queue-devel
         - libnfnetlink-devel
-        - libnfs
         - libnfs-devel
         - libnftnl-devel
         - libnghttp2-devel
@@ -2325,6 +2323,7 @@ data:
         - openslp-devel
         - opensp
         - opensp-devel
+        - openssl1.1-devel
         - openwsman-client
         - orangefs-devel
         - orc-compiler
@@ -2679,9 +2678,9 @@ data:
         - physfs
         - physfs-devel
         - pipewire-devel
-        - pipewire-jack-audio-connection-kit
         - pipewire-jack-audio-connection-kit-devel
         - pkgconfig
+        - pki-base
         - pki-resteasy
         - plexus-archiver
         - plexus-build-api
@@ -2929,6 +2928,7 @@ data:
         - python3-pillow
         - python3-pillow-tk
         - python3-pkginfo
+        - python3-pki
         - python3-platformdirs
         - python3-pluggy
         - python3-poetry
@@ -3095,13 +3095,6 @@ data:
         - python-wrapt-doc
         - pythran
         - qdox
-        - qemu-audio-jack
-        - qemu-block-nfs
-        - qemu-device-display-vhost-user-gpu
-        - qemu-device-display-virtio-gpu-gl
-        - qemu-device-display-virtio-gpu-pci-gl
-        - qemu-device-display-virtio-vga-gl
-        - qemu-device-usb-host
         - qhull-devel
         - qjson
         - qjson-devel
@@ -3416,14 +3409,12 @@ data:
         - rubygem-cucumber-tag_expressions
         - rubygem-cucumber-wire
         - rubygem-curb
-        - rubygem-daemons
         - rubygem-dalli
         - rubygem-delorean
         - rubygem-ejs
         - rubygem-em-http-request
         - rubygem-em-socksify
         - rubygem-erubi
-        - rubygem-eventmachine
         - rubygem-excon
         - rubygem-execjs
         - rubygem-faraday
@@ -3457,7 +3448,6 @@ data:
         - rubygem-multipart-post
         - rubygem-multi_test
         - rubygem-mustache
-        - rubygem-mustermann
         - rubygem-net-http-persistent
         - rubygem-nio4r
         - rubygem-nokogiri
@@ -3469,7 +3459,6 @@ data:
         - rubygem-public_suffix
         - rubygem-puma
         - rubygem-racc
-        - rubygem-rack-protection
         - rubygem-rails
         - rubygem-rails-controller-testing
         - rubygem-rails-dom-testing
@@ -3491,7 +3480,6 @@ data:
         - rubygem-sass-rails
         - rubygem-shindo
         - rubygem-shoulda-context
-        - rubygem-sinatra
         - rubygem-slim
         - rubygem-sprockets
         - rubygem-sprockets-rails
@@ -3502,7 +3490,6 @@ data:
         - rubygem-test_declarative
         - rubygem-test-unit-rr
         - rubygem-thor
-        - rubygem-tilt
         - rubygem-timecop
         - rubygem-ttfunk
         - rubygem-typhoeus
@@ -4711,7 +4698,6 @@ data:
         - scotch-devel
         - sdl12-compat-devel
         - SDL2-devel
-        - SDL2_image
         - SDL2_image-devel
         - SDL2-static
         - SDL_sound
@@ -8457,12 +8443,12 @@ data:
         - utf8cpp-devel
         - utf8proc-devel
         - vala
-        - virglrenderer
         - virglrenderer-devel
         - voikko-tools
         - vte291-devel
         - wavpack-devel
         - web-assets-devel
+        - web-assets-filesystem
         - webrtc-audio-processing-devel
         - websocketpp-devel
         - wireshark-devel
@@ -8542,7 +8528,6 @@ data:
             - booth
             - booth-core
             - booth-site
-            - btrfs-progs
             - bullet
             - bullet-devel
             - corosynclib-devel
@@ -8572,7 +8557,6 @@ data:
             - gtkmm24
             - gtkmm24-devel
             - haproxy
-            - libbsd
             - libconfuse
             - libconfuse-devel
             - libffado
@@ -8591,7 +8575,6 @@ data:
             - libqb-devel
             - libraw1394
             - libraw1394-devel
-            - libssh2
             - libtool-ltdl-devel
             - libxcrypt-compat
             - libxml++
@@ -8606,10 +8589,6 @@ data:
             - mingw-filesystem-base
             - mtools
             - ncurses-compat-libs
-            - ntfs-3g
-            - ntfs-3g-libs
-            - ntfs-3g-system-compression
-            - ntfsprogs
             - openblas-threads
             - openwsman-python3
             - pacemaker
@@ -8698,11 +8677,17 @@ data:
             - rlottie
             - rlottie-devel
             - rubygem-backports
+            - rubygem-daemons
             - rubygem-ethon
+            - rubygem-eventmachine
             - rubygem-ffi
+            - rubygem-mustermann
             - rubygem-open4
             - rubygem-rack
+            - rubygem-rack-protection
             - rubygem-rack-test
+            - rubygem-sinatra
+            - rubygem-tilt
             - rubygem-webrick
             - sbd
             - socat
@@ -8717,7 +8702,6 @@ data:
             - xen-devel
             - xen-libs
             - xen-licenses
-            - zerofree
         ppc64le:
             - babl-devel
             - bullet
@@ -8746,7 +8730,6 @@ data:
             - lcms2-devel
             - leptonica
             - leptonica-devel
-            - libbsd
             - libcacard
             - libconfuse
             - libconfuse-devel
@@ -8764,6 +8747,7 @@ data:
             - libjaylink-devel
             - libjpeg-turbo-devel
             - libldac-devel
+            - libnfs
             - libogg-devel
             - librabbitmq
             - librabbitmq-devel
@@ -8795,6 +8779,7 @@ data:
             - openwsman-server
             - opus-devel
             - patchutils
+            - pipewire-jack-audio-connection-kit
             - pyproject-rpm-macros
             - python3-bson
             - python3-click
@@ -8814,6 +8799,7 @@ data:
             - python3-zope-event
             - python3-zope-interface
             - qemu-audio-alsa
+            - qemu-audio-jack
             - qemu-audio-oss
             - qemu-audio-pa
             - qemu-audio-sdl
@@ -8821,12 +8807,18 @@ data:
             - qemu-block-dmg
             - qemu-block-gluster
             - qemu-block-iscsi
+            - qemu-block-nfs
             - qemu-block-rbd
             - qemu-block-ssh
             - qemu-char-baum
+            - qemu-device-display-vhost-user-gpu
             - qemu-device-display-virtio-gpu
+            - qemu-device-display-virtio-gpu-gl
             - qemu-device-display-virtio-gpu-pci
+            - qemu-device-display-virtio-gpu-pci-gl
             - qemu-device-display-virtio-vga
+            - qemu-device-display-virtio-vga-gl
+            - qemu-device-usb-host
             - qemu-device-usb-redirect
             - qemu-device-usb-smartcard
             - qemu-system-ppc
@@ -8842,6 +8834,7 @@ data:
             - sblim-sfcc
             - sblim-sfcc-devel
             - sblim-sfcCommon
+            - SDL2_image
             - socat
             - stunnel
             - symlinks
@@ -8855,16 +8848,14 @@ data:
             - tslib-devel
             - uuid
             - uuid-devel
+            - virglrenderer
             - volume_key-devel
             - Xaw3d-devel
         s390x:
             - anthy-unicode
             - bluez-obexd
-            - btrfs-progs
             - clang
             - clang-devel
-            - clang-libs
-            - clang-resource-filesystem
             - clang-tools-extra
             - cldr-emoji-annotation
             - cldr-emoji-annotation-dtd
@@ -8880,13 +8871,11 @@ data:
             - java-1.8.0-openjdk
             - java-1.8.0-openjdk-devel
             - java-1.8.0-openjdk-headless
-            - libbsd
             - libhangul
             - libpcap-devel
             - libpinyin
             - libpinyin-data
             - libpmem-devel
-            - libssh2
             - libxcrypt-compat
             - libzhuyin
             - lldb
@@ -8900,10 +8889,6 @@ data:
             - mingw32-filesystem
             - mingw-filesystem-base
             - mtools
-            - ntfs-3g
-            - ntfs-3g-libs
-            - ntfs-3g-system-compression
-            - ntfsprogs
             - ocaml-camomile-data
             - openblas-threads
             - pyproject-rpm-macros
@@ -8911,7 +8896,6 @@ data:
             - python3-click
             - python3-debtcollector
             - python3-docutils
-            - python3-enchant
             - python3-gevent
             - python3-greenlet
             - python3-iso8601
@@ -8937,11 +8921,9 @@ data:
             - socat
             - stunnel
             - unicode-ucd
-            - zerofree
         x86_64:
             - aspnetcore-runtime-5.0
             - aspnetcore-targeting-pack-5.0
-            - btrfs-progs
             - bullet
             - bullet-devel
             - dbus-c++
@@ -8982,16 +8964,11 @@ data:
             - libldac-devel
             - libraw1394
             - libraw1394-devel
-            - libssh2
             - libxml++
             - libxml++-devel
             - luajit
             - luajit-devel
             - mesa-libxatracker-devel
-            - ntfs-3g
-            - ntfs-3g-libs
-            - ntfs-3g-system-compression
-            - ntfsprogs
             - ocaml-camomile-data
             - perl-Crypt-PasswdMD5
             - python3-libftdi
@@ -9004,6 +8981,3 @@ data:
             - tslib
             - tslib-devel
             - xen-devel
-            - xen-libs
-            - xen-licenses
-            - zerofree
