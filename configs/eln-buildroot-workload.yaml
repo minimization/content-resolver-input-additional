@@ -48,7 +48,6 @@ data:
         - aqute-bnd
         - aqute-bndlib
         - argparse-manpage
-        - args4j
         - armadillo
         - armadillo-devel
         - arpack
@@ -1537,7 +1536,6 @@ data:
         - jakarta-json-api
         - jakarta-json-impl
         - jakarta-servlet
-        - jakarta-ws-rs
         - jansi1
         - jansi-native
         - javacc
@@ -1545,16 +1543,6 @@ data:
         - javapackages-generators
         - javapackages-local
         - javassist
-        - jaxb-codemodel
-        - jaxb-dtd-parser
-        - jaxb-fi
-        - jaxb-istack-commons-runtime
-        - jaxb-istack-commons-tools
-        - jaxb-relaxng-datatype
-        - jaxb-runtime
-        - jaxb-stax-ex
-        - jaxb-txw2
-        - jaxb-xsom
         - jaxen
         - jbig2dec-devel
         - jbigkit-devel
@@ -1644,6 +1632,8 @@ data:
         - kf5-knotifications-devel
         - kf5-kparts
         - kf5-kparts-devel
+        - kf5-kplotting
+        - kf5-kplotting-devel
         - kf5-kservice
         - kf5-kservice-devel
         - kf5-ktextwidgets
@@ -8486,7 +8476,6 @@ data:
         - xmlsec1-nss-devel
         - xmlsec1-openssl-devel
         - xmlstarlet
-        - xmlstreambuffer
         - xmlto
         - xmltoman
         - xmlunit
@@ -8861,6 +8850,7 @@ data:
             - cldr-emoji-annotation-dtd
             - compiler-rt
             - efi-filesystem
+            - glibc-headers-s390
             - gnome-bluetooth
             - gnome-bluetooth-libs
             - ibus-table
@@ -8946,6 +8936,7 @@ data:
             - fftw-libs-quad
             - flashrom
             - flashrom-devel
+            - glibc-headers-x86
             - gnu-efi-compat
             - gnu-efi-devel
             - gtkmm24
