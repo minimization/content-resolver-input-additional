@@ -8850,7 +8850,6 @@ data:
             - cldr-emoji-annotation-dtd
             - compiler-rt
             - efi-filesystem
-            - glibc-headers-s390
             - gnome-bluetooth
             - gnome-bluetooth-libs
             - ibus-table
@@ -8936,7 +8935,6 @@ data:
             - fftw-libs-quad
             - flashrom
             - flashrom-devel
-            - glibc-headers-x86
             - gnu-efi-compat
             - gnu-efi-devel
             - gtkmm24
