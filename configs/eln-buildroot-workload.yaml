@@ -8878,7 +8878,6 @@ data:
             - mingw32-filesystem
             - mingw-filesystem-base
             - mtools
-            - ocaml-camomile-data
             - openblas-threads
             - pyproject-rpm-macros
             - python3-bson
@@ -8958,7 +8957,6 @@ data:
             - luajit
             - luajit-devel
             - mesa-libxatracker-devel
-            - ocaml-camomile-data
             - perl-Crypt-PasswdMD5
             - python3-libftdi
             - python3-qt5-devel
