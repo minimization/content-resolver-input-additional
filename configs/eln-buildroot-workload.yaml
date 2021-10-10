@@ -937,6 +937,7 @@ data:
         - golang-github-dgrijalva-jwt-devel
         - golang-github-digitalocean-godo-devel
         - golang-github-dimchansky-utfbom-devel
+        - golang-github-djherbis-atime-devel
         - golang-github-dnaeon-vcr-devel
         - golang-github-docker-cli-devel
         - golang-github-docker-connections-devel
