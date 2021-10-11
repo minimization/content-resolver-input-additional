@@ -2669,7 +2669,6 @@ data:
         - physfs
         - physfs-devel
         - pipewire-devel
-        - pipewire-jack-audio-connection-kit-devel
         - pkgconfig
         - pki-base
         - pki-resteasy
@@ -8769,7 +8768,6 @@ data:
             - openwsman-server
             - opus-devel
             - patchutils
-            - pipewire-jack-audio-connection-kit
             - pyproject-rpm-macros
             - python3-bson
             - python3-click
