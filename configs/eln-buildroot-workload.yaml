@@ -125,6 +125,8 @@ data:
         - brlapi-devel
         - bsh
         - btrfs-progs-devel
+        - bullet
+        - bullet-devel
         - byacc
         - byaccj
         - byte-buddy-agent
@@ -205,6 +207,10 @@ data:
         - CUnit-devel
         - datefudge
         - dblatex
+        - dbus-c++
+        - dbus-c++-devel
+        - dbus-c++-ecore
+        - dbus-c++-glib
         - dbus-glib-devel
         - dbusmenu-qt5
         - dbusmenu-qt5-devel
@@ -231,6 +237,8 @@ data:
         - dpkg-perl
         - e2fsprogs-devel
         - easymock
+        - efl
+        - efl-devel
         - eglexternalplatform-devel
         - egl-wayland-devel
         - elinks
@@ -1470,6 +1478,8 @@ data:
         - gtk3-devel-docs
         - gtk4-devel
         - gtk-doc
+        - gtkmm24
+        - gtkmm24-devel
         - gtkmm30-devel
         - gtksourceview4-devel
         - gtkspell3
@@ -1530,7 +1540,6 @@ data:
         - isl
         - isl-devel
         - isns-utils-devel
-        - jack-audio-connection-kit
         - jack-audio-connection-kit-devel
         - jackson-bom
         - jackson-parent
@@ -1982,6 +1991,7 @@ data:
         - libxkbfile-devel
         - libxklavier-devel
         - libxmlb-devel
+        - libxml++-devel
         - libXp-devel
         - libXpresent-devel
         - libXres-devel
@@ -2005,6 +2015,8 @@ data:
         - lpsolve-devel
         - lttng-ust-devel
         - lua-devel
+        - luajit
+        - luajit-devel
         - lua-lunitx
         - luarocks
         - lzo-devel
@@ -2964,6 +2976,7 @@ data:
         - python3-pytest-xdist
         - python3-pytest-xprocess
         - python3-pyxattr
+        - python3-qt5-devel
         - python3-random2
         - python3-raven
         - python3-raven+flask
@@ -3240,6 +3253,8 @@ data:
         - R-lmodel2
         - R-lmtest
         - R-lobstr
+        - rlottie
+        - rlottie-devel
         - R-lpSolve
         - R-lubridate
         - R-magick
@@ -8401,6 +8416,8 @@ data:
         - thrift
         - tidy
         - tinycdb-devel
+        - tinyxml2
+        - tinyxml2-devel
         - tix
         - tix-devel
         - tokyocabinet-devel
@@ -8413,6 +8430,8 @@ data:
         - tre-devel
         - treelayout
         - trousers-devel
+        - tslib
+        - tslib-devel
         - ttembed
         - ttfautohint
         - ttfautohint-libs
@@ -8517,13 +8536,7 @@ data:
             - booth
             - booth-core
             - booth-site
-            - bullet
-            - bullet-devel
             - corosynclib-devel
-            - dbus-c++
-            - dbus-c++-devel
-            - dbus-c++-ecore
-            - dbus-c++-glib
             - dotnet5.0-build-reference-packages
             - dotnet-apphost-pack-5.0
             - dotnet-build-reference-packages
@@ -8536,24 +8549,18 @@ data:
             - dotnet-templates-5.0
             - edk2-ovmf
             - efivar-devel
-            - efl
-            - efl-devel
             - fence-agents-common
             - flashrom
             - flashrom-devel
             - gnu-efi-compat
             - gnu-efi-devel
-            - gtkmm24
-            - gtkmm24-devel
             - haproxy
             - libconfuse
             - libconfuse-devel
-            - libffado
             - libffado-devel
             - libfprint-devel
             - libftdi
             - libftdi-devel
-            - libiec61883
             - libiec61883-devel
             - libjaylink
             - libjaylink-devel
@@ -8562,15 +8569,10 @@ data:
             - libnozzle1-devel
             - libpmem-devel
             - libqb-devel
-            - libraw1394
             - libraw1394-devel
             - libtool-ltdl-devel
             - libxcrypt-compat
-            - libxml++
-            - libxml++-devel
             - libxslt-devel
-            - luajit
-            - luajit-devel
             - mesa-libxatracker
             - mesa-libxatracker-devel
             - mingw32-crt
@@ -8642,7 +8644,6 @@ data:
             - python3-py
             - python3-pycares
             - python3-pyOpenSSL
-            - python3-qt5-devel
             - python3-rsa
             - python3-s3transfer
             - python3-sniffio
@@ -8663,8 +8664,6 @@ data:
             - redhat-lsb-core
             - redhat-lsb-submod-security
             - resource-agents
-            - rlottie
-            - rlottie-devel
             - rubygem-backports
             - rubygem-daemons
             - rubygem-ethon
@@ -8683,38 +8682,25 @@ data:
             - spax
             - spice-server-devel
             - stunnel
-            - tinyxml2
-            - tinyxml2-devel
-            - tslib
-            - tslib-devel
             - util-linux-user
             - xen-devel
             - xen-libs
             - xen-licenses
         ppc64le:
             - babl-devel
-            - bullet
-            - bullet-devel
             - cim-schema
-            - dbus-c++
-            - dbus-c++-devel
-            - dbus-c++-ecore
-            - dbus-c++-glib
             - diffstat
             - dos2unix
             - efi-filesystem
-            - efl
-            - efl-devel
             - eigen3-devel
             - flac-devel
             - flashrom
             - flashrom-devel
             - gpm
             - gpm-devel
-            - gtkmm24
-            - gtkmm24-devel
             - imath
             - imath-devel
+            - jack-audio-connection-kit
             - jasper-devel
             - lcms2-devel
             - leptonica
@@ -8751,13 +8737,10 @@ data:
             - libvorbis-devel
             - libxcrypt-compat
             - libxml++
-            - libxml++-devel
             - libXmu-devel
             - libXpm-devel
             - libXt-devel
             - linuxconsoletools
-            - luajit
-            - luajit-devel
             - mingw32-crt
             - mingw32-filesystem
             - mingw-filesystem-base
@@ -8781,7 +8764,6 @@ data:
             - python3-libftdi
             - python3-libmodulemd
             - python3-py
-            - python3-qt5-devel
             - python3-sqlalchemy
             - python3-werkzeug
             - python3-zope-event
@@ -8816,8 +8798,6 @@ data:
             - qemu-ui-gtk
             - qemu-ui-opengl
             - qemu-ui-sdl
-            - rlottie
-            - rlottie-devel
             - sblim-indication_helper
             - sblim-sfcc
             - sblim-sfcc-devel
@@ -8830,10 +8810,6 @@ data:
             - tesseract-devel
             - tesseract-langpack-eng
             - tesseract-tessdata-doc
-            - tinyxml2
-            - tinyxml2-devel
-            - tslib
-            - tslib-devel
             - uuid
             - uuid-devel
             - virglrenderer
@@ -8865,6 +8841,7 @@ data:
             - libpinyin-data
             - libpmem-devel
             - libxcrypt-compat
+            - libxml++
             - libzhuyin
             - lldb
             - lldb-devel
@@ -8911,12 +8888,6 @@ data:
         x86_64:
             - aspnetcore-runtime-5.0
             - aspnetcore-targeting-pack-5.0
-            - bullet
-            - bullet-devel
-            - dbus-c++
-            - dbus-c++-devel
-            - dbus-c++-ecore
-            - dbus-c++-glib
             - dotnet5.0-build-reference-packages
             - dotnet-apphost-pack-5.0
             - dotnet-build-reference-packages
@@ -8928,42 +8899,24 @@ data:
             - dotnet-targeting-pack-5.0
             - dotnet-templates-5.0
             - efivar-devel
-            - efl
-            - efl-devel
             - fftw-libs-quad
             - flashrom
             - flashrom-devel
             - gnu-efi-compat
             - gnu-efi-devel
-            - gtkmm24
-            - gtkmm24-devel
             - libconfuse
             - libconfuse-devel
-            - libffado
             - libffado-devel
             - libfprint-devel
             - libftdi
             - libftdi-devel
-            - libiec61883
             - libiec61883-devel
             - libjaylink
             - libjaylink-devel
             - libldac-devel
-            - libraw1394
             - libraw1394-devel
-            - libxml++
-            - libxml++-devel
-            - luajit
-            - luajit-devel
             - mesa-libxatracker-devel
             - perl-Crypt-PasswdMD5
             - python3-libftdi
-            - python3-qt5-devel
-            - rlottie
-            - rlottie-devel
             - spice-server-devel
-            - tinyxml2
-            - tinyxml2-devel
-            - tslib
-            - tslib-devel
             - xen-devel
