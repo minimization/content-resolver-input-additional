@@ -1107,7 +1107,6 @@ data:
         - xorg-x11-util-macros
         - xorg-x11-xtrans-devel
         - yajl-devel
-        - yasm
         - yelp-devel
         - yelp-xsl-devel
         - zchunk-devel
