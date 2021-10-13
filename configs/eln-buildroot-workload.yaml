@@ -3112,7 +3112,6 @@ data:
         - qt5-qtxmlpatterns-devel
         - qt-common
         - qt-devel
-        - qt-settings
         - qt-x11
         - quota-devel
         - R-abind
