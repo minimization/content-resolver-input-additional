@@ -215,6 +215,7 @@ data:
         - dbusmenu-qt5-devel
         - dbus-python-devel
         - dconf-devel
+        - dev86
         - device-mapper-multipath-devel
         - djvulibre-devel
         - djvulibre-libs
@@ -297,6 +298,7 @@ data:
         - gcab
         - gcc-powerpc64-linux-gnu
         - gcc-sparc64-linux-gnu
+        - gcc-x86_64-linux-gnu
         - gc-devel
         - gdal-devel
         - gdal-libs
@@ -1720,6 +1722,8 @@ data:
         - libbtrfsutil
         - libbytesize-devel
         - libcacard-devel
+        - libcamera
+        - libcamera-devel
         - libcanberra-devel
         - libcanberra-gtk2
         - libcbor-devel
@@ -1796,6 +1800,8 @@ data:
         - libhangul-devel
         - libIDL
         - libIDL-devel
+        - libidn
+        - libidn-devel
         - libieee1284-devel
         - libijs-devel
         - libimagequant
