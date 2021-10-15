@@ -8599,7 +8599,6 @@ data:
             - python3-bson
             - python3-cachetools
             - python3-certifi
-            - python3-click
             - python3-debtcollector
             - python3-docutils
             - python3-fasteners
@@ -8746,7 +8745,6 @@ data:
             - patchutils
             - pyproject-rpm-macros
             - python3-bson
-            - python3-click
             - python3-createrepo_c
             - python3-docutils
             - python3-gevent
@@ -8850,7 +8848,6 @@ data:
             - openblas-threads
             - pyproject-rpm-macros
             - python3-bson
-            - python3-click
             - python3-debtcollector
             - python3-docutils
             - python3-gevent
