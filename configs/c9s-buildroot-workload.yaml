@@ -168,6 +168,7 @@ data:
         - golang-github-cpuguy83-md2man
         - gom-devel
         - go-rpm-macros
+        - gperf
         - gpgme-devel
         - gpgmepp-devel
         - graphene-devel
@@ -564,6 +565,7 @@ data:
         - mingw-pkg-config
         - mingw-w64-tools
         - mingw-zlib
+        - mlocate
         - mm-common
         - mobile-broadband-provider-info-devel
         - mockito
