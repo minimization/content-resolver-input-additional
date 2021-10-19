@@ -1569,7 +1569,6 @@ data:
         - js-coffee-script
         - js-jquery
         - js-marked
-        - jsoncpp
         - jsoncpp-devel
         - js-uglify
         - js-underscore
@@ -2776,7 +2775,6 @@ data:
         - python3-cached_property
         - python3-cachy
         - python3-cairo-devel
-        - python3-charset-normalizer
         - python3-cheroot
         - python3-cherrypy
         - python3-cleo
@@ -3218,7 +3216,6 @@ data:
         - R-gmailr
         - R-gtable
         - R-gtools
-        - rhash
         - rhash-devel
         - R-here
         - R-hexbin
@@ -8601,6 +8598,7 @@ data:
             - python3-bson
             - python3-cachetools
             - python3-certifi
+            - python3-chardet
             - python3-debtcollector
             - python3-docutils
             - python3-fasteners
