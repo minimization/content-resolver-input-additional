@@ -3218,6 +3218,8 @@ data:
         - R-gmailr
         - R-gtable
         - R-gtools
+        - rhash
+        - rhash-devel
         - R-here
         - R-hexbin
         - R-highr
