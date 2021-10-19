@@ -1051,6 +1051,7 @@ data:
         - totem-pl-parser-devel
         - tracker-devel
         - transfig
+        - tree
         - ttembed
         - ttfautohint
         - ttfautohint-libs
