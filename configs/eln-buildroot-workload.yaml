@@ -2874,7 +2874,6 @@ data:
         - python3-kiwisolver
         - python3-latexcodec
         - python3-ldb-devel
-        - python3-libmount
         - python3-libnbd
         - python3-libpamtest
         - python3-lockfile
