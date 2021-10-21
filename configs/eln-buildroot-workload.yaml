@@ -151,6 +151,7 @@ data:
         - clutter-devel
         - clutter-gst3-devel
         - clutter-gtk-devel
+        - codespell
         - cogl-devel
         - colm
         - colm-devel
@@ -2749,6 +2750,7 @@ data:
         - python3-argon2-cffi
         - python3-argparse-manpage
         - python3-asgiref
+        - python3-astroid
         - python3-astunparse
         - python3-Automat
         - python3-azure-devtools
@@ -2796,6 +2798,7 @@ data:
         - python3-curio
         - python3-cycler
         - python3-Cython
+        - python3-d2to1
         - python3-ddt
         - python3-debug
         - python3-defusedxml
@@ -2809,6 +2812,7 @@ data:
         - python3-dulwich
         - python3-elementpath
         - python3-entrypoints
+        - python3-eventlet
         - python3-execnet
         - python3-extras
         - python3-factory-boy
@@ -2817,6 +2821,7 @@ data:
         - python3-fields
         - python3-filelock
         - python3-fixtures
+        - python3-flake8
         - python3-flaky
         - python3-flask
         - python3-flexmock
@@ -2835,6 +2840,7 @@ data:
         - python3-grpcio-tools
         - python3-h11
         - python3-h2
+        - python3-hacking
         - python3-hamcrest
         - python3-hpack
         - python3-html5lib
@@ -2856,6 +2862,7 @@ data:
         - python3-ipython_genutils
         - python3-ipython-sphinx
         - python3-ipywidgets
+        - python3-isort
         - python3-jaraco
         - python3-jaraco-classes
         - python3-jaraco-collections
@@ -2873,6 +2880,7 @@ data:
         - python3-keyring
         - python3-kiwisolver
         - python3-latexcodec
+        - python3-lazy-object-proxy
         - python3-ldb-devel
         - python3-libnbd
         - python3-libpamtest
@@ -2885,10 +2893,12 @@ data:
         - python3-matplotlib-data-fonts
         - python3-matplotlib-inline
         - python3-matplotlib-tk
+        - python3-mccabe
         - python3-memcached
         - python3-mimeparse
         - python3-mistune
         - python3-mock
+        - python3-monotonic
         - python3-more-itertools
         - python3-mox3
         - python3-munkres
@@ -2909,6 +2919,7 @@ data:
         - python3-opentelemetry-proto
         - python3-opentracing
         - python3-oslo-config
+        - python3-oslo-sphinx
         - python3-oslotest
         - python3-Pallets-Sphinx-Themes
         - python3-pandas
@@ -2939,12 +2950,15 @@ data:
         - python3-pybind11
         - python3-pybtex
         - python3-pybtex-docutils
+        - python3-pycodestyle
         - python3-pycotap
         - python3-pyfakefs
+        - python3-pyflakes
         - python3-pygit2
         - python3-pygments
         - python3-pygments-pytest
         - python3-pylev
+        - python3-pylint
         - python3-pymongo
         - python3-pyperclip
         - python3-pytest
