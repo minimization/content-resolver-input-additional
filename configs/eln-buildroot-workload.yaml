@@ -201,6 +201,7 @@ data:
         - cppunit-devel
         - cracklib-devel
         - crash-devel
+        - criu-devel
         - cross-binutils-common
         - cross-gcc-common
         - CUnit
@@ -2882,6 +2883,7 @@ data:
         - python3-latexcodec
         - python3-lazy-object-proxy
         - python3-ldb-devel
+        - python3-libmount
         - python3-libnbd
         - python3-libpamtest
         - python3-lockfile
