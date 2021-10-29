@@ -1453,7 +1453,6 @@ data:
         - google-roboto-fonts
         - go-rpm-macros
         - gperftools-devel
-        - gperftools-libs
         - gpgme-devel
         - gpgmepp-devel
         - graphene-devel
@@ -1947,7 +1946,6 @@ data:
         - libuninameslist
         - libuninameslist-devel
         - libunistring-devel
-        - libunwind
         - libunwind-devel
         - libupnp
         - libupnp-devel
@@ -2004,9 +2002,6 @@ data:
         - linkchecker
         - linuxdoc-tools
         - lldpad-devel
-        - llvm12
-        - llvm12-devel
-        - llvm12-static
         - lmdb-devel
         - lockdev-devel
         - lpsolve-devel
@@ -8556,6 +8551,7 @@ data:
             - gtkmm24
             - gtkmm24-devel
             - haproxy
+            - libbsd
             - libconfuse
             - libconfuse-devel
             - libffado-devel
@@ -8716,6 +8712,7 @@ data:
             - lcms2-devel
             - leptonica
             - leptonica-devel
+            - libbsd
             - libcacard
             - libconfuse
             - libconfuse-devel
@@ -8741,6 +8738,7 @@ data:
             - libSM-devel
             - libsmi-devel
             - libsndfile-devel
+            - libunwind
             - libva
             - libva-devel
             - libvirt-daemon-kvm
@@ -8763,6 +8761,7 @@ data:
             - python3-bson
             - python3-createrepo_c
             - python3-docutils
+            - python3-fasteners
             - python3-gevent
             - python3-greenlet
             - python3-imath
@@ -8770,7 +8769,9 @@ data:
             - python3-koji
             - python3-libftdi
             - python3-libmodulemd
+            - python3-oauth2client
             - python3-py
+            - python3-pyOpenSSL
             - python3-sqlalchemy
             - python3-werkzeug
             - python3-zope-event
@@ -8842,6 +8843,7 @@ data:
             - java-1.8.0-openjdk
             - java-1.8.0-openjdk-devel
             - java-1.8.0-openjdk-headless
+            - libbsd
             - libhangul
             - libpcap-devel
             - libpinyin
@@ -8865,6 +8867,7 @@ data:
             - python3-bson
             - python3-debtcollector
             - python3-docutils
+            - python3-fasteners
             - python3-gevent
             - python3-greenlet
             - python3-iso8601
@@ -8873,12 +8876,14 @@ data:
             - python3-lit
             - python3-lldb
             - python3-msgpack
+            - python3-oauth2client
             - python3-oslo-i18n
             - python3-oslo-serialization
             - python3-oslo-utils
             - python3-os-service-types
             - python3-pbr
             - python3-py
+            - python3-pyOpenSSL
             - python3-sqlalchemy
             - python3-stevedore
             - python3-werkzeug
