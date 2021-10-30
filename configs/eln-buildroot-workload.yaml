@@ -8549,6 +8549,7 @@ data:
             - flashrom-devel
             - gnu-efi-compat
             - gnu-efi-devel
+            - gperftools-libs
             - gtkmm24
             - gtkmm24-devel
             - haproxy
@@ -8569,6 +8570,7 @@ data:
             - libqb-devel
             - libraw1394-devel
             - libtool-ltdl-devel
+            - libunwind
             - libxcrypt-compat
             - libxml++-devel
             - libxslt-devel
@@ -8704,6 +8706,7 @@ data:
             - flac-devel
             - flashrom
             - flashrom-devel
+            - gperftools-libs
             - gpm
             - gpm-devel
             - imath
@@ -8836,6 +8839,7 @@ data:
             - efi-filesystem
             - gnome-bluetooth
             - gnome-bluetooth-libs
+            - gperftools-libs
             - ibus-table
             - ibus-table-chinese
             - ibus-table-chinese-cangjie
@@ -8850,6 +8854,7 @@ data:
             - libpinyin
             - libpinyin-data
             - libpmem-devel
+            - libunwind
             - libxcrypt-compat
             - libzhuyin
             - lldb
