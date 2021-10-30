@@ -819,6 +819,7 @@ data:
         - gnome-autoar-devel
         - gnome-bluetooth-libs-devel
         - gnome-settings-daemon-devel
+        - gnome-shell-extension-no-overview
         - gnulib-devel
         - gnupg2-smime
         - gobject-introspection-devel
