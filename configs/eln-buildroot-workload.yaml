@@ -265,7 +265,6 @@ data:
         - flexiblas-netlib64
         - flexiblas-openblas-openmp64
         - flite-devel
-        - fmt
         - fmt-devel
         - foma
         - fontawesome-fonts-web
