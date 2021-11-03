@@ -2199,6 +2199,7 @@ data:
         - nss_wrapper
         - ntfs-3g-devel
         - numactl-devel
+        - nv-codec-headers
         - objenesis
         - ocaml
         - ocaml-alcotest
@@ -3068,7 +3069,6 @@ data:
         - python3-xds-protos
         - python3-xmlschema
         - python3-xmltodict
-        - python3-xmp-toolkit
         - python3-zc-lockfile
         - python3-zipp
         - python3-zmq
@@ -3256,6 +3256,8 @@ data:
         - R-munsell
         - R-mvtnorm
         - R-nycflights13
+        - rocksdb
+        - rocksdb-devel
         - R-odbc
         - R-openssl
         - R-orcutt
