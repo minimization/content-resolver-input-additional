@@ -8840,8 +8840,6 @@ data:
             - libunwind
             - libxcrypt-compat
             - libzhuyin
-            - lldb
-            - lldb-devel
             - llvm
             - llvm-devel
             - llvm-googletest
@@ -8863,7 +8861,6 @@ data:
             - python3-itsdangerous
             - python3-keystoneauth1
             - python3-lit
-            - python3-lldb
             - python3-msgpack
             - python3-oauth2client
             - python3-oslo-i18n
