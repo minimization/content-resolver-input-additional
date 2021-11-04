@@ -1536,9 +1536,6 @@ data:
         - jansi-native
         - javacc
         - java_cup
-        - java-latest-openjdk
-        - java-latest-openjdk-devel
-        - java-latest-openjdk-headless
         - javapackages-generators
         - javapackages-local
         - javassist
@@ -2066,7 +2063,6 @@ data:
         - maven-local
         - maven-local-openjdk8
         - maven-model
-        - maven-openjdk17
         - maven-parent
         - maven-plugin-annotations
         - maven-plugin-build-helper
