@@ -1994,7 +1994,6 @@ data:
         - libzip-devel
         - libzmf-devel
         - linkchecker
-        - linux-atm-libs
         - linux-atm-libs-devel
         - linuxdoc-tools
         - lldpad-devel
