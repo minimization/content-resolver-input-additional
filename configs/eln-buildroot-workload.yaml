@@ -1994,6 +1994,8 @@ data:
         - libzip-devel
         - libzmf-devel
         - linkchecker
+        - linux-atm-libs
+        - linux-atm-libs-devel
         - linuxdoc-tools
         - lldpad-devel
         - lmdb-devel
@@ -3039,6 +3041,7 @@ data:
         - python3-text-unidecode
         - python3-thrift
         - python3-tomli
+        - python3-tomli-w
         - python3-tomlkit
         - python3-tox-current-env
         - python3-tqdm
