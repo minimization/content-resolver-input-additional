@@ -3532,6 +3532,8 @@ data:
         - rust-atty-devel
         - rust-autocfg+default-devel
         - rust-autocfg-devel
+        - rust-automod+default-devel
+        - rust-automod-devel
         - rust-base64+default-devel
         - rust-base64-devel
         - rust-base64+std-devel
@@ -3967,8 +3969,6 @@ data:
         - rust-nix0.18-devel
         - rust-nix+default-devel
         - rust-nix-devel
-        - rust-no-panic+default-devel
-        - rust-no-panic-devel
         - rust-normalize-line-endings+default-devel
         - rust-normalize-line-endings-devel
         - rust-num-bigint0.3-devel
@@ -3999,7 +3999,6 @@ data:
         - rust-once_cell-devel
         - rust-once_cell+race-devel
         - rust-once_cell+std-devel
-        - rust-once_cell+unstable-devel
         - rust-oorandom+default-devel
         - rust-oorandom-devel
         - rust-openat+default-devel
@@ -4114,6 +4113,8 @@ data:
         - rust-proptest+fork-devel
         - rust-proptest+std-devel
         - rust-proptest+timeout-devel
+        - rust-psm+default-devel
+        - rust-psm-devel
         - rust-pulldown-cmark-devel
         - rust-pure-rust-locales+default-devel
         - rust-pure-rust-locales-devel
@@ -4297,8 +4298,6 @@ data:
         - rust-scopeguard-devel
         - rust-seahash3+default-devel
         - rust-seahash3-devel
-        - rust-seahash+default-devel
-        - rust-seahash-devel
         - rust-semver0.11+default-devel
         - rust-semver0.11-devel
         - rust-semver+default-devel
@@ -4323,6 +4322,8 @@ data:
         - rust-serde_json-devel
         - rust-serde_json+preserve_order-devel
         - rust-serde_json+std-devel
+        - rust-serde_stacker+default-devel
+        - rust-serde_stacker-devel
         - rust-serde+std-devel
         - rust-serde_test+default-devel
         - rust-serde_test-devel
@@ -4357,6 +4358,8 @@ data:
         - rust-socket2_0.3-devel
         - rust-socket2+default-devel
         - rust-socket2-devel
+        - rust-stacker+default-devel
+        - rust-stacker-devel
         - rust-static_assertions+default-devel
         - rust-static_assertions-devel
         - rust-string_cache_codegen+default-devel
