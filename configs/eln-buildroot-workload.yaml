@@ -2730,6 +2730,7 @@ data:
         - python3-astroid
         - python3-astunparse
         - python3-Automat
+        - python3-autopage
         - python3-azure-devtools
         - python3-azure-mgmt-authorization
         - python3-azure-mgmt-keyvault
@@ -3688,6 +3689,7 @@ data:
         - rust-downcast-devel
         - rust-downcast+std-devel
         - rust-either-devel
+        - rust-encoding_rs+alloc-devel
         - rust-encoding_rs+default-devel
         - rust-encoding_rs-devel
         - rust-env_logger0.6-devel
@@ -3728,8 +3730,6 @@ data:
         - rust-freetype-sys+default-devel
         - rust-freetype-sys-devel
         - rust-funty-devel
-        - rust-futf+default-devel
-        - rust-futf-devel
         - rust-futures0.1+default-devel
         - rust-futures0.1-devel
         - rust-futures0.1+use_std-devel
@@ -3809,8 +3809,6 @@ data:
         - rust-hex+default-devel
         - rust-hex-devel
         - rust-hex+std-devel
-        - rust-html5ever+default-devel
-        - rust-html5ever-devel
         - rust-httparse+default-devel
         - rust-httparse-devel
         - rust-httparse+std-devel
@@ -3843,8 +3841,6 @@ data:
         - rust-hyper-tls0.4-devel
         - rust-hyper-tls+default-devel
         - rust-hyper-tls-devel
-        - rust-idna0.1+default-devel
-        - rust-idna0.1-devel
         - rust-idna+default-devel
         - rust-idna-devel
         - rust-image+bmp-devel
@@ -3868,9 +3864,6 @@ data:
         - rust-iovec-devel
         - rust-ipnet+default-devel
         - rust-ipnet-devel
-        - rust-itertools0.8+default-devel
-        - rust-itertools0.8-devel
-        - rust-itertools0.8+use_std-devel
         - rust-itertools0.9+default-devel
         - rust-itertools0.9-devel
         - rust-itertools0.9+use_std-devel
@@ -3906,14 +3899,8 @@ data:
         - rust-log+std-devel
         - rust-lzma-sys+default-devel
         - rust-lzma-sys-devel
-        - rust-mac+default-devel
-        - rust-mac-devel
         - rust-maplit+default-devel
         - rust-maplit-devel
-        - rust-markup5ever+default-devel
-        - rust-markup5ever-devel
-        - rust-markup5ever_rcdom+default-devel
-        - rust-markup5ever_rcdom-devel
         - rust-matches+default-devel
         - rust-matches-devel
         - rust-maybe-uninit+default-devel
@@ -3961,8 +3948,6 @@ data:
         - rust-net2+default-devel
         - rust-net2-devel
         - rust-net2+duration-devel
-        - rust-new_debug_unreachable+default-devel
-        - rust-new_debug_unreachable-devel
         - rust-nix0.17+default-devel
         - rust-nix0.17-devel
         - rust-nix0.18+default-devel
@@ -4026,8 +4011,6 @@ data:
         - rust-pathfinder_simd-devel
         - rust-pem+default-devel
         - rust-pem-devel
-        - rust-percent-encoding1+default-devel
-        - rust-percent-encoding1-devel
         - rust-percent-encoding+default-devel
         - rust-percent-encoding-devel
         - rust-permutohedron+default-devel
@@ -4039,16 +4022,6 @@ data:
         - rust-pest_generator-devel
         - rust-pest_meta+default-devel
         - rust-pest_meta-devel
-        - rust-phf_codegen+default-devel
-        - rust-phf_codegen-devel
-        - rust-phf+default-devel
-        - rust-phf-devel
-        - rust-phf_generator+default-devel
-        - rust-phf_generator-devel
-        - rust-phf_shared+default-devel
-        - rust-phf_shared-devel
-        - rust-phf_shared+std-devel
-        - rust-phf+std-devel
         - rust-pin-project+default-devel
         - rust-pin-project-devel
         - rust-pin-project-internal-devel
@@ -4079,8 +4052,6 @@ data:
         - rust-ppv-lite86-devel
         - rust-ppv-lite86+simd-devel
         - rust-ppv-lite86+std-devel
-        - rust-precomputed-hash+default-devel
-        - rust-precomputed-hash-devel
         - rust-predicates1+default-devel
         - rust-predicates1-devel
         - rust-predicates-core+default-devel
@@ -4089,10 +4060,6 @@ data:
         - rust-predicates-tree-devel
         - rust-pretty_assertions+default-devel
         - rust-pretty_assertions-devel
-        - rust-proc-macro2-0.4+default-devel
-        - rust-proc-macro2-0.4-devel
-        - rust-proc-macro2-0.4+proc-macro-devel
-        - rust-proc-macro2-0.4+span-locations-devel
         - rust-proc-macro2+default-devel
         - rust-proc-macro2-devel
         - rust-proc-macro2+proc-macro-devel
@@ -4115,7 +4082,6 @@ data:
         - rust-proptest+timeout-devel
         - rust-psm+default-devel
         - rust-psm-devel
-        - rust-pulldown-cmark-devel
         - rust-pure-rust-locales+default-devel
         - rust-pure-rust-locales-devel
         - rust-pyo3-build-config+abi3-devel
@@ -4138,15 +4104,16 @@ data:
         - rust-quickcheck0.9-devel
         - rust-quickcheck0.9+regex-devel
         - rust-quickcheck0.9+use_logging-devel
+        - rust-quickcheck+default-devel
         - rust-quickcheck-devel
         - rust-quickcheck_macros+default-devel
         - rust-quickcheck_macros-devel
+        - rust-quickcheck+regex-devel
+        - rust-quickcheck+use_logging-devel
         - rust-quick-error1+default-devel
         - rust-quick-error1-devel
         - rust-quick-error+default-devel
         - rust-quick-error-devel
-        - rust-quote0.6-devel
-        - rust-quote0.6+proc-macro-devel
         - rust-quote+default-devel
         - rust-quote-devel
         - rust-quote+proc-macro-devel
@@ -4302,8 +4269,6 @@ data:
         - rust-semver0.11-devel
         - rust-semver+default-devel
         - rust-semver-devel
-        - rust-semver-parser0.9+default-devel
-        - rust-semver-parser0.9-devel
         - rust-semver-parser+default-devel
         - rust-semver-parser-devel
         - rust-semver+std-devel
@@ -4346,9 +4311,6 @@ data:
         - rust-signal-hook+iterator-devel
         - rust-signal-hook-registry+default-devel
         - rust-signal-hook-registry-devel
-        - rust-siphasher+default-devel
-        - rust-siphasher-devel
-        - rust-siphasher+std-devel
         - rust-slab+default-devel
         - rust-slab-devel
         - rust-slab+std-devel
@@ -4362,11 +4324,6 @@ data:
         - rust-stacker-devel
         - rust-static_assertions+default-devel
         - rust-static_assertions-devel
-        - rust-string_cache_codegen+default-devel
-        - rust-string_cache_codegen-devel
-        - rust-string_cache+default-devel
-        - rust-string_cache-devel
-        - rust-string_cache+serde_support-devel
         - rust-strsim+default-devel
         - rust-strsim-devel
         - rust-structopt+default-devel
@@ -4389,20 +4346,11 @@ data:
         - rust-sval_json+std-devel
         - rust-sval+std-devel
         - rust-sval+test-devel
-        - rust-syn0.15+clone-impls-devel
-        - rust-syn0.15+default-devel
-        - rust-syn0.15+derive-devel
-        - rust-syn0.15-devel
-        - rust-syn0.15+full-devel
-        - rust-syn0.15+parsing-devel
-        - rust-syn0.15+printing-devel
-        - rust-syn0.15+proc-macro-devel
         - rust-syn+clone-impls-devel
         - rust-syn+default-devel
         - rust-syn+derive-devel
         - rust-syn-devel
         - rust-syn+extra-traits-devel
-        - rust-syn+fold-devel
         - rust-syn+full-devel
         - rust-syn+parsing-devel
         - rust-syn+printing-devel
@@ -4415,8 +4363,6 @@ data:
         - rust-tempdir-devel
         - rust-tempfile+default-devel
         - rust-tempfile-devel
-        - rust-tendril+default-devel
-        - rust-tendril-devel
         - rust-term0.6+default-devel
         - rust-term0.6-devel
         - rust-termcolor+default-devel
@@ -4556,9 +4502,6 @@ data:
         - rust-ttf-parser-devel
         - rust-ttf-parser+std-devel
         - rust-ttf-parser+variable-fonts-devel
-        - rust-typed-arena+default-devel
-        - rust-typed-arena-devel
-        - rust-typed-arena+std-devel
         - rust-ucd-parse+default-devel
         - rust-ucd-parse-devel
         - rust-ucd-trie+default-devel
@@ -4576,18 +4519,12 @@ data:
         - rust-unicode-segmentation-devel
         - rust-unicode-width+default-devel
         - rust-unicode-width-devel
-        - rust-unicode-xid0.1+default-devel
-        - rust-unicode-xid0.1-devel
         - rust-unicode-xid+default-devel
         - rust-unicode-xid-devel
         - rust-unindent+default-devel
         - rust-unindent-devel
-        - rust-url1+default-devel
-        - rust-url1-devel
         - rust-url+default-devel
         - rust-url-devel
-        - rust-utf-8+default-devel
-        - rust-utf-8-devel
         - rust-utf8-width+default-devel
         - rust-utf8-width-devel
         - rust-uuid+default-devel
@@ -4602,8 +4539,6 @@ data:
         - rust-vec_map-devel
         - rust-version_check+default-devel
         - rust-version_check-devel
-        - rust-version-sync0.8+default-devel
-        - rust-version-sync0.8-devel
         - rust-void+default-devel
         - rust-void-devel
         - rust-void+std-devel
@@ -4646,8 +4581,6 @@ data:
         - rust-weezl+std-devel
         - rust-wyz+alloc-devel
         - rust-wyz-devel
-        - rust-xml5ever+default-devel
-        - rust-xml5ever-devel
         - rust-xmlwriter+default-devel
         - rust-xmlwriter-devel
         - rust-xz2+default-devel
