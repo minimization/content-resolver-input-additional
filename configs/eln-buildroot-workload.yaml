@@ -3673,8 +3673,8 @@ data:
         - rust-difference-devel
         - rust-dirs2+default-devel
         - rust-dirs2-devel
-        - rust-dirs+default-devel
-        - rust-dirs-devel
+        - rust-dirs3+default-devel
+        - rust-dirs3-devel
         - rust-dirs-next+default-devel
         - rust-dirs-next-devel
         - rust-dirs-sys+default-devel
