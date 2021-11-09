@@ -38,7 +38,6 @@ data:
         - aspell-devel
         - aspell-en
         - atkmm-devel
-        - augeas
         - augeas-devel
         - autotrace
         - avahi-devel
@@ -192,6 +191,7 @@ data:
         - hardlink
         - hidapi
         - hidapi-devel
+        - hivex-devel
         - httpcomponents-project
         - hunspell-devel
         - hwloc-devel
@@ -579,10 +579,6 @@ data:
         - mythes-devel
         - nasm
         - nautilus-devel
-        - nbdkit
-        - nbdkit-basic-filters
-        - nbdkit-basic-plugins
-        - nbdkit-server
         - ncompress
         - neon-devel
         - newt-devel
@@ -594,15 +590,41 @@ data:
         - numactl-devel
         - objenesis
         - ocaml
+        - ocaml-calendar
+        - ocaml-calendar-devel
+        - ocaml-camomile
+        - ocaml-camomile-data
+        - ocaml-camomile-devel
         - ocaml-compiler-libs
+        - ocaml-cppo
+        - ocaml-csexp
+        - ocaml-csexp-devel
+        - ocaml-csv
+        - ocaml-csv-devel
+        - ocaml-curses
+        - ocaml-curses-devel
+        - ocaml-dune
+        - ocaml-dune-devel
+        - ocaml-extlib
+        - ocaml-extlib-devel
+        - ocaml-fileutils
+        - ocaml-fileutils-devel
         - ocaml-findlib
         - ocaml-findlib-devel
+        - ocaml-gettext
+        - ocaml-gettext-devel
+        - ocaml-hivex
+        - ocaml-hivex-devel
         - ocaml-labltk
         - ocaml-labltk-devel
+        - ocaml-libvirt
+        - ocaml-libvirt-devel
         - ocaml-ocamlbuild
         - ocaml-ocamlbuild-devel
         - ocaml-ocamldoc
         - ocaml-runtime
+        - ocaml-xml-light
+        - ocaml-xml-light-devel
         - oniguruma-devel
         - openal-soft-devel
         - openblas-devel
@@ -711,6 +733,7 @@ data:
         - perl-Font-AFM
         - perl-Font-TTF
         - perl-Guard
+        - perl-hivex
         - perl-HTML-Formatter
         - perl-HTML-Tree
         - perl-HTTP-Daemon
@@ -1128,14 +1151,19 @@ data:
             - gnu-efi-compat
             - gnu-efi-devel
             - libfprint-devel
+            - libguestfs-devel
+            - libguestfs-xfs
             - libknet1-devel
             - libldac-devel
             - libnozzle1-devel
             - libqb-devel
             - libtool-ltdl-devel
             - libxslt-devel
+            - lua-rpm-macros
             - mesa-libxatracker
             - mesa-libxatracker-devel
+            - ocaml-libguestfs
+            - ocaml-libguestfs-devel
             - openwsman-python3
             - owasp-java-encoder
             - pacemaker
@@ -1144,8 +1172,10 @@ data:
             - pacemaker-libs
             - pacemaker-libs-devel
             - pacemaker-schemas
+            - perl-Sys-Guestfs
             - resource-agents
             - sbd
+            - supermin-devel
         ppc64le:
             - booth
             - booth-core
@@ -1154,7 +1184,7 @@ data:
             - efi-filesystem
             - fence-agents-common
             - gnome-bluetooth-libs-devel
-            - libfdt
+            - icoutils
             - libfprint-devel
             - libknet1-devel
             - libldac-devel
@@ -1162,7 +1192,6 @@ data:
             - libqb-devel
             - libtool-ltdl-devel
             - libtpms
-            - libvirt-glib
             - libxslt-devel
             - lttng-ust
             - opencsd
@@ -1191,7 +1220,8 @@ data:
             - java-1.8.0-openjdk-devel
             - java-1.8.0-openjdk-headless
             - libedit-devel
-            - libfdt
+            - libguestfs-devel
+            - libguestfs-xfs
             - libknet1-devel
             - libnozzle1-devel
             - libpcap-devel
@@ -1206,6 +1236,9 @@ data:
             - llvm-static
             - llvm-test
             - lttng-ust
+            - lua-rpm-macros
+            - ocaml-libguestfs
+            - ocaml-libguestfs-devel
             - opencsd
             - opencsd-devel
             - openwsman-python3
@@ -1216,10 +1249,13 @@ data:
             - pacemaker-libs
             - pacemaker-libs-devel
             - pacemaker-schemas
+            - perl-Sys-Guestfs
             - python3-lit
             - python3-lldb
             - sbd
+            - supermin-devel
         x86_64:
+            - augeas
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
             - efivar-devel
@@ -1231,10 +1267,30 @@ data:
             - gnome-bluetooth-libs-devel
             - gnu-efi-compat
             - gnu-efi-devel
+            - hivex
+            - hivex-libs
+            - icoutils
             - libfdt
             - libfprint-devel
+            - libguestfs
+            - libguestfs-appliance
+            - libguestfs-devel
+            - libguestfs-xfs
             - libldac-devel
+            - lua-rpm-macros
             - mesa-libxatracker-devel
+            - nbdkit
+            - nbdkit-basic-filters
+            - nbdkit-basic-plugins
+            - nbdkit-server
+            - ocaml-libguestfs
+            - ocaml-libguestfs-devel
             - opencsd
             - opencsd-devel
             - perl-Crypt-PasswdMD5
+            - perl-Sys-Guestfs
+            - spice-protocol
+            - supermin
+            - supermin-devel
+            - syslinux-extlinux
+            - syslinux-extlinux-nonlinux
