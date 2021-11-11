@@ -68,6 +68,8 @@ data:
         - c-ares-devel
         - centos-bookmarks
         - cglib
+        - chan
+        - chan-devel
         - check
         - check-devel
         - cheese-libs-devel
@@ -189,6 +191,8 @@ data:
         - guice-servlet
         - gvnc-devel
         - hardlink
+        - HdrHistogram_c
+        - HdrHistogram_c-devel
         - hidapi
         - hidapi-devel
         - hivex-devel
@@ -654,6 +658,7 @@ data:
         - paper
         - parted-devel
         - pcaudiolib-devel
+        - pcp-libs-devel
         - pcsc-lite-devel
         - perl-AnyEvent
         - perl-B-COW
@@ -729,6 +734,7 @@ data:
         - perl-File-Remove
         - perl-File-ShareDir
         - perl-File-ShareDir-Install
+        - perl-File-Slurp
         - perl-File-Slurper
         - perl-Font-AFM
         - perl-Font-TTF
@@ -866,7 +872,11 @@ data:
         - perl-XML-Fast
         - perl-XML-Filter-BufferText
         - perl-XML-Generator
+        - perl-XML-LibXML
+        - perl-XML-NamespaceSupport
         - perl-XML-RegExp
+        - perl-XML-SAX
+        - perl-XML-SAX-Base
         - perl-XML-SAX-Writer
         - perl-XML-SemanticDiff
         - perl-XML-Spice
