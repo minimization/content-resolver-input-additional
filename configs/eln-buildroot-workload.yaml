@@ -102,7 +102,6 @@ data:
         - binutils-x86_64-linux-gnu
         - binutils-xtensa-linux-gnu
         - bison-devel
-        - bitstream-vera-sans-fonts
         - blas
         - blas64
         - blas64_
@@ -2339,6 +2338,7 @@ data:
         - perl-aliased
         - perl-AnyEvent
         - perl-Any-Moose
+        - perl-Any-URI-Escape
         - perl-B-COW
         - perl-Bencode
         - perl-BibTeX-Parser
@@ -3701,6 +3701,7 @@ data:
         - rust-env_logger+regex-devel
         - rust-errno+default-devel
         - rust-errno-devel
+        - rust-errno+std-devel
         - rust-expat-sys+default-devel
         - rust-expat-sys-devel
         - rust-flate2+default-devel
