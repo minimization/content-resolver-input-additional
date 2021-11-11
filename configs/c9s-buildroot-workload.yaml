@@ -519,8 +519,6 @@ data:
         - meson
         - mingw32-binutils
         - mingw32-cpp
-        - mingw32-crt
-        - mingw32-filesystem
         - mingw32-gcc
         - mingw32-gcc-c++
         - mingw32-gettext
@@ -562,7 +560,6 @@ data:
         - mingw64-zlib
         - mingw64-zlib-static
         - mingw-binutils-generic
-        - mingw-filesystem-base
         - mingw-libffi
         - mingw-pcre
         - mingw-pkg-config
@@ -1172,6 +1169,10 @@ data:
             - lua-rpm-macros
             - mesa-libxatracker
             - mesa-libxatracker-devel
+            - mingw32-crt
+            - mingw32-filesystem
+            - mingw-filesystem-base
+            - nbdkit-python-plugin
             - ocaml-libguestfs
             - ocaml-libguestfs-devel
             - openwsman-python3
@@ -1204,6 +1205,10 @@ data:
             - libtpms
             - libxslt-devel
             - lttng-ust
+            - mingw32-crt
+            - mingw32-filesystem
+            - mingw-filesystem-base
+            - nbdkit-python-plugin
             - opencsd
             - opencsd-devel
             - openwsman-python3
@@ -1247,6 +1252,10 @@ data:
             - llvm-test
             - lttng-ust
             - lua-rpm-macros
+            - mingw32-crt
+            - mingw32-filesystem
+            - mingw-filesystem-base
+            - nbdkit-python-plugin
             - ocaml-libguestfs
             - ocaml-libguestfs-devel
             - opencsd
@@ -1265,7 +1274,6 @@ data:
             - sbd
             - supermin-devel
         x86_64:
-            - augeas
             - dotnet-build-reference-packages
             - dotnet-sdk-3.1-source-built-artifacts
             - efivar-devel
@@ -1277,30 +1285,15 @@ data:
             - gnome-bluetooth-libs-devel
             - gnu-efi-compat
             - gnu-efi-devel
-            - hivex
-            - hivex-libs
-            - icoutils
-            - libfdt
             - libfprint-devel
-            - libguestfs
-            - libguestfs-appliance
             - libguestfs-devel
-            - libguestfs-xfs
             - libldac-devel
             - lua-rpm-macros
             - mesa-libxatracker-devel
-            - nbdkit
-            - nbdkit-basic-filters
-            - nbdkit-basic-plugins
-            - nbdkit-server
             - ocaml-libguestfs
             - ocaml-libguestfs-devel
             - opencsd
             - opencsd-devel
             - perl-Crypt-PasswdMD5
             - perl-Sys-Guestfs
-            - spice-protocol
-            - supermin
             - supermin-devel
-            - syslinux-extlinux
-            - syslinux-extlinux-nonlinux
