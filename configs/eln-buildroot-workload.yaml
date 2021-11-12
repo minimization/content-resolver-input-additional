@@ -3696,9 +3696,9 @@ data:
         - rust-env_logger0.7+default-devel
         - rust-env_logger0.7-devel
         - rust-env_logger0.7+regex-devel
-        - rust-env_logger+default-devel
-        - rust-env_logger-devel
-        - rust-env_logger+regex-devel
+        - rust-env_logger0.8+default-devel
+        - rust-env_logger0.8-devel
+        - rust-env_logger0.8+regex-devel
         - rust-errno+default-devel
         - rust-errno-devel
         - rust-errno+std-devel
