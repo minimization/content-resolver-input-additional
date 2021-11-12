@@ -1140,6 +1140,7 @@ data:
         - yelp-devel
         - yelp-xsl-devel
         - zchunk-devel
+        - zchunk-libs
         - zziplib-devel
     arch_packages:
         aarch64:
