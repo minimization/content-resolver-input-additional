@@ -411,6 +411,7 @@ data:
         - libtpms-devel
         - libtracecmd-devel
         - libtraceevent-devel
+        - libtracefs-devel
         - libudisks2-devel
         - libuninameslist
         - libuninameslist-devel
